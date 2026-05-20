@@ -1,0 +1,818 @@
+[
+  {
+    "id": "topic-1",
+    "title": "UNIT 1: APPLICATION OF BIOLOGY",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-2",
+    "title": "1.1. Application in Conservation of Natural Resources",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-3",
+    "title": "1.2. Food and Nutrition Security",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-4",
+    "title": "1.3. Creating Conscious Citizens and Ensuring Sustainable Development",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-5",
+    "title": "1.4. Applications in Biotechnology",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-6",
+    "title": "Unit Summary",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-7",
+    "title": "Unit Review Questions",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-8",
+    "title": "UNIT 2: MICROORGANISMS",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-9",
+    "title": "2.1. Eubacteria",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-10",
+        "title": "2.1.1. Structure of Bacterial Cell",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-9",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-11",
+        "title": "2.1.2. Bacterial Shapes",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-9",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-12",
+        "title": "2.1.3. Nutritional types of bacteria",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-9",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-13",
+        "title": "2.1.4. Reproduction of bacteria",
+        "level": 2,
+        "children": [
+          {
+            "id": "topic-14",
+            "title": "2.1.4.1. Asexual reproduction",
+            "level": 3,
+            "children": [],
+            "parentId": "topic-13",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-15",
+            "title": "2.1.4.2. Sexual reproduction in bacteria",
+            "level": 3,
+            "children": [],
+            "parentId": "topic-13",
+            "isExpanded": false
+          }
+        ],
+        "parentId": "topic-9",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-16",
+    "title": "2.2. Archaea",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-17",
+        "title": "2.2.1. Beneficial aspects of Archaea",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-16",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-18",
+        "title": "2.2.2. Physical factors that affect microbial growth",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-16",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-19",
+    "title": "2.3. Fungi",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-20",
+        "title": "2.3.1. General Characteristics of True Fungi",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-19",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-21",
+        "title": "2.3.2. Ecology of Fungi",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-19",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-22",
+        "title": "2.3.3. Classification of Fungi",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-19",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-23",
+        "title": "2.3.4. Reproduction in fungi",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-19",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-24",
+        "title": "2.3.5. Economic importance of fungi",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-19",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-25",
+    "title": "2.4. Protozoa",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-26",
+        "title": "2.4.1. Common diseases caused by protozoa",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-25",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-27",
+    "title": "2.5. Viruses",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-28",
+        "title": "2.5.1. Characteristics of virus",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-27",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-29",
+        "title": "2.5.2. Viral symmetry",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-27",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-30",
+        "title": "2.5.3. Classification of Viruses",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-27",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-31",
+    "title": "2.6. Normal Microbiota",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-32",
+    "title": "2.7. Modes of Disease Transmission and Ways of Prevention",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-33",
+    "title": "2.8. Uses of Microorganisms",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-34",
+    "title": "2.9. Controlling Microorganisms",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-35",
+    "title": "2.11. Renowned Microbiologists in Ethiopia",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-36",
+    "title": "Unit Summary",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-37",
+    "title": "Unit Review Questions",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-38",
+    "title": "UNIT 3: ENERGY TRANSFORMATION",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-39",
+    "title": "3.1. Cellular Metabolism",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-40",
+    "title": "3.2. Photosynthesis",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-41",
+        "title": "3.2.1. Photosynthetic pigments",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-40",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-42",
+        "title": "3.2.5. Light-Independent Reactions (Calvin cycle)",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-40",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-43",
+    "title": "3.3. Contributions of Photosynthesis for the Continuity of Life, for O₂ and CO₂ Balance and Global Warming",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-44",
+    "title": "Review Questions",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-45",
+    "title": "3.4. Cellular Respiration",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-46",
+        "title": "3.4.1. (Title not listed)",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-45",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-47",
+        "title": "3.4.2. (Title not listed)",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-45",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-48",
+        "title": "3.4.3. The site of cellular respiration",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-45",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-49",
+    "title": "Unit Summary",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-50",
+    "title": "Unit Review Questions",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-51",
+    "title": "UNIT 4: EVOLUTION",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-52",
+    "title": "4.1. Evolution",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-53",
+        "title": "4.1.1. Definition",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-52",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-54",
+        "title": "4.1.2. Theories of evolution",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-52",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-55",
+        "title": "4.1.3. The evidence for evolution",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-52",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-56",
+        "title": "4.1.4. Natural selection: Definition, Types & Examples",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-52",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-57",
+        "title": "4.1.5. Human evolution",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-52",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-58",
+        "title": "4.1.6. Mutation",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-52",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-59",
+        "title": "4.1.7. Genetic Drift",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-52",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-60",
+        "title": "4.1.8. Gene flow (immigration and emigration)",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-52",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-61",
+        "title": "4.1.9. Causes of species extinction",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-52",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-62",
+    "title": "4.2. Renowned Anthropologists in Ethiopia",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-63",
+    "title": "4.3. Renowned Evolutionists in Ethiopia",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-64",
+    "title": "Unit Summary",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-65",
+    "title": "Unit Review Questions",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-66",
+    "title": "UNIT 5: HUMAN BODY SYSTEM",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-67",
+    "title": "5.1. The Nervous System",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-68",
+        "title": "5.1.1. Neurons and their functions",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-67",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-69",
+        "title": "5.1.2. The Nerve Impulse and transmission",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-67",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-70",
+        "title": "5.1.3. Neurotransmitters",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-67",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-71",
+        "title": "5.1.4. Types of the nervous system",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-67",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-72",
+        "title": "5.1.6. Reflex action",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-67",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-73",
+        "title": "5.1.7. Drug abuse",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-67",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-74",
+    "title": "5.2. Sense Organs",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-75",
+        "title": "5.2.1. Skin",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-74",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-76",
+        "title": "5.2.2. The Tongue",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-74",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-77",
+        "title": "5.2.3. The Nose",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-74",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-78",
+        "title": "5.2.4. The Eye",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-74",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-79",
+        "title": "5.2.5. The Ear",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-74",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-80",
+        "title": "5.2.6. The endocrine system",
+        "level": 2,
+        "children": [
+          {
+            "id": "topic-81",
+            "title": "The endocrine glands",
+            "level": 3,
+            "children": [],
+            "parentId": "topic-80",
+            "isExpanded": false
+          }
+        ],
+        "parentId": "topic-74",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-82",
+    "title": "5.3. Homeostasis in the Human Body",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-83",
+        "title": "5.3.1. The structure and function of the human kidney",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-82",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-84",
+    "title": "Unit Summary",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-85",
+    "title": "Unit Review Questions",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-86",
+    "title": "UNIT 6: CLIMATE CHANGE",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-87",
+    "title": "6.1. Climate Change: Causes and Effects",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-88",
+        "title": "6.1.1. Definition of Climate Change",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-87",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-89",
+        "title": "6.1.2. Causes of climate change",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-87",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-90",
+    "title": "6.2. Effects of Climate Change",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-91",
+        "title": "6.2.1. Effects of climate change on biodiversity",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-90",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-92",
+        "title": "6.2.2. Effects of climate change on Agriculture",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-90",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-93",
+        "title": "6.2.3. Effect of climate change on forest productivity",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-90",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-94",
+        "title": "6.2.4. Climate change and natural disasters",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-90",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-95",
+    "title": "6.3. International Conventions",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-96",
+        "title": "6.3.1. The United Nations Framework Convention",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-95",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-97",
+        "title": "6.3.2. Kyoto Protocol on Climate Change",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-95",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-98",
+        "title": "6.3.3. International and national practices of Implementation of conventions",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-95",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-99",
+    "title": "Unit Summary",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-100",
+    "title": "Unit Review Questions",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  }
+]

@@ -1,0 +1,529 @@
+[
+  {
+    "id": "topic-1",
+    "title": "Unit One: Information Systems and Their Applications",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-2",
+        "title": "1.1 Ethical, Legal, Social, Environmental and Health Issues in the Use of Information Systems",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-1",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-3",
+        "title": "1.1.1 Ethical and Legal Issues in Information Systems",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-1",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-4",
+        "title": "1.1.2 Social Issues in Information Systems",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-1",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-5",
+        "title": "1.1.3 Environmental Issues Caused by Information Systems",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-1",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-6",
+        "title": "1.1.4 Health Issues Caused by Information Systems",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-1",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-7",
+        "title": "1.2 Intellectual Property",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-1",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-8",
+        "title": "1.3 Digital Identity Management",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-1",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-9",
+        "title": "1.4 Collaboration Through Digital Technologies",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-1",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-10",
+        "title": "1.4.1 Components of Digital Collaboration",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-1",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-11",
+        "title": "1.5 Engaging in Citizenship through Digital Technologies",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-1",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-12",
+    "title": "Unit Two: Emerging Technologies",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-13",
+        "title": "2.1 Introduction to Big Data",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-12",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-14",
+        "title": "2.1.1 Characteristics of Big Data",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-12",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-15",
+        "title": "2.1.2 Benefits of Big Data",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-12",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-16",
+        "title": "2.1.3 Application of Big Data",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-12",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-17",
+        "title": "2.1.4 Challenges of Big Data",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-12",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-18",
+        "title": "2.2 Cloud Computing",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-12",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-19",
+        "title": "2.2.1 Introduction to Cloud Computing",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-12",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-20",
+        "title": "2.2.2 Benefits of Cloud Computing",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-12",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-21",
+        "title": "2.2.3 Limitations of Cloud Computing",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-12",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-22",
+        "title": "2.2.4 Types of Cloud Computing",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-12",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-23",
+        "title": "2.2.5 Cloud Computing Services",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-12",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-24",
+        "title": "2.3 Fog Computing",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-12",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-25",
+        "title": "2.4 Internet of Things (IoT)",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-12",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-26",
+        "title": "2.4.1 Major Advantages of IoT",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-12",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-27",
+        "title": "2.4.2 How Does IoT Work?",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-12",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-28",
+        "title": "2.4.3 Application of Internet of Things",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-12",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-29",
+    "title": "Unit Three: Database Management System",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-30",
+        "title": "3.1 Overview of Relational Database Management System",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-29",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-31",
+        "title": "3.2 Database Manipulation Using SQL",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-29",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-32",
+        "title": "3.2.1 Using SQL in Microsoft Access",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-29",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-33",
+        "title": "3.2.2 Data Definition Language (DDL)",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-29",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-34",
+        "title": "3.2.3 Data Manipulation Language",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-29",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-35",
+        "title": "3.2.4 Data Query Language - SELECT Command",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-29",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-36",
+    "title": "Unit Four: Web Authoring",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-37",
+        "title": "4.1 Introduction to XML",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-36",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-38",
+        "title": "4.1.1 Elements of XML Documents",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-36",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-39",
+        "title": "4.1.2 Creating XML Documents",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-36",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-40",
+        "title": "4.2 HTML VS. XML",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-36",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-41",
+        "title": "4.2.1 Advantages and Disadvantages of XML",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-36",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-42",
+        "title": "4.3 Publishing Website",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-36",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-43",
+    "title": "Unit Five: Maintenance and Troubleshooting",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-44",
+        "title": "5.1 Install and Uninstall Software",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-43",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-45",
+        "title": "5.1.1 Installing Software",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-43",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-46",
+        "title": "5.1.2 Uninstalling Software",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-43",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-47",
+        "title": "5.2 Software Troubleshooting",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-43",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-48",
+        "title": "5.3 Tools to Speed Up Computer System",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-43",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-49",
+        "title": "5.3.1 Disk Defragmenter",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-43",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-50",
+        "title": "5.3.2 Disk Cleanup",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-43",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-51",
+        "title": "5.3.3 Windows Update",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-43",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-52",
+        "title": "5.3.4 System Restore",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-43",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-53",
+        "title": "5.4 Network Troubleshooting",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-43",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-54",
+        "title": "5.4.1 Basic Network Problems",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-43",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-55",
+        "title": "5.4.2 Basic Network Troubleshooting Steps",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-43",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-56",
+        "title": "5.4.3 Network Troubleshooting Tools",
+        "level": 1,
+        "children": [
+          {
+            "id": "topic-57",
+            "title": "5.4.3.1 Command-Line Tools",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-56",
+            "isExpanded": false
+          }
+        ],
+        "parentId": "topic-43",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-58",
+        "title": "5.5 Network Maintenance Tools",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-43",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-59",
+    "title": "Unit Six: Fundamentals of Programming",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-60",
+        "title": "6.1 Program Flow Controls and Syntax in Python",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-59",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-61",
+        "title": "6.1.1 Conditionals Program Flow Controls",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-59",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-62",
+        "title": "6.1.2 Loops or Iteration Program Flow Controls",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-59",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-63",
+        "title": "6.2 Comments in Python",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-59",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-64",
+        "title": "6.3 Python Interpreter",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-59",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-65",
+        "title": "6.4 Testing and Debugging Programs",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-59",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  }
+]

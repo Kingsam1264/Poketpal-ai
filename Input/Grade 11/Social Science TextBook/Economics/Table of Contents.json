@@ -1,0 +1,1015 @@
+[
+  {
+    "id": "topic-1",
+    "title": "Unit 1: Theory of Consumer Behavior and Demand",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-2",
+    "title": "1.1 Review of the Cardinal Utility Approach",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-3",
+    "title": "1.2 The Ordinal Utility Theory and Preferences",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-4",
+        "title": "1.2.1 Indifference Curve, Set and Map",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-3",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-5",
+        "title": "1.2.2 Properties of Indifference Curves",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-3",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-6",
+        "title": "1.2.3 The Marginal Rate of Substitution (MRS)",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-3",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-7",
+        "title": "1.2.4 Marginal Utility and MRS",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-3",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-8",
+        "title": "1.2.5 Special Types of Indifference Curves",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-3",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-9",
+    "title": "1.3 The Budget Line or the Price line",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-10",
+        "title": "1.3.1 Slope of the Budget Line",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-9",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-11",
+        "title": "1.3.2 Factors Affecting the Budget Line",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-9",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-12",
+        "title": "1.3.3 Effects of Changes in Income",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-9",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-13",
+        "title": "1.3.4 Effects of Changes in Price of the Commodities",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-9",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-14",
+    "title": "1.4 Optimum of the Consumer",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-15",
+        "title": "1.4.1 Effects of Changes in Income and Prices on Consumer's Equilibrium",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-14",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-16",
+        "title": "1.4.2 Price Consumption Curve and Deriving the Demand Curve",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-14",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-17",
+    "title": "Unit Summary",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-18",
+    "title": "Review Questions",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-19",
+    "title": "Unit 2: Market Structure and the Decision of Firms",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-20",
+    "title": "2.1 Review of Market Structures",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-21",
+    "title": "2.2 Perfect Competition Market",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-22",
+        "title": "2.2.1 Demand, Revenue and Cost Curves",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-21",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-23",
+        "title": "2.2.2 The Short-Run Equilibrium of Firm",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-21",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-24",
+        "title": "2.2.3 Short Run Supply Curve of a Firm",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-21",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-25",
+        "title": "2.2.4 Long run-equilibrium of Firm",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-21",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-26",
+    "title": "2.3 Pure Monopoly Market",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-27",
+        "title": "2.3.1 Demand, Revenue and Cost under Monopoly",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-26",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-28",
+        "title": "2.3.2 Short-run equilibrium under Monopoly",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-26",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-29",
+        "title": "2.3.3 Price Discrimination under Monopoly",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-26",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-30",
+    "title": "2.4 Monopolistic Competition Market",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-31",
+        "title": "2.4.1 Product Differentiations and the Demand Curve",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-30",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-32",
+        "title": "2.4.2 Costs under Monopolistic Competition",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-30",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-33",
+        "title": "2.4.3 Shortrun Equilibrium under Monopolistic Competition",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-30",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-34",
+        "title": "2.4.4 The Concept of Industry and Product Group",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-30",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-35",
+    "title": "2.5 Oligopoly Market",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-36",
+        "title": "2.5.1 Collusive Oligopoly",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-35",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-37",
+        "title": "2.5.2 Non-collusive Oligopoly",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-35",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-38",
+    "title": "Unit Summary",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-39",
+    "title": "Review Questions",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-40",
+    "title": "Unit 3: National Income Accounting",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-41",
+    "title": "3.1 Nature of National Income Account and Its importance",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-42",
+    "title": "3.2 The Concept of Gross Domestic Product (GDP) and Gross National Product (GNP)",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-43",
+        "title": "3.2.1 The Concept of Gross Domestic Product (GDP)",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-42",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-44",
+        "title": "3.2.2 The concept of Gross National Product (GNP)",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-42",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-45",
+    "title": "3.3 Approaches of Measuring National Income (GDP/GNP)",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-46",
+        "title": "3.3.1 The Expenditure Approach",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-45",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-47",
+        "title": "3.3.2 The Income Approach",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-45",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-48",
+        "title": "3.3.3 Product or Value-added Approach",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-45",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-49",
+        "title": "3.3.4 Circular Flow of Income and the GDP",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-45",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-50",
+    "title": "3.4 Problems with GDP Measurement",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-51",
+    "title": "3.5 The GDP Deflator and the Consumer Price Index",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-52",
+        "title": "3.5.1 Nominal and Real GDP values",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-51",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-53",
+        "title": "3.5.2 The GDP Deflator and other Measures of General Price",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-51",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-54",
+    "title": "3.6 Other Measures of National Income Account",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-55",
+    "title": "3.7 GDP and Income Distribution",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-56",
+    "title": "Unit Summary",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-57",
+    "title": "Review Questions",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-58",
+    "title": "Unit 4: Consumption, Saving and Investment",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-59",
+    "title": "4.1 Consumption",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-60",
+        "title": "4.1.1 Average Propensity to Consume (APC)",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-59",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-61",
+        "title": "4.1.2 Marginal Propensity to Consume (MPC)",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-59",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-62",
+        "title": "4.1.3 Determinants of Consumption Expenditure",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-59",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-63",
+    "title": "4.2 Saving",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-64",
+        "title": "4.2.1 Average Propensity to Save (APS)",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-63",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-65",
+        "title": "4.2.2 Marginal Propensity to Save",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-63",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-66",
+        "title": "4.2.3 Determinants of Saving",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-63",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-67",
+    "title": "4.3 The Relationship between Saving and Consumption",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-68",
+    "title": "4.4 Investment",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-69",
+        "title": "4.4.1 Investment Types",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-68",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-70",
+        "title": "4.4.2 Determinants of Investment",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-68",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-71",
+        "title": "4.4.3 Role of Investment in Economic Growth",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-68",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-72",
+    "title": "Unit Summary",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-73",
+    "title": "Review Questions",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-74",
+    "title": "Unit 5: Trade and Finance",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-75",
+    "title": "5.1 Overview of Domestic Trade",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-76",
+    "title": "5.2 Basis of International Trade",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-77",
+    "title": "5.3 Basic Theories of International Trade",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-78",
+        "title": "5.3.1 The Mercantilists' View on Trade",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-77",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-79",
+        "title": "5.3.2 The Classical Trade Theories",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-77",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-80",
+    "title": "5.4 Balance of Payment Components",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-81",
+        "title": "5.4.1 The Current Account (CA)",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-80",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-82",
+        "title": "5.4.2 The Capital Account (KA)",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-80",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-83",
+    "title": "5.5 Trade Policies and Strategies",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-84",
+    "title": "5.6 Exchange Rate Determinations",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-85",
+        "title": "5.6.1 Nominal and Real Exchange Rate.",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-84",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-86",
+        "title": "5.6.2 Fixed Exchange Rate Systems",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-84",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-87",
+        "title": "5.6.3 Floating Exchange Rate Systems",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-84",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-88",
+    "title": "5.7 Regional Integration and Globalization Practices in the Ethiopian Context",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-89",
+        "title": "5.7.1 Advantages and Disadvantages of Economic Integration",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-88",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-90",
+        "title": "5.7.2 Globalization Practices in Ethiopian Context",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-88",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-91",
+    "title": "Unit Summary",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-92",
+    "title": "Review Questions",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-93",
+    "title": "Unit 6: Economic Growth and Sustainable Development",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-94",
+    "title": "6.1 Economic Growth and Economic Development",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-95",
+    "title": "6.2 Measures of Productivity",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-96",
+    "title": "6.3 Human Development Index (HDI)",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-97",
+        "title": "6.3.1 Ethiopia's HDI Value and Rank",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-96",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-98",
+        "title": "6.3.2 Evaluation of HDI and its Relevance to Developing Countries",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-96",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-99",
+    "title": "6.4 Capability Approach",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-100",
+    "title": "6.5 Sustainable Development",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-101",
+    "title": "6.6 Millennium Development Goals (2000-2015)",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-102",
+    "title": "6.7 The Sustainable Development Goals (2015-2030)",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-103",
+    "title": "Unit Summary",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-104",
+    "title": "Review Questions",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-105",
+    "title": "Unit 7: Main Sectors, Sectorial Policies and Strategies of Ethiopia",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-106",
+    "title": "7.1 Overview of Agricultural Policies and Strategies",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-107",
+        "title": "7.1.1 Uni-modal Agricultural Strategy",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-106",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-108",
+        "title": "7.1.2 Bi-Modal Agricultural Strategy",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-106",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-109",
+        "title": "7.1.3 Overview of Agricultural Policies and Strategies of Ethiopia",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-106",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-110",
+    "title": "7.2 Specific Policies and Strategies of the Agricultural Sector",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-111",
+    "title": "7.3 Problems of the Agricultural Sector",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-112",
+    "title": "7.4 Specific Policies and Strategies of the Industrial Sector",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-113",
+        "title": "7.4.1 The Imperial Regime (pre-1974)",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-112",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-114",
+        "title": "7.4.2 The Derg Regime (1974-91)",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-112",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-115",
+        "title": "7.4.3 The Post-1991 Regime",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-112",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-116",
+        "title": "7.4.4 Problems of the Industrial Sector Post 1991",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-112",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-117",
+        "title": "7.4.5 Possible Remedies for the problems of Industrial Sector",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-112",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-118",
+    "title": "7.5 The Service Sector Policies and Strategies in Ethiopia",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-119",
+        "title": "7.5.1 Education Sector Policies and Strategies",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-118",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-120",
+        "title": "7.5.2 The Health Sector Policies and Strategies",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-118",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-121",
+        "title": "7.5.3 The Transport Sector",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-118",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-122",
+        "title": "7.5.4 The Tourism Sector",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-118",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-123",
+    "title": "Unit Summary",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-124",
+    "title": "Review Questions",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  }
+]

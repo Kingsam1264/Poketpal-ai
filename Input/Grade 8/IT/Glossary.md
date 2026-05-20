@@ -1,0 +1,51 @@
+## Glossary
+
+- **Application software:** is computer program designed to help users to perform an activity.
+- **Artificial intelligence (AI):** refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions.
+- **Browser:** is a software program that allows viewing information on the internet.
+- **Computer:** is an electronic machine that can store and process data; it has hardware which is the machine itself, and software which is a set of instructions.
+- **CPU:** is a brain of the computer where programs are executed.
+- **Cyberspace:** is a world of computer networks.
+- **Desktop:** is a full size computer with a central processing unit (CPU) connected to a monitor.
+- **Domain Name:** is a unique name that identifies a specific computer on the internet.
+- **Download:** is a term for transferring software or other files from one computer to another.
+- **Driver software:** is a type of software that controls hardware devices such as microprocessor, memory, hard drive, and peripherals.
+- **Email address:** The way a specific user is identified so that they may receive email.
+- **Email:** is messages sent from one specific user to another using the internet.
+- **Ergonomics:** deals with the interaction of the user bodies on a computer in order to minimize risks of health that associated with improper sitting on the computer.
+- **External hard drive:** is a device that acts like a computer hard drive without being installed in the computer; it is plugged into a computer via a cable.
+- **External Hard Drive:** is a storage device that serves as an extra hard drive used for additional or backup storage.
+- **Hard Drive:** is an input/output device that serves as the long-term storage memory of the computer.
+- **Home Page:** is a first page of a Website, it is similar to a table of contents.
+- **HTML:** is a computer language used to make hypertext documents that are sent via the World Wide Web and viewed using a browser.
+- **HTTP:** is a way that hypertext documents are transferred over the internet.
+- **Hypertext:** is a way of presenting information that allows words, pictures, sounds, and actions to be inter-linked so that you may jump between them as you like.
+- **Integrated circuit:** refers to a small electronic device developed from semiconductor material.
+- **Keyboard:** is where all the letters, numbers and other buttons are located; when you type on it, the symbols appear on the screen.
+- **Laptop:** is a small portable computer.
+- **Link:** is a word, phrase, or image that allows you to jump to another document on the World Wide Web.
+- **Microphone:** is a device, which allows you to talk to others through your computer provided that you are connected to them via a communication network.
+- **Modem:** is a device that allows a computer to connect to the internet.
+- **Monitor:** is an output device that displays information.
+- **Motherboard:** is a circuit board that holds and connects various components of the computer and allows their communication.
+- **Mouse:** is a little device you move with your hand, which then moves the cursor on the screen.
+- **Operating System:** is software that communicates with the hardware and allows other programs to run.
+- **Optical Drive:** is an input/output device that reads data from and writes data to CDs and DVDs.
+- **Peripheral:** is an accessory that you use with your computer; not part of the computer itself, but it connects to the computer via a cable or wireless access; for example, printers and scanners.
+- **Printer:** is a device that prints out data sent from the computer onto paper.
+- **RAM:** is a computer's high-speed, short-term memory. It temporarily stores data and instructions for programs that run on the computer.
+- **Scanner:** is a device that scans something that is flat and sends the image to the computer.
+- **Search Engine:** is a website that indexes and allows searching of information gathered from the internet.
+- **Smartphone:** is a portable device that combines mobile telephone and computing functions into one unit.
+- **Speakers:** are devices that the sounds come out of; they are sometimes built into the monitor.
+- **Touchpad:** is an area on a laptop that substitutes for a mouse; you move your finger around on it to move the cursor.
+- **Transistor:** is an electronic device used to control the flow of electricity in electronic equipment.
+- **URL:** is a uniform resource locator - The entire address for a piece of information of the internet. E.g. www.google.com
+- **Utility software:** is system software used to solve a particular problem of a computer.
+- **Vacuum tube:** is an electronic device that controls the flow of electrons in a circuit.
+- **Very Large Scale Integrated circuit:** is the current level of computer microchip containing hundreds of thousands of transistors.
+- **Webpage:** is a hypertext document available on the World Wide Web.
+- **Website:** is a collection of webpages.
+- **World Wide Web:** is a collection of resources available on the internet using a web browser.
+
+---

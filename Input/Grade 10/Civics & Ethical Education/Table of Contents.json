@@ -1,0 +1,370 @@
+[
+    {
+        "id": "topic-1",
+        "title": "UNIT 1: DEMOCRACY AND DEMOCRATIZATION",
+        "level": 0,
+        "children": [
+            {
+                "id": "topic-2",
+                "title": "1.1 The concept of democracy and democratization",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-1",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-3",
+                "title": "1.2 Definitions and actors of democratization process",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-1",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-4",
+                "title": "1.3 Institutionalizing democracy",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-1",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-5",
+                "title": "1.4 The role of democracy for social transformation",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-1",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-6",
+                "title": "1.5 Democratic values",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-1",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-7",
+                "title": "1.6 Aspects of democracy",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-1",
+                "isExpanded": false
+            }
+        ],
+        "parentId": null,
+        "isExpanded": false
+    },
+    {
+        "id": "topic-8",
+        "title": "UNIT 2: CITIZENS IN THE DIGITAL TECHNOLOGY AGE",
+        "level": 0,
+        "children": [
+            {
+                "id": "topic-9",
+                "title": "2.1 Implications of digital technology on citizens",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-8",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-10",
+                "title": "2.2 The ethics of using digital technology",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-8",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-11",
+                "title": "2.3 Opportunities of digital technology for young citizens",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-8",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-12",
+                "title": "2.4 Impacts of unethical use of digital technology on young citizens",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-8",
+                "isExpanded": false
+            }
+        ],
+        "parentId": null,
+        "isExpanded": false
+    },
+    {
+        "id": "topic-13",
+        "title": "UNIT 3: UNDERSTANDING GOOD GOVERNANCE",
+        "level": 0,
+        "children": [
+            {
+                "id": "topic-14",
+                "title": "3.1 The concept of good governance",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-13",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-15",
+                "title": "3.2 Elements of good governance",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-13",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-16",
+                "title": "3.3 The role of good governance",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-13",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-17",
+                "title": "3.4 Challenges for good governance",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-13",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-18",
+                "title": "3.5 Impacts of lack of good governance",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-13",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-19",
+                "title": "3.6 Understanding and fighting corruption",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-13",
+                "isExpanded": false
+            }
+        ],
+        "parentId": null,
+        "isExpanded": false
+    },
+    {
+        "id": "topic-20",
+        "title": "UNIT 4: PEACE AND INDIGENOUS CONFLICT RESOLUTION MECHANISMS",
+        "level": 0,
+        "children": [
+            {
+                "id": "topic-21",
+                "title": "4.1 The concepts of peace",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-20",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-22",
+                "title": "4.2 Impacts of absence of peace",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-20",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-23",
+                "title": "4.3 The notion of peace building",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-20",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-24",
+                "title": "4.4 Indigenous conflict resolution mechanisms",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-20",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-25",
+                "title": "4.5 The roles of indigenous social institutions in ensuring sustainable peace",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-20",
+                "isExpanded": false
+            }
+        ],
+        "parentId": null,
+        "isExpanded": false
+    },
+    {
+        "id": "topic-26",
+        "title": "UNIT 5: FEDERALISM",
+        "level": 0,
+        "children": [
+            {
+                "id": "topic-27",
+                "title": "5.1 The meaning of federalism",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-26",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-28",
+                "title": "5.2 Types of federalism",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-26",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-29",
+                "title": "5.3 Key features of federalism",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-26",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-30",
+                "title": "5.4 Advantage and disadvantage of federalism",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-26",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-31",
+                "title": "5.5 The roles of federalism in accommodating diversity in Ethiopia",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-26",
+                "isExpanded": false
+            }
+        ],
+        "parentId": null,
+        "isExpanded": false
+    },
+    {
+        "id": "topic-32",
+        "title": "UNIT 6: HUMAN RIGHTS",
+        "level": 0,
+        "children": [
+            {
+                "id": "topic-33",
+                "title": "6.1 The concept of human right",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-32",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-34",
+                "title": "6.2 Citizens and state obligations in realizing human rights",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-32",
+                "isExpanded": false
+            }
+        ],
+        "parentId": null,
+        "isExpanded": false
+    },
+    {
+        "id": "topic-35",
+        "title": "UNIT 7: PATRIOTISM",
+        "level": 0,
+        "children": [
+            {
+                "id": "topic-36",
+                "title": "7.1 The meaning of patriotism",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-35",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-37",
+                "title": "7.2 Types of patriotism",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-35",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-38",
+                "title": "7.3 The bases of patriotism",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-35",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-39",
+                "title": "7.4 The importance of patriotism",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-35",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-40",
+                "title": "7.5 Duties expected of patriots",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-35",
+                "isExpanded": false
+            }
+        ],
+        "parentId": null,
+        "isExpanded": false
+    },
+    {
+        "id": "topic-41",
+        "title": "UNIT 8: GLOBALIZATION AND GLOBAL ISSUES",
+        "level": 0,
+        "children": [
+            {
+                "id": "topic-42",
+                "title": "8.1 The meaning of globalization",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-41",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-43",
+                "title": "8.2 Advantages and disadvantages of globalization",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-41",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-44",
+                "title": "8.3 Fighting the negative impact of globalization",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-41",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-45",
+                "title": "8.4 Major global issues",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-41",
+                "isExpanded": false
+            }
+        ],
+        "parentId": null,
+        "isExpanded": false
+    }
+]

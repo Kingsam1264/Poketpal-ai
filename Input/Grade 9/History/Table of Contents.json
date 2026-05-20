@@ -1,0 +1,754 @@
+[
+  {
+    "id": "topic-1",
+    "title": "Unit 1: The Discipline of History and Human Evolution",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-2",
+    "title": "1.1 Meaning of Prehistory and History",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-3",
+    "title": "1.2 The Discipline of History",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-4",
+    "title": "1.2.1 The importance of History",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-5",
+    "title": "1.2.2 Historiography and Historical interpretations",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-6",
+    "title": "1.2.3 Sources of History",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-7",
+    "title": "1.2.4 Dating in History",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-8",
+    "title": "1.3 The Evolution of Human Beings",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-9",
+    "title": "1.3.1 Theories of Human Evolution",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-10",
+    "title": "1.3.2 Africa and Human Evolution",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-11",
+    "title": "1.4 The Stone Age",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-12",
+    "title": "1.5 The Emergence of States",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-13",
+    "title": "Unit 2: Ancient World Civilizations up to c.500 AD",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-14",
+    "title": "2.1 Ancient Civilizations of Africa",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-15",
+    "title": "2.1.1 Ancient Egypt",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-16",
+    "title": "2.1.2 Nubia",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-17",
+    "title": "2.2 Civilizations in Asia",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-18",
+    "title": "2.2.1 Mesopotamia",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-19",
+    "title": "2.2.2 Persia",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-20",
+    "title": "2.2.3 India",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-21",
+    "title": "2.2.4 China",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-22",
+    "title": "2.3 Ancient Civilization of Latin America",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-23",
+    "title": "2.3.1 Maya",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-24",
+    "title": "2.3.2 Inca",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-25",
+    "title": "2.3.3 Aztecs",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-26",
+    "title": "2.4 Civilizations in Europe",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-27",
+    "title": "2.4.1 Ancient Greek Civilization",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-28",
+    "title": "2.4.2 Ancient Roman Civilization",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-29",
+    "title": "2.5 Rise and spread of Christianity",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-30",
+    "title": "Unit 3: Peoples and States in Ethiopia and the Horn to the end of 13th C.",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-31",
+    "title": "3.1 Languages, Religions and Peoples of Ethiopia and the Horn",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-32",
+    "title": "3.1.1 Languages Families",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-33",
+    "title": "3.1.2 Major Religions of Ethiopia",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-34",
+    "title": "3.1.3 Settlement Pattern of Peoples of Ethiopia",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-35",
+    "title": "3.2 Pre-Aksumite States and their Geographical Setting",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-36",
+    "title": "3.4 Aksumite Kingdom",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-37",
+    "title": "3.5 Zagwe Dynasty",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-38",
+    "title": "3.6 The Sultanate of Shewa",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-39",
+    "title": "Unit 4: The Middle Ages and Early Modern World, c.500 to 1750s",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-40",
+    "title": "4.1 The Middle Ages in Europe",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-41",
+    "title": "4.1.1 Dark Age",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-42",
+    "title": "4.1.2 Feudal Society",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-43",
+    "title": "4.1.3 Byzantine Empire",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-44",
+    "title": "4.2 The Middle Ages in Asia",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-45",
+    "title": "4.2.1 The Rise and Expansion of Islam",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-46",
+    "title": "4.2.2 The Expansion of the Ottoman Empire",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-47",
+    "title": "4.2.3 Dynastic Cycle in China",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-48",
+    "title": "4.3 Development of Early Capitalism",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-49",
+    "title": "4.4 The Age of Explorations and Discoveries",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-50",
+    "title": "4.5 The Renaissance",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-51",
+    "title": "4.6 The Reformation",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-52",
+    "title": "4.7 Industrial Revolution",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-53",
+    "title": "Unit 5: Peoples and States of Africa to 1500",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-54",
+    "title": "5.1 Languages and Peoples of Africa",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-55",
+    "title": "5.2 States in North Africa",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-56",
+    "title": "5.3 Spread of Islam and its Impact in West Africa",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-57",
+    "title": "5.4 States in Western Africa",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-58",
+    "title": "5.5 Equatorial, Central and Eastern Africa",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-59",
+    "title": "5.6 Southern Africa",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-60",
+    "title": "5.7 Africa's Intra and Inter-continental Relations",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-61",
+    "title": "5.8 Trans-Saharan trade",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-62",
+    "title": "5.9 Early Contacts with the Outside World",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-63",
+    "title": "Unit 6: Africa and the Outside World 1500-1880s",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-64",
+    "title": "6.1 Contact with the Outside World",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-65",
+    "title": "6.2 Slavery",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-66",
+    "title": "6.3 The \"Legitimate\" Trade",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-67",
+    "title": "6.4 The White Settlement in South Africa",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-68",
+    "title": "6.5 European Explorers and Missionaries",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-69",
+    "title": "Unit 7: States, Principalities, Population Movements & Interactions in Ethiopia 13th to Mid-16th C.",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-70",
+    "title": "7.1 The \"Solomonic\" Dynasty & the Christian Kingdom, 13th-16th C",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-71",
+    "title": "7.2 The Muslim Principalities",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-72",
+    "title": "7.3 Relationship Between the Christian Kingdom and the Sultanate of Adal, 1520s to 1559",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-73",
+    "title": "7.4 Political and socio-economic conditions of southern and central states in Ethiopia",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-74",
+    "title": "7.5 Population Movements, Expansion and Integration in Ethiopia",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-75",
+    "title": "7.6 Gadaa System of the Oromo",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-76",
+    "title": "7.7 Moggasa and Guddifacha",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-77",
+    "title": "7.8 Egalitarian System of Governance",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-78",
+    "title": "Unit 8: Political, Social and Economic Processes in Ethiopia Mid-16th to Mid-19th C.",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-79",
+    "title": "8.1 Peoples and states of the Eastern, Central, Southern and Western Regions",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-80",
+    "title": "8.1.1 Southern states",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-81",
+    "title": "8.1.2 Western states",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-82",
+    "title": "8.1.3 Eastern States: Harar, Afar, Somali",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-83",
+    "title": "8.2 Gondarine Period",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-84",
+    "title": "8.3 The Zemene-Mesafint (The Era of Warlords)",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-85",
+    "title": "8.4 The Yeju Dynasty",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-86",
+    "title": "8.5 The Kingdom of Shewa",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-87",
+    "title": "Unit 9: The Age of Revolutions 1750s to 1815",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-88",
+    "title": "9.1 Industrial Capitalism in Europe",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-89",
+    "title": "9.1.1 Political, Economic, and Social Effects of Industrial Revolution",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-90",
+    "title": "9.2 French Revolution",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-91",
+    "title": "9.3 Napoleonic Era",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-92",
+    "title": "9.4 American War of Independence",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-93",
+    "title": "9.5 The Congress of Vienna",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-94",
+    "title": "Glossary",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  }
+]

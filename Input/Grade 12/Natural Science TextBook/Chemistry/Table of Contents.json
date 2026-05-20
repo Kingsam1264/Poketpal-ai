@@ -1,0 +1,615 @@
+[
+  {
+    "id": "topic-1",
+    "title": "UNIT 1: ACID-BASE EQUILIBRIA",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-2",
+        "title": "1.1 Acid-Base Concepts",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-1",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-3",
+        "title": "1.1.1 Arrhenius Concept of Acids and Bases",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-1",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-4",
+        "title": "1.1.2 Bronsted-Lowry Concept of Acids and Bases",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-1",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-5",
+        "title": "1.1.3 Lewis Concept of Acids and Bases",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-1",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-6",
+        "title": "1.2 Ionic Equilibria of Weak Acids and Bases",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-1",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-7",
+        "title": "1.2.1 Ionization of Water",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-1",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-8",
+        "title": "1.2.2 Measures of the Strength of Acids and Bases in Aqueous Solution",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-1",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-9",
+        "title": "1.3 Common Ion Effect and Buffer Solution",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-1",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-10",
+        "title": "1.3.1 The Common Ion Effect",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-1",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-11",
+        "title": "1.3.2 Buffer Solutions",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-1",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-12",
+        "title": "1.4 Hydrolysis of Salts",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-1",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-13",
+        "title": "1.4.1 Hydrolysis of Salts of Strong Acids and Strong Bases",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-1",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-14",
+        "title": "1.4.2 Hydrolysis of Salts of Weak Acids and Strong Bases",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-1",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-15",
+        "title": "1.4.3 Hydrolysis of Salts of Strong Acids and Weak Bases",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-1",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-16",
+        "title": "1.4.4 Hydrolysis of Salts of Weak Acids and Weak Bases",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-1",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-17",
+        "title": "1.5 Acid-Base Indicators and Titrations",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-1",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-18",
+        "title": "1.5.1 Acid-Base Indicators",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-1",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-19",
+        "title": "1.5.2 Equivalents of Acids and Bases",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-1",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-20",
+        "title": "1.5.3 Acid-Base Titrations",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-1",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-21",
+    "title": "UNIT 2: ELECTROCHEMISTRY",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-22",
+        "title": "2.1 Oxidation-Reduction Reactions",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-21",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-23",
+        "title": "2.1.1 Oxidation",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-21",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-24",
+        "title": "2.1.2 Reduction",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-21",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-25",
+        "title": "2.1.3 Balancing Oxidation-Reduction (Redox) Reactions",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-21",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-26",
+        "title": "2.2 Electrolysis of Aqueous Solutions",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-21",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-27",
+        "title": "2.2.1 Electrolytic Cells",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-21",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-28",
+        "title": "2.2.2 Preferential Discharge",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-21",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-29",
+        "title": "2.2.3 Electrolysis of Some Selected Aqueous Solutions",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-21",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-30",
+        "title": "2.3 Quantitative Aspects of Electrolysis",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-21",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-31",
+        "title": "2.3.1 Faraday's First Law of Electrolysis",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-21",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-32",
+        "title": "2.3.2 Faraday's Second Law of Electrolysis",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-21",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-33",
+        "title": "2.4 Industrial Application of Electrolysis",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-21",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-34",
+        "title": "2.5 Voltaic Cells",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-21",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-35",
+    "title": "UNIT 3: INDUSTRIAL CHEMISTRY",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-36",
+        "title": "3.1 Introduction",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-35",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-37",
+        "title": "3.2 Natural Resources and Industry",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-35",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-38",
+        "title": "3.2.1 Natural Resources (Raw Materials)",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-35",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-39",
+        "title": "3.2.2 Industry",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-35",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-40",
+        "title": "3.3 Manufacturing of Valuable Products/Chemicals",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-35",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-41",
+        "title": "3.3.1 Ammonia (NH₃)",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-35",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-42",
+        "title": "3.3.2 Nitric Acid",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-35",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-43",
+        "title": "3.3.3 Nitrogen-Based Fertilizers",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-35",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-44",
+        "title": "3.3.4 Sulphuric Acid",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-35",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-45",
+        "title": "3.3.5 Some Common Pesticides and Herbicides",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-35",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-46",
+        "title": "3.3.6 Sodium Carbonate",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-35",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-47",
+        "title": "3.3.7 Sodium Hydroxide (NaOH)",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-35",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-48",
+        "title": "3.4 Some Manufacturing Industries in Ethiopia",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-35",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-49",
+        "title": "3.4.1 Glass Manufacturing",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-35",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-50",
+        "title": "3.4.2 Manufacturing of Ceramics",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-35",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-51",
+        "title": "3.4.3 Cement",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-35",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-52",
+        "title": "3.4.4 Sugar Manufacturing",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-35",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-53",
+        "title": "3.4.5 Paper and Pulp",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-35",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-54",
+        "title": "3.4.6 Tannery",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-35",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-55",
+        "title": "3.4.7 Food Processing and Preservation",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-35",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-56",
+        "title": "3.4.8 Manufacturing of Ethanol",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-35",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-57",
+        "title": "3.4.9 Soap and Detergent",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-35",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-58",
+    "title": "UNIT 4: POLYMERS",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-59",
+        "title": "4.1 Introduction to Polymers",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-58",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-60",
+        "title": "4.2 Polymerization Reactions",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-58",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-61",
+        "title": "4.3 Classification of Polymers",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-58",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-62",
+    "title": "UNIT 5: INTRODUCTION TO ENVIRONMENTAL CHEMISTRY",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-63",
+        "title": "5.1 Introduction",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-62",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-64",
+        "title": "5.1.1 Components of the Environment",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-62",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-65",
+        "title": "5.1.2 Natural Cycles in the Environment",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-62",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-66",
+        "title": "5.1.3 Concepts Related to Environmental Chemistry",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-62",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-67",
+        "title": "5.2 Environmental Pollution",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-62",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-68",
+        "title": "5.2.1 Air Pollution",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-62",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-69",
+        "title": "5.2.2 Water Pollution",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-62",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-70",
+        "title": "5.2.3 Land Pollution",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-62",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-71",
+        "title": "5.3 Global Warming and Climate Change",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-62",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-72",
+        "title": "5.3.1 Global Warming and Climate Change",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-62",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-73",
+        "title": "5.3.2 Chemistry of Greenhouse Gasses and Their Effects on Climate Change",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-62",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-74",
+        "title": "5.4 Green Chemistry and Cleaner Production",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-62",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-75",
+        "title": "5.4.1 Principle of Green Chemistry",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-62",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-76",
+        "title": "5.4.2 Cleaner Production in Chemistry",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-62",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  }
+]

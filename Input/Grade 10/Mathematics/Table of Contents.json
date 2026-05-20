@@ -1,0 +1,337 @@
+[
+    {
+        "id": "topic-1",
+        "title": "UNIT 1: RELATIONS AND FUNCTIONS",
+        "level": 0,
+        "children": [
+            {
+                "id": "topic-2",
+                "title": "1.1 Relations",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-1",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-3",
+                "title": "1.2 Functions",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-1",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-4",
+                "title": "1.3 Applications of Relations and Functions",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-1",
+                "isExpanded": false
+            }
+        ],
+        "parentId": null,
+        "isExpanded": false
+    },
+    {
+        "id": "topic-5",
+        "title": "UNIT 2: POLYNOMIAL FUNCTIONS",
+        "level": 0,
+        "children": [
+            {
+                "id": "topic-6",
+                "title": "2.1 Definition of Polynomial Function",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-5",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-7",
+                "title": "2.2 Operations on polynomial functions",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-5",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-8",
+                "title": "2.3 Theorem on polynomial functions",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-5",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-9",
+                "title": "2.4 Zeros of polynomial functions",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-5",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-10",
+                "title": "2.5 Graphs of polynomial functions",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-5",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-11",
+                "title": "2.6 Applications",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-5",
+                "isExpanded": false
+            }
+        ],
+        "parentId": null,
+        "isExpanded": false
+    },
+    {
+        "id": "topic-12",
+        "title": "UNIT 3: EXPONENTIAL AND LOGARITHMIC FUNCTIONS",
+        "level": 0,
+        "children": [
+            {
+                "id": "topic-13",
+                "title": "3.1 Exponents and Logarithms",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-12",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-14",
+                "title": "3.2 The Exponential Functions and Their Graphs",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-12",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-15",
+                "title": "3.3 The Logarithmic Functions and Their Graphs",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-12",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-16",
+                "title": "3.4 Solving Exponential and Logarithmic Equations",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-12",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-17",
+                "title": "3.5 Relation between Exponential and Logarithmic functions",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-12",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-18",
+                "title": "3.6 Applications",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-12",
+                "isExpanded": false
+            }
+        ],
+        "parentId": null,
+        "isExpanded": false
+    },
+    {
+        "id": "topic-19",
+        "title": "UNIT 4: TRIGONOMETRIC FUNCTIONS",
+        "level": 0,
+        "children": [
+            {
+                "id": "topic-20",
+                "title": "4.1 Radian Measure of angle",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-19",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-21",
+                "title": "4.2 Basic Trigonometric Function",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-19",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-22",
+                "title": "4.3 Trigonometric Identities & Equation",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-19",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-23",
+                "title": "4.4 Application",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-19",
+                "isExpanded": false
+            }
+        ],
+        "parentId": null,
+        "isExpanded": false
+    },
+    {
+        "id": "topic-24",
+        "title": "UNIT 5: CIRCLES",
+        "level": 0,
+        "children": [
+            {
+                "id": "topic-25",
+                "title": "5.1 Symmetrical properties of circles",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-24",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-26",
+                "title": "5.2 Angle properties of circles",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-24",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-27",
+                "title": "5.3 Arc length, perimeters and areas of segments and sectors",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-24",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-28",
+                "title": "5.4 Theorems on angles and arcs determined by lines intersecting inside, on and outside a circle",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-24",
+                "isExpanded": false
+            }
+        ],
+        "parentId": null,
+        "isExpanded": false
+    },
+    {
+        "id": "topic-29",
+        "title": "UNIT 6: SOLID FIGURES",
+        "level": 0,
+        "children": [
+            {
+                "id": "topic-30",
+                "title": "6.1 Revision of Cylinders and Prisms",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-29",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-31",
+                "title": "6.2 Pyramids, cones and Spheres",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-29",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-32",
+                "title": "6.3 Frustum of pyramids and cones",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-29",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-33",
+                "title": "6.4 Surface areas and volumes of composed solids",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-29",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-34",
+                "title": "6.5 Applications",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-29",
+                "isExpanded": false
+            }
+        ],
+        "parentId": null,
+        "isExpanded": false
+    },
+    {
+        "id": "topic-35",
+        "title": "UNIT 7: COORDINATE GEOMETRY",
+        "level": 0,
+        "children": [
+            {
+                "id": "topic-36",
+                "title": "7.1 Distance between two points",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-35",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-37",
+                "title": "7.2 Division of a line segment",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-35",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-38",
+                "title": "7.3 Equation of a line",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-35",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-39",
+                "title": "7.4 Slopes of parallel and perpendicular lines",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-35",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-40",
+                "title": "7.5 Equation of a Circle",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-35",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-41",
+                "title": "7.6 Applications",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-35",
+                "isExpanded": false
+            }
+        ],
+        "parentId": null,
+        "isExpanded": false
+    }
+]

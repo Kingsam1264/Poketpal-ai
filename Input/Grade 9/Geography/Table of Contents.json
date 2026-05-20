@@ -1,0 +1,850 @@
+[
+  {
+    "id": "topic-1",
+    "title": "Unit 1: Geological History and Topography of Ethiopia",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-2",
+    "title": "1.1 Geography: Meaning, Scope and Branches",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-3",
+    "title": "1.2 Location, Size and Shape of Ethiopia",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-4",
+    "title": "1.3 Geological History of Ethiopia",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-5",
+    "title": "1.3.1 Major geological formations and time periods",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-6",
+    "title": "1.3.2 The Great Rift Valley system",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-7",
+    "title": "1.3.3 Volcanic activity and landform development",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-8",
+    "title": "Unit Summary",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-9",
+    "title": "Review Exercise",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-10",
+    "title": "Unit 2: Climate of Ethiopia",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-11",
+    "title": "2.1 Meaning of Weather and Climate",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-12",
+    "title": "2.2 Elements of Weather and Climate",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-13",
+    "title": "2.3 Controls of Weather and Climate in Ethiopia",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-14",
+    "title": "2.3.1 Altitude and latitude influences",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-15",
+    "title": "2.3.2 Pressure and wind systems",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-16",
+    "title": "2.4 Climatic Regions and Seasonal Variation in Ethiopia",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-17",
+    "title": "2.4.1 Major climatic zones",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-18",
+    "title": "2.4.2 Seasonal rainfall patterns",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-19",
+    "title": "2.5 Measurements of Weather and Climate",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-20",
+    "title": "Unit Summary",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-21",
+    "title": "Review Exercises",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-22",
+    "title": "Unit 3: Natural Resource Base of Ethiopia",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-23",
+    "title": "3.1 Meaning of Natural Resources",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-24",
+    "title": "3.2 Drainage Systems of Ethiopia",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-25",
+    "title": "3.3 Water Resources of Ethiopia",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-26",
+    "title": "3.3.1 Major river basins",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-27",
+    "title": "3.3.2 Lakes and wetlands",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-28",
+    "title": "3.4 Major Soils Types of Ethiopia",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-29",
+    "title": "3.4.1 Soil formation processes",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-30",
+    "title": "3.4.2 Distribution of soil types",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-31",
+    "title": "3.5 Major Mineral Resources and Their Distribution in Ethiopia",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-32",
+    "title": "3.6 Biotic Resources of Ethiopia",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-33",
+    "title": "3.6.1 Forest and vegetation types",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-34",
+    "title": "3.6.2 Wildlife and biodiversity",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-35",
+    "title": "Unit Summary",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-36",
+    "title": "Review Exercises",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-37",
+    "title": "Unit 4: Population and Demographic Characteristics of Ethiopia",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-38",
+    "title": "4.1 Concept of Human Population",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-39",
+    "title": "4.2 Trends of Population Growth in Ethiopia",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-40",
+    "title": "4.3 Population Composition",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-41",
+    "title": "4.3.1 Age and sex structure",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-42",
+    "title": "4.3.2 Education and occupation characteristics",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-43",
+    "title": "4.4 Population Distribution",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-44",
+    "title": "4.4.1 Factors affecting distribution",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-45",
+    "title": "4.4.2 Spatial distribution patterns",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-46",
+    "title": "4.5 Urban and Rural Settlement Patterns",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-47",
+    "title": "4.5.1 Urban settlement characteristics",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-48",
+    "title": "4.5.2 Rural settlement patterns",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-49",
+    "title": "4.6 Health and Disease in Ethiopia",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-50",
+    "title": "4.7 Impacts of Population Growth on Sustainable Development in Ethiopia",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-51",
+    "title": "4.8 Language and Religious Diversity in Ethiopia",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-52",
+    "title": "Unit Summary",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-53",
+    "title": "Review Exercises",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-54",
+    "title": "Unit 5: Major Economic and Cultural Activities in Ethiopia",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-55",
+    "title": "5.1 Major Economic Activities in Ethiopia",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-56",
+    "title": "5.2 Contribution of Subsistence Farming and Cash Crop to the Ethiopian Economy",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-57",
+    "title": "5.2.1 Subsistence farming systems",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-58",
+    "title": "5.2.2 Major cash crops and production areas",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-59",
+    "title": "5.3 Trade and Transport in Ethiopia",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-60",
+    "title": "5.3.1 Domestic and international trade",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-61",
+    "title": "5.3.2 Transport infrastructure and networks",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-62",
+    "title": "5.4 Road Safety in Ethiopia",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-63",
+    "title": "5.5 Cultural Landscapes and Tourism in Ethiopia",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-64",
+    "title": "5.5.1 Heritage sites and cultural regions",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-65",
+    "title": "5.5.2 Tourism potential and development",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-66",
+    "title": "Unit Summary",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-67",
+    "title": "Review Exercises",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-68",
+    "title": "Unit 6: Human–Natural Environment Interactions in Ethiopia",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-69",
+    "title": "6.1 Human-Environment Relationship",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-70",
+    "title": "6.2 Optimum Population and Resource Use",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-71",
+    "title": "6.2.1 Benefits of balanced population",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-72",
+    "title": "6.2.2 Sustainable resource utilization",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-73",
+    "title": "6.3 Over Population and Resource Use",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-74",
+    "title": "6.3.1 Pressure on land and water resources",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-75",
+    "title": "6.3.2 Environmental degradation consequences",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-76",
+    "title": "6.4 Under Population and Resource Use",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-77",
+    "title": "6.5 Impacts of Rapid Population Growth",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-78",
+    "title": "6.5.1 Environmental impacts",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-79",
+    "title": "6.5.2 Economic and social consequences",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-80",
+    "title": "Unit Summary",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-81",
+    "title": "Review Exercises",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-82",
+    "title": "Unit 7: Contemporary Geographic Issues and Public Concerns in Ethiopia",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-83",
+    "title": "7.1 Natural Resource Degradation",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-84",
+    "title": "7.1.1 Deforestation and soil erosion",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-85",
+    "title": "7.1.2 Land degradation and desertification",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-86",
+    "title": "7.2 The Ethiopian \"Green Legacy\" Movement",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-87",
+    "title": "7.2.1 Objectives and implementation",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-88",
+    "title": "7.2.2 Achievements and challenges",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-89",
+    "title": "Unit Summary",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-90",
+    "title": "Review Exercises",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-91",
+    "title": "Unit 8: Geographic Inquiry Skills and Techniques",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-92",
+    "title": "8.1 Map and its Basic Components",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-93",
+    "title": "8.1.1 Elements of a map",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-94",
+    "title": "8.1.2 Types of maps",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-95",
+    "title": "8.2 Scale, Scale Conversion and Measurements on Maps",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-96",
+    "title": "8.2.1 Types of scales",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-97",
+    "title": "8.2.2 Scale conversion techniques",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-98",
+    "title": "8.3 Position on Maps",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-99",
+    "title": "8.3.1 Geographic coordinates",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-100",
+    "title": "8.3.2 Grid reference systems",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-101",
+    "title": "8.4 Map Sketching",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-102",
+    "title": "8.5 Interpreting Maps and Graphs",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-103",
+    "title": "8.5.1 Contour map interpretation",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-104",
+    "title": "8.5.2 Climate graph analysis",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-105",
+    "title": "Unit Summary",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-106",
+    "title": "Review Exercises",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  }
+]

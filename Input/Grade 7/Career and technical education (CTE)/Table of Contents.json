@@ -1,0 +1,837 @@
+[
+  {
+    "id": "topic-1",
+    "title": "Unit 1: Introduction to Career and Technical Education (CTE)",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-2",
+    "title": "1.1 Meaning of Career",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-3",
+    "title": "1.2 Job vs Career",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-4",
+    "title": "1.3 Meaning of Career and Technical Education",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-5",
+    "title": "1.4 Importance of Career and Technical Education",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-6",
+    "title": "Unit 2: Personal Career Selection",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-7",
+    "title": "2.1 Introduction to Career and Technical Education Areas in Ethiopia",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-8",
+    "title": "2.2 Soft Skills",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-9",
+        "title": "2.2.1 Definition of Soft Skills",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-8",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-10",
+        "title": "2.2.2 Types of Soft Skills",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-8",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-11",
+    "title": "2.3 Personal Profile Development",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-12",
+        "title": "2.3.1 What is personal profile?",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-11",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-13",
+        "title": "2.3.2 How to develop a personal profile",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-11",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-14",
+    "title": "Unit 3: Self-Employment Opportunities in Agriculture",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-15",
+    "title": "3.1 Gardening Horticulture as Self-Employment",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-16",
+        "title": "3.1.1 Definition of Gardening in Horticulture",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-15",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-17",
+        "title": "3.1.2 Types of Garden",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-15",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-18",
+        "title": "3.1.3 Essential Gardening Tools",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-15",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-19",
+        "title": "3.1.4 Seeds and Transplants",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-15",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-20",
+        "title": "3.1.5 Basic Steps to Start Gardening",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-15",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-21",
+        "title": "3.1.6 Garden Care for Healthy Plant Growth",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-15",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-22",
+        "title": "3.1.7 Pest and Disease Management",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-15",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-23",
+    "title": "3.2 Dairy Farming",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-24",
+        "title": "3.2.1 Introduction",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-23",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-25",
+        "title": "3.2.2 Milking",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-23",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-26",
+        "title": "3.2.3 Milking Techniques (Methods)",
+        "level": 1,
+        "children": [
+          {
+            "id": "topic-27",
+            "title": "3.2.3.1 Hand Milking",
+            "level": 3,
+            "children": [],
+            "parentId": "topic-26",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-28",
+            "title": "3.2.3.2 Machine Milking",
+            "level": 3,
+            "children": [],
+            "parentId": "topic-26",
+            "isExpanded": false
+          }
+        ],
+        "parentId": "topic-23",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-29",
+        "title": "3.2.4 Milk Preservation Methods",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-23",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-30",
+        "title": "3.2.5 Management of the Herd",
+        "level": 1,
+        "children": [
+          {
+            "id": "topic-31",
+            "title": "3.2.5.1 Housing Systems",
+            "level": 3,
+            "children": [],
+            "parentId": "topic-30",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-32",
+            "title": "3.2.5.2 Nutritional Management",
+            "level": 3,
+            "children": [],
+            "parentId": "topic-30",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-33",
+            "title": "3.2.5.3 Reproductive Management",
+            "level": 3,
+            "children": [],
+            "parentId": "topic-30",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-34",
+            "title": "3.2.5.4 Lactation Management",
+            "level": 3,
+            "children": [],
+            "parentId": "topic-30",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-35",
+            "title": "3.2.5.5 Animal Waste from Cattle Dairies",
+            "level": 3,
+            "children": [],
+            "parentId": "topic-30",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-36",
+            "title": "3.2.5.6 How Does One Can Start a Dairy Farm?",
+            "level": 3,
+            "children": [],
+            "parentId": "topic-30",
+            "isExpanded": false
+          }
+        ],
+        "parentId": "topic-23",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-37",
+    "title": "3.3 Animal Fattening",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-38",
+        "title": "3.3.1 Introduction to Animal Fattening",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-37",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-39",
+        "title": "3.3.2 Site Selection",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-37",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-40",
+        "title": "3.3.3 Housing",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-37",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-41",
+        "title": "3.3.4 Important Criteria for Selection of Fattening Cattle",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-37",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-42",
+    "title": "3.4 Poultry Production",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-43",
+        "title": "3.4.1 Introduction",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-42",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-44",
+        "title": "3.4.2 Types of Poultry Production",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-42",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-45",
+        "title": "3.4.3 Chicken Selection Criteria",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-42",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-46",
+        "title": "3.4.4 Feed Sources",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-42",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-47",
+        "title": "3.4.5 General Management",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-42",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-48",
+        "title": "3.4.6 Poultry Health",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-42",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-49",
+        "title": "3.4.7 Common Diseases",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-42",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-50",
+        "title": "3.4.8 Disease Control in Family Poultry",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-42",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-51",
+    "title": "3.5 Bee Keeping",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-52",
+        "title": "3.5.1 Important Steps to Start Beekeeping",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-51",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-53",
+        "title": "3.5.2 Beekeeping Equipment and Tools",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-51",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-54",
+        "title": "3.5.3 Apiary Management",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-51",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-55",
+    "title": "Unit 4: Self-Employment Opportunities in Beauty and Cosmetology",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-56",
+    "title": "4.1 Hair Care",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-57",
+        "title": "4.1.1 Men's Hair Styling",
+        "level": 1,
+        "children": [
+          {
+            "id": "topic-58",
+            "title": "4.1.1.1 Factors that Influence Styling",
+            "level": 3,
+            "children": [],
+            "parentId": "topic-57",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-59",
+            "title": "4.1.1.2 Appropriate Men's Hair Safety",
+            "level": 3,
+            "children": [],
+            "parentId": "topic-57",
+            "isExpanded": false
+          }
+        ],
+        "parentId": "topic-56",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-60",
+        "title": "4.1.2 Products, Tools and Equipment",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-56",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-61",
+        "title": "4.1.3 How to Cut Men's Hair",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-56",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-62",
+        "title": "4.1.4 Women's Hair Styling",
+        "level": 1,
+        "children": [
+          {
+            "id": "topic-63",
+            "title": "4.1.4.1 Basic Styling Techniques for Women's Hair",
+            "level": 3,
+            "children": [],
+            "parentId": "topic-62",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-64",
+            "title": "4.1.4.2 Blow Drying Techniques for Women's Hair",
+            "level": 3,
+            "children": [],
+            "parentId": "topic-62",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-65",
+            "title": "4.1.4.3 Factors that Influence Styling",
+            "level": 3,
+            "children": [],
+            "parentId": "topic-62",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-66",
+            "title": "4.1.4.4 Products, Tools and Equipment for Women Hair Styling",
+            "level": 3,
+            "children": [],
+            "parentId": "topic-62",
+            "isExpanded": false
+          }
+        ],
+        "parentId": "topic-56",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-67",
+    "title": "4.2 Hand/Nail Care",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-68",
+    "title": "4.3 Sterilization and Disinfection",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-69",
+        "title": "4.3.1 Sterilization",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-68",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-70",
+        "title": "4.3.2 Disinfection",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-68",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-71",
+    "title": "4.4 Shampooing and Conditioning",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-72",
+    "title": "4.5 Skin Care",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-73",
+    "title": "Unit 5: Self-Employment Opportunities in Garment and Textile",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-74",
+    "title": "5.1 Garment Construction",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-75",
+    "title": "5.2 Sewing and Sewing",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-76",
+        "title": "5.2.1 Uses of Sewing",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-75",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-77",
+        "title": "5.2.2 Parts of a Sewing Machine",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-75",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-78",
+        "title": "5.2.3 Garment Equipment",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-75",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-79",
+        "title": "5.2.4 Select Materials and Preparing to Make Garment",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-75",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-80",
+    "title": "5.3 Textile Coloring",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-81",
+        "title": "5.3.1 Preparing the Surface for Coloring",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-80",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-82",
+        "title": "5.3.2 Basic Fabric Coloring Techniques",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-80",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-83",
+        "title": "5.3.3 Materials and Equipment suitable for Fabric Coloring",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-80",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-84",
+    "title": "5.4 Needle/Textile Crafts",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-85",
+        "title": "5.4.1 Needle or Textile Crafts",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-84",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-86",
+    "title": "Unit 6: Recognising Employment and Volunteer Opportunities",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-87",
+    "title": "6.1 Employment",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-88",
+        "title": "6.1.1 Labor Market",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-87",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-89",
+    "title": "6.2 Voluntary Work",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-90",
+        "title": "6.2.1 What is Voluntary Work or Volunteering",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-89",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-91",
+        "title": "6.2.2 Why Voluntary Work is Important",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-89",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-92",
+    "title": "Unit 7: Employability Skills and Career Documentation",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-93",
+    "title": "7.1 Definition of Employability",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-94",
+    "title": "7.2 Employability Skills",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-95",
+    "title": "7.3 Curriculum Vitae (CV) Writing",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-96",
+    "title": "7.4 Cover Letter Preparation",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-97",
+        "title": "7.4.1 Cover Letter",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-96",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-98",
+    "title": "Unit 8: Preparing for Employment",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-99",
+    "title": "8.1 Importance of Job Interview",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-100",
+    "title": "8.2 Common Interview Questions",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-101",
+    "title": "8.3 Reasons why Applicants Fail in Job Interview",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-102",
+    "title": "8.4 Preparing for a Job Interview",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  }
+]

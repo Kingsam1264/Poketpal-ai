@@ -1,0 +1,901 @@
+[
+  {
+    "id": "topic-1",
+    "title": "Unit 1: ATOMIC STRUCTURE AND PERIODIC PROPERTIES OF THE ELEMENTS",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-2",
+        "title": "1.1 Introduction",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-1",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-3",
+        "title": "1.2 Dalton's Atomic Theory and the Modern Atomic Theory",
+        "level": 1,
+        "children": [
+          {
+            "id": "topic-4",
+            "title": "1.2.1 Postulates of Dalton's Atomic Theory",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-3",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-5",
+            "title": "1.2.2 Postulates of Modern Atomic Theory",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-3",
+            "isExpanded": false
+          }
+        ],
+        "parentId": "topic-1",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-6",
+        "title": "1.3 Early Experiments to Characterize the Atom",
+        "level": 1,
+        "children": [
+          {
+            "id": "topic-7",
+            "title": "1.3.1 The Discovery of the Electron",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-6",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-8",
+            "title": "1.3.2 Radioactivity and the Discovery of the Nucleus",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-6",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-9",
+            "title": "1.3.3 Discovery of the Neutron",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-6",
+            "isExpanded": false
+          }
+        ],
+        "parentId": "topic-1",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-10",
+        "title": "1.4 Make-up of the Nucleus",
+        "level": 1,
+        "children": [
+          {
+            "id": "topic-11",
+            "title": "1.4.1 Subatomic Particles",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-10",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-12",
+            "title": "1.4.2 Atomic Mass and Isotopes",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-10",
+            "isExpanded": false
+          }
+        ],
+        "parentId": "topic-1",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-13",
+        "title": "1.5 Electromagnetic Radiation and Atomic Spectra",
+        "level": 1,
+        "children": [
+          {
+            "id": "topic-14",
+            "title": "1.5.1 Electromagnetic Radiation",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-13",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-15",
+            "title": "1.5.2 The Quantum Theory and Photon",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-13",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-16",
+            "title": "1.5.3 Atomic Spectra",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-13",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-17",
+            "title": "1.5.4 The Bohr Model of the Hydrogen Atom",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-13",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-18",
+            "title": "1.5.5 Limitations of the Bohr Model",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-13",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-19",
+            "title": "1.5.6 The Wave-Particle Duality of Matter and Energy",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-13",
+            "isExpanded": false
+          }
+        ],
+        "parentId": "topic-1",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-20",
+        "title": "1.6 The Quantum Mechanical Model of the Atom",
+        "level": 1,
+        "children": [
+          {
+            "id": "topic-21",
+            "title": "1.6.1 The Heisenberg's Principle",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-20",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-22",
+            "title": "1.6.2 Quantum Numbers",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-20",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-23",
+            "title": "1.6.3 Shapes of Atomic Orbitals",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-20",
+            "isExpanded": false
+          }
+        ],
+        "parentId": "topic-1",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-24",
+        "title": "1.7 Electronic Configurations and Orbital Diagrams",
+        "level": 1,
+        "children": [
+          {
+            "id": "topic-25",
+            "title": "1.7.1 Ground State Electronic Configuration of the Elements",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-24",
+            "isExpanded": false
+          }
+        ],
+        "parentId": "topic-1",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-26",
+        "title": "1.8 Electronic Configurations and the Periodic Table of the Elements",
+        "level": 1,
+        "children": [
+          {
+            "id": "topic-27",
+            "title": "1.8.1 The Modern Periodic Table",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-26",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-28",
+            "title": "1.8.2 Classification of the Elements",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-26",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-29",
+            "title": "1.8.3 Periodic Properties",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-26",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-30",
+            "title": "1.8.4 Advantages of Periodic Classification of the Elements",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-26",
+            "isExpanded": false
+          }
+        ],
+        "parentId": "topic-1",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-31",
+    "title": "Unit 2: CHEMICAL BONDING",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-32",
+        "title": "2.1 Introduction",
+        "level": 1,
+        "children": [
+          {
+            "id": "topic-33",
+            "title": "2.1.1 The Octet Rule",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-32",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-34",
+            "title": "2.1.2 Types of Chemical Bonding",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-32",
+            "isExpanded": false
+          }
+        ],
+        "parentId": "topic-31",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-35",
+        "title": "2.2 Ionic Bonds",
+        "level": 1,
+        "children": [
+          {
+            "id": "topic-36",
+            "title": "2.2.1 Lewis Electron-Dot Symbols",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-35",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-37",
+            "title": "2.2.2 Formation of Ionic Bonds",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-35",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-38",
+            "title": "2.2.3 Exceptions to the Octet Rule in Ionic Compounds",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-35",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-39",
+            "title": "2.2.4 Properties of Ionic Compounds",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-35",
+            "isExpanded": false
+          }
+        ],
+        "parentId": "topic-31",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-40",
+        "title": "2.3 Covalent Bonds and Molecular Geometry",
+        "level": 1,
+        "children": [
+          {
+            "id": "topic-41",
+            "title": "2.3.1 Molecular Geometry",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-40",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-42",
+            "title": "2.3.2 Intermolecular Forces in Covalent Compounds",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-40",
+            "isExpanded": false
+          }
+        ],
+        "parentId": "topic-31",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-43",
+        "title": "2.4 Metallic Bonding",
+        "level": 1,
+        "children": [
+          {
+            "id": "topic-44",
+            "title": "2.4.1 Formation of Metallic Bonding",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-43",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-45",
+            "title": "2.4.2 Electron-Sea Model",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-43",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-46",
+            "title": "2.4.3 Properties of Metals and Bonding",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-43",
+            "isExpanded": false
+          }
+        ],
+        "parentId": "topic-31",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-47",
+        "title": "2.5 Chemical Bonding Theories",
+        "level": 1,
+        "children": [
+          {
+            "id": "topic-48",
+            "title": "2.5.1 Valence Bond (VB) Theory",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-47",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-49",
+            "title": "2.5.2 Molecular Orbital Theory (MOT)",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-47",
+            "isExpanded": false
+          }
+        ],
+        "parentId": "topic-31",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-50",
+    "title": "Unit 3: PHYSICAL STATES OF MATTER",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-51",
+        "title": "3.1 Introduction",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-50",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-52",
+        "title": "3.2 Kinetic Theory and Properties of Matter",
+        "level": 1,
+        "children": [
+          {
+            "id": "topic-53",
+            "title": "3.2.1 The Kinetic Theory of Matter",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-52",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-54",
+            "title": "3.2.2 Properties of Matter",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-52",
+            "isExpanded": false
+          }
+        ],
+        "parentId": "topic-50",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-55",
+        "title": "3.3 The Gaseous State",
+        "level": 1,
+        "children": [
+          {
+            "id": "topic-56",
+            "title": "3.3.1 The Kinetic Molecular Theory of Gases",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-55",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-57",
+            "title": "3.3.2 The Gas Laws",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-55",
+            "isExpanded": false
+          }
+        ],
+        "parentId": "topic-50",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-58",
+        "title": "3.4 The Liquid State",
+        "level": 1,
+        "children": [
+          {
+            "id": "topic-59",
+            "title": "3.4.1 Energy Changes in Liquids",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-58",
+            "isExpanded": false
+          }
+        ],
+        "parentId": "topic-50",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-60",
+        "title": "3.5 The Solid State",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-50",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-61",
+    "title": "Unit 4: CHEMICAL KINETICS",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-62",
+        "title": "4.1 Introduction",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-61",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-63",
+        "title": "4.2 The Rate of a Reaction",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-61",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-64",
+        "title": "4.3 Factors Affecting the Rate of a Chemical Reaction",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-61",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-65",
+    "title": "Unit 5: CHEMICAL EQUILIBRIUM",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-66",
+        "title": "5.1 Introduction",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-65",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-67",
+        "title": "5.2 Chemical Equilibrium",
+        "level": 1,
+        "children": [
+          {
+            "id": "topic-68",
+            "title": "5.2.1 Reversible and Irreversible Reactions",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-67",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-69",
+            "title": "5.2.2 Attainment and Characteristics of Chemical Equilibria",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-67",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-70",
+            "title": "5.2.3 Conditions for Attainment of Chemical Equilibria",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-67",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-71",
+            "title": "5.2.4 Equilibrium Expression and Equilibrium Constant",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-67",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-72",
+            "title": "5.2.5 Applications of Equilibrium Constant",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-67",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-73",
+            "title": "5.2.6 Changing Equilibrium Conditions: Le-Chatelier's Principle",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-67",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-74",
+            "title": "5.2.7 Equilibrium and Industry",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-67",
+            "isExpanded": false
+          }
+        ],
+        "parentId": "topic-65",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-75",
+    "title": "Unit 6: SOME IMPORTANT OXYGEN-CONTAINING ORGANIC COMPOUNDS",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-76",
+        "title": "6.1 Introduction",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-75",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-77",
+        "title": "6.2 Alcohols and Ethers",
+        "level": 1,
+        "children": [
+          {
+            "id": "topic-78",
+            "title": "6.2.1 Classification of Alcohols",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-77",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-79",
+            "title": "6.2.2 Nomenclature of Alcohols",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-77",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-80",
+            "title": "6.2.3 Physical Properties of Alcohols",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-77",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-81",
+            "title": "6.2.4 Preparation of Alcohols",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-77",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-82",
+            "title": "6.2.5 Chemical Properties of Alcohols",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-77",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-83",
+            "title": "6.2.6 Structure and Nomenclature of Ethers",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-77",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-84",
+            "title": "6.2.7 Physical Properties of Ethers",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-77",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-85",
+            "title": "6.2.8 Preparation of Ethers",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-77",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-86",
+            "title": "6.2.9 Reactions of Ethers",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-77",
+            "isExpanded": false
+          }
+        ],
+        "parentId": "topic-75",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-87",
+        "title": "6.3 Aldehydes and Ketones",
+        "level": 1,
+        "children": [
+          {
+            "id": "topic-88",
+            "title": "6.3.1 Nomenclature",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-87",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-89",
+            "title": "6.3.2 Physical Properties of Aldehydes and Ketones",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-87",
+            "isExpanded": false
+          }
+        ],
+        "parentId": "topic-75",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-90",
+        "title": "6.4 Carboxylic Acids",
+        "level": 1,
+        "children": [
+          {
+            "id": "topic-91",
+            "title": "6.4.1 Structure and Nomenclature of Carboxylic Acids",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-90",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-92",
+            "title": "6.4.2 Physical Properties of Carboxylic Acids",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-90",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-93",
+            "title": "6.4.3 Chemical Properties of Carboxylic Acids",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-90",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-94",
+            "title": "6.4.4 Preparation of Carboxylic Acids",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-90",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-95",
+            "title": "6.4.5 Fatty Acids",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-90",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-96",
+            "title": "6.4.6 Uses of Carboxylic Acids",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-90",
+            "isExpanded": false
+          }
+        ],
+        "parentId": "topic-75",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-97",
+        "title": "6.5 Esters",
+        "level": 1,
+        "children": [
+          {
+            "id": "topic-98",
+            "title": "6.5.1 Sources of Esters",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-97",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-99",
+            "title": "6.5.2 Nomenclature",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-97",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-100",
+            "title": "6.5.3 Physical Properties",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-97",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-101",
+            "title": "6.5.4 Chemical Properties",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-97",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-102",
+            "title": "6.5.5 Preparation of Esters",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-97",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-103",
+            "title": "6.5.6 Uses of Esters",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-97",
+            "isExpanded": false
+          }
+        ],
+        "parentId": "topic-75",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-104",
+        "title": "6.6 Fats and Oils",
+        "level": 1,
+        "children": [
+          {
+            "id": "topic-105",
+            "title": "6.6.1 Source of Fats and Oils",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-104",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-106",
+            "title": "6.6.2 Structure of Fats and Oils",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-104",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-107",
+            "title": "6.6.3 Physical Properties of Fats and Oils",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-104",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-108",
+            "title": "6.6.4 Hardening of Oils",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-104",
+            "isExpanded": false
+          },
+          {
+            "id": "topic-109",
+            "title": "6.6.5 Rancidity",
+            "level": 2,
+            "children": [],
+            "parentId": "topic-104",
+            "isExpanded": false
+          }
+        ],
+        "parentId": "topic-75",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  }
+]

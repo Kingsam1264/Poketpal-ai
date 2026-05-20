@@ -1,0 +1,610 @@
+[
+  {
+    "id": "topic-1",
+    "title": "Unit 1: Artistic Perceptions",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-2",
+    "title": "1.1 Characteristics of Ethiopian Traditional Music",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-3",
+    "title": "1.1.1 Ethiopian Music",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-4",
+    "title": "1.1.2 Ethiopian St. Yared",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-5",
+    "title": "1.1.3 Characteristics by Geographical Location",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-6",
+    "title": "1.1.3.1 Northern Ethiopian Music",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-7",
+    "title": "1.1.3.2 Eastern Ethiopia and the Surrounding",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-8",
+    "title": "1.1.3.3 Southern Ethiopia",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-9",
+    "title": "1.2 Characteristics of Ethiopian Traditional Techniques of Dance",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-10",
+    "title": "1.2.1 Characteristics of Ethiopian Folk Dance",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-11",
+    "title": "1.3 Identify Theatre & Film Arts",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-12",
+    "title": "1.3.1 Identify Theatre Art",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-13",
+    "title": "1.3.1.1 Theatre Art in the Context of Ethiopia",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-14",
+    "title": "1.3.2 Identify Film Art",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-15",
+    "title": "1.3.2.1 Film in the Context of Ethiopia",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-16",
+    "title": "1.4 Role and Function of Basic Elements of Design",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-17",
+    "title": "1.4.1 The Basic Elements of Design",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-18",
+    "title": "1.4.2 What is Color?",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-19",
+    "title": "1.4.3 The Color Wheel",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-20",
+    "title": "1.4.4 Color Temperature",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-21",
+    "title": "1.4.5 Neutral Colors",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-22",
+    "title": "Unit 2: Creative Expressions",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-23",
+    "title": "2.1 Perform Solfeggio in Different Time Signatures (%, 4/4)",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-24",
+    "title": "2.1.1 Origin of Solfeggio",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-25",
+    "title": "2.1.2 Perform Solfeggio with Latin Syllabics and Musical Letters",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-26",
+    "title": "2.2 Perform Folk Dance Style",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-27",
+    "title": "2.2.1 Folk Dance Style Practice",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-28",
+    "title": "2.3 Expression of Ideas in Theater",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-29",
+    "title": "2.3.1 The Work of Theatre from Script to Stage Presentation",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-30",
+    "title": "2.3.2 Express Ideas in Photography",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-31",
+    "title": "2.3.2.1 Popular Creative Photography Techniques/Ideas",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-32",
+    "title": "2.3.2.2 Creative Photography in Painting",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-33",
+    "title": "2.3.2.3 Creative Photography in Double Exposure",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-34",
+    "title": "2.3.2.4 Creative Photography in Motion Blur",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-35",
+    "title": "2.3.2.5 Creative Photography in Get Macro",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-36",
+    "title": "2.3.2.6 The Importance of Creativity in Photography",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-37",
+    "title": "2.3.3 Creative Expression of Theme in Movie (Film)",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-38",
+    "title": "2.4 Painting and Printing",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-39",
+    "title": "2.4.1 Drawing",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-40",
+    "title": "2.4.2 Painting",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-41",
+    "title": "2.4.3 Printmaking",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-42",
+    "title": "Unit 3: History and Culture",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-43",
+    "title": "3.1 Indigenous Music History and Indigenous Music Artists",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-44",
+    "title": "3.1.1 The Importance of Indigenous Music",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-45",
+    "title": "3.1.2 Indigenous Music",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-46",
+    "title": "3.1.3 Music of Indigenous People",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-47",
+    "title": "3.1.4 Music and Culture",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-48",
+    "title": "3.1.5 Indigenous Musical Artists",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-49",
+    "title": "3.2 Dance Education",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-50",
+    "title": "3.2.1 Indigenous Dance",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-51",
+    "title": "3.2.2 Indigenous Dance Practice",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-52",
+    "title": "3.2.3 Dance of Indigenous People",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-53",
+    "title": "3.2.4 Indigenous Dance Artists",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-54",
+    "title": "3.3 Indigenous Knowledge in Theatre and Film",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-55",
+    "title": "3.4 Indigenous Painting of Hand Crafts (Manuscripts, Paintings and Pottery)",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-56",
+    "title": "3.4.1 Indigenous Paintings",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-57",
+    "title": "3.4.2 Ethiopian Manuscripts",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-58",
+    "title": "3.4.3 Crafts",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-59",
+    "title": "3.4.4 Pottery",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-60",
+    "title": "Unit 4: Aesthetic Values",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-61",
+    "title": "4.1 The Values of Musical Works and Indigenous Music Works",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-62",
+    "title": "4.1.1 Music Appreciation",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-63",
+    "title": "4.1.2 Values of Music Appreciation",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-64",
+    "title": "4.1.3 Appreciate Elements of Music",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-65",
+    "title": "4.2 Indigenous Dance",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-66",
+    "title": "4.2.1 Dance Appreciation",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-67",
+    "title": "4.3 Value of Performing Art Works of Theatre and Film",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-68",
+    "title": "4.4 Appreciate Ethiopian Indigenous Art",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-69",
+    "title": "Unit 5: Connection, Relation and Application",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-70",
+    "title": "5.1 The Importance of Songs Related to Other Subjects",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-71",
+    "title": "5.1.1 Selected Songs Connected to English Language",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-72",
+    "title": "5.1.2 Selected Songs Linked to Math Education",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-73",
+    "title": "5.2 Connection of Dance with Other Subjects and Cross Cutting Issues",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-74",
+    "title": "5.3 Connecting Theatre, Film/Video with Other Subjects and Cross-cutting Issues",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-75",
+    "title": "5.4 Connection of Visual Arts with Other Subjects and Cross-cutting Issues",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-76",
+    "title": "5.4.1 Decoration of Home and Surrounding with Pottery and Ceramic",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  }
+]

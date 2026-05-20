@@ -1,0 +1,82 @@
+[
+  {
+    "id": "topic-1",
+    "title": "Unit 1: Living in Rural Area",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-2",
+    "title": "Unit 2: History of Calendar",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-3",
+    "title": "Unit 3: Road Safety",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-4",
+    "title": "Unit 4: Endemic Animals in Ethiopia",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-5",
+    "title": "Unit 5: Diary",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-6",
+    "title": "Unit 6: Land Conservation",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-7",
+    "title": "Unit 7: Volunteerism",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-8",
+    "title": "Unit 8: Fitness",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-9",
+    "title": "Unit 9: Self-Expressions",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-10",
+    "title": "Unit 10: Computer Development",
+    "level": 0,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  }
+]

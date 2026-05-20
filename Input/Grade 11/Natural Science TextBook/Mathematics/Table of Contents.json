@@ -1,0 +1,594 @@
+[
+  {
+    "id": "topic-1",
+    "title": "Unit 1: RELATIONS AND FUNCTIONS",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-2",
+        "title": "1.1 Relations",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-1",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-3",
+        "title": "1.2 Inverse of Relations and Their Graphs",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-1",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-4",
+        "title": "1.3 Types of Functions",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-1",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-5",
+        "title": "1.4 Composition of Functions",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-1",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-6",
+        "title": "1.5 Inverse Functions and their Graphs",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-1",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-7",
+        "title": "1.6 Applications of Relations and Functions",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-1",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-8",
+        "title": "Summary",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-1",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-9",
+        "title": "Review Exercise",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-1",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-10",
+    "title": "Unit 2: RATIONAL EXPRESSIONS AND RATIONAL FUNCTIONS",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-11",
+        "title": "2.1 Rational Expressions",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-10",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-12",
+        "title": "2.2 Rational Equations and Rational Inequalities",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-10",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-13",
+        "title": "2.3 Rational Functions and Their Graphs",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-10",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-14",
+        "title": "2.4 Applications",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-10",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-15",
+        "title": "Summary",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-10",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-16",
+        "title": "Review Exercise",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-10",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-17",
+    "title": "Unit 3: MATRICES",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-18",
+        "title": "3.1 The Concepts of a Matrix",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-17",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-19",
+        "title": "3.2 Operations on Matrices",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-17",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-20",
+        "title": "3.3 Special Types of Matrices",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-17",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-21",
+        "title": "3.4 Elementary Row Operations of Matrices",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-17",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-22",
+        "title": "3.5 Systems of Linear Equations with Two or Three Variables",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-17",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-23",
+        "title": "3.6 Solutions of Systems of Linear Equations",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-17",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-24",
+        "title": "3.7 Inverse of a Square Matrix",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-17",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-25",
+        "title": "3.8 Applications",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-17",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-26",
+        "title": "Summary",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-17",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-27",
+        "title": "Review Exercise",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-17",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-28",
+    "title": "Unit 4: DETERMINANTS AND THEIR PROPERTIES",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-29",
+        "title": "4.1 Determinants of Matrices of Order 2",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-28",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-30",
+        "title": "4.2 Minors and Cofactors of Elements of Matrices",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-28",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-31",
+        "title": "4.3 Determinants of Matrices of Order 3",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-28",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-32",
+        "title": "4.4 Properties of Determinants",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-28",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-33",
+        "title": "4.5 Inverse of a Square Matrix of Order 2 and 3",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-28",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-34",
+        "title": "4.6 Solutions of Systems of Linear Equations Using Cramer's Rule",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-28",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-35",
+        "title": "4.7 Applications",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-28",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-36",
+        "title": "Summary",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-28",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-37",
+        "title": "Review Exercise",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-28",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-38",
+    "title": "Unit 5: VECTORS",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-39",
+        "title": "5.1 Revision on Vectors and Scalars",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-38",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-40",
+        "title": "5.2 Representation of vectors",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-38",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-41",
+        "title": "5.3 Vector Product",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-38",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-42",
+        "title": "5.4 Application of Scalar and Cross Product",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-38",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-43",
+        "title": "5.5 Application of Vectors",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-38",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-44",
+        "title": "5.6 Applications",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-38",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-45",
+        "title": "Summary",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-38",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-46",
+        "title": "Review Exercise",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-38",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-47",
+    "title": "Unit 6: TRANSFORMATIONS OF THE PLANE",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-48",
+        "title": "6.1 Introduction",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-47",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-49",
+        "title": "6.2 Translation",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-47",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-50",
+        "title": "6.3 Reflection",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-47",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-51",
+        "title": "6.4 Rotation",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-47",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-52",
+        "title": "6.5 Applications",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-47",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-53",
+        "title": "Summary",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-47",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-54",
+        "title": "Review Exercise",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-47",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-55",
+    "title": "Unit 7: STATISTICS",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-56",
+        "title": "7.1 Types of Data",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-55",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-57",
+        "title": "7.2 Introduction to Grouped Data",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-55",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-58",
+        "title": "7.3 Graphical Representation of Grouped Data",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-55",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-59",
+        "title": "7.4 Measures of Central Tendency and Their Interpretation",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-55",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-60",
+        "title": "7.5 Real-life Application of Statistics",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-55",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-61",
+        "title": "Summary",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-55",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-62",
+        "title": "Review Exercise",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-55",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-63",
+    "title": "Unit 8: PROBABILITY",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-64",
+        "title": "8.1 Introduction",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-63",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-65",
+        "title": "8.2 Fundamental Principle of Counting",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-63",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-66",
+        "title": "8.3 Permutations and Combinations",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-63",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-67",
+        "title": "8.4 Binomial Theorem",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-63",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-68",
+        "title": "8.5 Random Experiments and Their Outcomes",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-63",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-69",
+        "title": "8.6 Events",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-63",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-70",
+        "title": "8.7 Probability of an Event",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-63",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-71",
+        "title": "8.8 Real-life Application of Probability",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-63",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-72",
+        "title": "Summary",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-63",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-73",
+        "title": "Review Exercise",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-63",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  }
+]

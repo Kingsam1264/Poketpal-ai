@@ -1,0 +1,296 @@
+[
+    {
+        "id": "topic-1",
+        "title": "UNIT 1: CHEMICAL REACTIONS AND STOICHIOMETRY",
+        "level": 0,
+        "children": [
+            {
+                "id": "topic-2",
+                "title": "1.1 Introduction",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-1",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-3",
+                "title": "1.2 Chemical Equations",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-1",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-4",
+                "title": "1.3 Types of Chemical Reactions",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-1",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-5",
+                "title": "1.4 Oxidation and Reduction Reactions",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-1",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-6",
+                "title": "1.5 Molecular and Formula Masses, the Mole Concept and Chemical Formulas",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-1",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-7",
+                "title": "1.6 Stoichiometry",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-1",
+                "isExpanded": false
+            }
+        ],
+        "parentId": null,
+        "isExpanded": false
+    },
+    {
+        "id": "topic-8",
+        "title": "UNIT 2: SOLUTIONS",
+        "level": 0,
+        "children": [
+            {
+                "id": "topic-9",
+                "title": "2.1 Heterogeneous and Homogeneous Mixtures",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-8",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-10",
+                "title": "2.2 The Solution Process",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-8",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-11",
+                "title": "2.3 Solubility as an Equilibrium Process",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-8",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-12",
+                "title": "2.4 Ways of Expressing Concentration of Solution",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-8",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-13",
+                "title": "2.5 Preparation of Solutions",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-8",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-14",
+                "title": "2.6 Solution Stoichiometry",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-8",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-15",
+                "title": "2.7 Describing Reactions in Solution",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-8",
+                "isExpanded": false
+            }
+        ],
+        "parentId": null,
+        "isExpanded": false
+    },
+    {
+        "id": "topic-16",
+        "title": "UNIT 3: IMPORTANT INORGANIC COMPOUNDS",
+        "level": 0,
+        "children": [
+            {
+                "id": "topic-17",
+                "title": "3.1 Introduction",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-16",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-18",
+                "title": "3.2 Oxides",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-16",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-19",
+                "title": "3.3 Acids",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-16",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-20",
+                "title": "3.4 Bases",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-16",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-21",
+                "title": "3.5 Salts",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-16",
+                "isExpanded": false
+            }
+        ],
+        "parentId": null,
+        "isExpanded": false
+    },
+    {
+        "id": "topic-22",
+        "title": "UNIT 4: ENERGY CHANGES AND ELECTROCHEMISTRY",
+        "level": 0,
+        "children": [
+            {
+                "id": "topic-23",
+                "title": "4.1 Introduction",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-22",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-24",
+                "title": "4.2 Energy Changes in Electrochemistry",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-22",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-25",
+                "title": "4.3 Electrochemical Cells",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-22",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-26",
+                "title": "4.4 Electrolysis",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-22",
+                "isExpanded": false
+            }
+        ],
+        "parentId": null,
+        "isExpanded": false
+    },
+    {
+        "id": "topic-27",
+        "title": "UNIT 5: METALS AND NONMETALS",
+        "level": 0,
+        "children": [
+            {
+                "id": "topic-28",
+                "title": "5.1 Introduction",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-27",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-29",
+                "title": "5.2 General Properties of Metals and Production of Some Metals",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-27",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-30",
+                "title": "5.3 Production of Some Important Nonmetals",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-27",
+                "isExpanded": false
+            }
+        ],
+        "parentId": null,
+        "isExpanded": false
+    },
+    {
+        "id": "topic-31",
+        "title": "UNIT 6: HYDROCARBONS AND THEIR NATURAL SOURCES",
+        "level": 0,
+        "children": [
+            {
+                "id": "topic-32",
+                "title": "6.1 Introduction",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-31",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-33",
+                "title": "6.2 Saturated Hydrocarbons: Alkanes (CₙH₂ₙ₊₂)",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-31",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-34",
+                "title": "6.3 Unsaturated Hydrocarbons: Alkenes, Alkynes and Aromatic Hydrocarbons",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-31",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-35",
+                "title": "6.4 Aromatic Hydrocarbons: Benzene",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-31",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-36",
+                "title": "6.5 Natural Sources of Hydrocarbons",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-31",
+                "isExpanded": false
+            }
+        ],
+        "parentId": null,
+        "isExpanded": false
+    }
+]

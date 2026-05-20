@@ -1,0 +1,1140 @@
+[
+  {
+    "id": "topic-1",
+    "title": "**Unit One: Biology and Technology**",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-2",
+    "title": "1.1 Learning from nature",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-3",
+    "title": "1.2 Biology and technology",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-4",
+        "title": "1.2.1 The benefits of biology to technology",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-3",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-5",
+        "title": "1.2.2 Uses of technology in biology",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-3",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-6",
+    "title": "1.3 Impacts of biology and technology on society and the natural world",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-7",
+        "title": "1.3.1 Impacts of biology on the society and the natural world",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-6",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-8",
+        "title": "1.3.2 Impacts of technology on the society and the natural world",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-6",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-9",
+    "title": "1.4 Ethical issues in biology",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-10",
+        "title": "1.4.1 Ethical treatment of plants and animals during biological studies",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-9",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-11",
+    "title": "Unit one summary",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-12",
+    "title": "Unit one review questions",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-13",
+    "title": "**Unit Two: Animals**",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-14",
+    "title": "2.1 Characteristics of animals",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-15",
+    "title": "2.2 Invertebrates and Vertebrates",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-16",
+        "title": "2.2.1 Invertebrate Animals",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-15",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-17",
+        "title": "2.2.2 Vertebrate Animals",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-15",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-18",
+    "title": "2.3 Reproduction in Animals",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-19",
+        "title": "2.3.1 Asexual reproduction in animals",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-18",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-20",
+        "title": "2.3.2 Sexual reproduction in animals",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-18",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-21",
+        "title": "2.3.3 Reproduction in insects (complete and incomplete metamorphosis)",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-18",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-22",
+        "title": "2.3.4 Reproduction in Frog",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-18",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-23",
+        "title": "2.3.5 Reproduction in Crocodiles",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-18",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-24",
+        "title": "2.3.6 Reproduction in Birds",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-18",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-25",
+        "title": "2.3.7 Reproduction in rat",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-18",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-26",
+    "title": "2.4 The economic importance of animals (insects)",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-27",
+        "title": "2.4.1 Beneficial aspects of insects",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-26",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-28",
+        "title": "2.4.2 Harmful aspects of insects",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-26",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-29",
+    "title": "2.5 Animal Behavior",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-30",
+        "title": "2.5.1 Types of Animal Behavior",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-29",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-31",
+        "title": "2.5.2 Patterns of Behavior",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-29",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-32",
+    "title": "2.6 Homeostasis in animals",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-33",
+        "title": "2.6.1 Thermoregulation",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-32",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-34",
+        "title": "2.6.2 Osmoregulation",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-32",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-35",
+        "title": "2.6.3 Blood Sugar Regulation",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-32",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-36",
+        "title": "2.6.4 Control of homeostasis",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-32",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-37",
+    "title": "2.7 Renowned zoologists in Ethiopia",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-38",
+    "title": "Unit two summary",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-39",
+    "title": "Unit two review questions",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-40",
+    "title": "**Unit Three: Enzymes**",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-41",
+    "title": "3.1 What are enzymes?",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-42",
+    "title": "3.2 Properties and functions of enzymes",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-43",
+        "title": "3.2.1 General properties of an enzyme",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-42",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-44",
+        "title": "3.2.2 The function of enzymes",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-42",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-45",
+    "title": "3.3 Protein structures",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-46",
+    "title": "3.4 Enzyme substrate models",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-47",
+        "title": "3.4.1 Enzyme-substrate binding models",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-46",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-48",
+        "title": "3.4.2 Enzymatic transition state",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-46",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-49",
+    "title": "3.5 Enzyme regulation",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-50",
+    "title": "3.6 Types of enzymes",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-51",
+        "title": "3.6.1 Enzyme structural classification",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-50",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-52",
+        "title": "3.6.2 Basic classification of enzymes",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-50",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-53",
+    "title": "3.7 Factors affecting enzyme action",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-54",
+        "title": "3.7.1 Description on factors affecting enzymatic actions",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-53",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-55",
+    "title": "3.8 Enzyme kinetics",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-56",
+    "title": "3.9 Application of enzymes in industries and their benefits",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-57",
+        "title": "3.9.1 Uses of enzyme application",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-56",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-58",
+    "title": "3.10 Malting in Ethiopian tradition",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-59",
+        "title": "3.10.1 Steps of modern malting",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-58",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-60",
+        "title": "3.10.2 Why is malting for?",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-58",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-61",
+        "title": "3.10.3 Traditional malting for local alcohol production",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-58",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-62",
+    "title": "3.11 Renowned Biochemists in Ethiopia",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-63",
+    "title": "Unit three summary",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-64",
+    "title": "Unit three review questions",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-65",
+    "title": "**Unit Four: Genetics**",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-66",
+    "title": "4.1 The genetic materials",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-67",
+    "title": "4.2 The structure and function of DNA and RNA",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-68",
+        "title": "4.2.1 The Structure and function of DNA",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-67",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-69",
+        "title": "4.2.2 The structure and function of RNA",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-67",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-70",
+        "title": "4.2.3 DNA replication",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-67",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-71",
+    "title": "4.3 The process of cell division",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-72",
+        "title": "4.3.1 Cell Division",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-71",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-73",
+    "title": "4.4 Protein synthesis",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-74",
+    "title": "4.5 Mendelian inheritance",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-75",
+        "title": "4.5.1 Mendelian crosses",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-74",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-76",
+        "title": "4.5.2 Monohybrid cross",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-74",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-77",
+        "title": "4.5.3 Dihybrid Cross",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-74",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-78",
+        "title": "4.5.4 Test Crosses",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-74",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-79",
+    "title": "4.6 Sex determination",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-80",
+    "title": "4.7 Non-Mendelian inheritance",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-81",
+        "title": "4.7.1 Co-dominance, Incomplete dominance and Multiple alleles",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-80",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-82",
+        "title": "4.7.2 Rh factor inheritance in humans and its medical importance",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-80",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-83",
+        "title": "4.7.3 Sex-linked inheritance in humans",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-80",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-84",
+        "title": "4.7.4 Environmental effects on phenotype",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-80",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-85",
+    "title": "4.8 Human pedigree analysis and its importance",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-86",
+    "title": "4.9 Genetic disorders",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-87",
+    "title": "4.10 Genetic testing and counseling",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-88",
+    "title": "4.11 Gene therapy",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-89",
+    "title": "4.12 Breeding",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-90",
+        "title": "4.12.1 Indigenous knowledge of Ethiopian farmers",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-89",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-91",
+    "title": "4.13 Bioinformatics introduction",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-92",
+    "title": "Unit four summary",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-93",
+    "title": "Unit four review questions",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-94",
+    "title": "**Unit Five: The human body systems**",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-95",
+    "title": "5.1 Human Musculoskeletal Systems",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-96",
+        "title": "5.1.1 Types of muscles",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-95",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-97",
+        "title": "5.1.2 Mechanism of actions of skeletal muscles",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-95",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-98",
+        "title": "5.1.3 The human axial and appendicular skeletons",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-95",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-99",
+        "title": "5.1.4 Joints",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-95",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-100",
+    "title": "5.2 The reproductive system",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-101",
+        "title": "5.2.1 Human reproductive system (Male and Female)",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-100",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-102",
+        "title": "5.2.2 Gametogenesis",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-100",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-103",
+        "title": "5.2.3 Positive and negative feedbacks to control the menstrual cycle",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-100",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-104",
+        "title": "5.2.4 Fertilization and pregnancy",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-100",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-105",
+        "title": "5.2.5 Mechanism of action of contraceptives",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-100",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-106",
+        "title": "5.2.6 Causes of infertility in humans",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-100",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-107",
+        "title": "5.2.7 The major sexually transmitted infections (STIs) in Ethiopia",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-100",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-108",
+        "title": "5.2.8 Epidemiology of STIs in Ethiopia",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-100",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-109",
+    "title": "5.3 Harmful traditional practices",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-110",
+        "title": "5.3.1 Harmful traditional practices",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-109",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-111",
+    "title": "5.4 Family planning",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-112",
+        "title": "5.4.1 Risks related to the lack of family planning",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-111",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-113",
+        "title": "5.4.2 Family planning actions",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-111",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-114",
+        "title": "5.4.3 Family planning services",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-111",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-115",
+    "title": "5.5 Effects of alcohol use, chewing Khat, cannabis and other drug uses on STIs transmission and unwanted pregnancy",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-116",
+        "title": "5.5.1 The effects of alcohol uses",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-115",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-117",
+        "title": "5.5.2 Effects of chewing Khat",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-115",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-118",
+        "title": "5.5.3 Effects of drug uses",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-115",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-119",
+    "title": "Unit five summary",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-120",
+    "title": "Unit five review questions",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-121",
+    "title": "**Unit Six: Population and natural resources**",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-122",
+    "title": "6.1.1 Population size, density and dispersal",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-123",
+    "title": "6.1.2 Exponential and logistic growth in populations",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-124",
+    "title": "6.1.3 Demographic structure",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-125",
+    "title": "6.1.4 Population regulation",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-126",
+    "title": "6.2 Natural resources",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-127",
+        "title": "6.2.1 Renewable",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-126",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-128",
+        "title": "6.2.2 Non-renewable",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-126",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-129",
+    "title": "6.3 Conservation of natural resources in Ethiopia",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-130",
+    "title": "6.4 Impact of traffic accident on wild and domestic animals",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-131",
+    "title": "6.5 Impact of human activities on the environment",
+    "level": 1,
+    "children": [
+      {
+        "id": "topic-132",
+        "title": "6.5.2 Climate change",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-131",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-133",
+        "title": "6.5.3 Global warming",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-131",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-134",
+        "title": "6.5.4 Ozone layer depletion",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-131",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-135",
+        "title": "6.5.5 Acid rain",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-131",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-136",
+        "title": "6.5.6 Loss of Biodiversity",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-131",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-137",
+        "title": "6.5.7 Toxic bioaccumulation",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-131",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-138",
+        "title": "6.5.8 Resource depletion",
+        "level": 2,
+        "children": [],
+        "parentId": "topic-131",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-139",
+    "title": "6.6 Indigenous conservation practices in Ethiopia",
+    "level": 1,
+    "children": [],
+    "parentId": null,
+    "isExpanded": false
+  }
+]

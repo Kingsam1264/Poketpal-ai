@@ -1,0 +1,362 @@
+[
+    {
+        "id": "topic-1",
+        "title": "UNIT 1: THEORY OF CONSUMER BEHAVIOUR",
+        "level": 0,
+        "children": [
+            {
+                "id": "topic-2",
+                "title": "1.1 The Concept of Utility",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-1",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-3",
+                "title": "1.2 The Cardinal Utility Theory",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-1",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-4",
+                "title": "1.3 The Consumer Maximization Problem",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-1",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-5",
+                "title": "1.4 Introduction to the Ordinal Utility Theory",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-1",
+                "isExpanded": false
+            }
+        ],
+        "parentId": null,
+        "isExpanded": false
+    },
+    {
+        "id": "topic-6",
+        "title": "UNIT 2: THEORIES OF DEMAND AND SUPPLY",
+        "level": 0,
+        "children": [
+            {
+                "id": "topic-7",
+                "title": "2.1 Theory of Demand",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-6",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-8",
+                "title": "2.2 Theory of Supply",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-6",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-9",
+                "title": "2.3 Market Equilibrium",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-6",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-10",
+                "title": "2.4 Elasticities of Demand and Supply",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-6",
+                "isExpanded": false
+            }
+        ],
+        "parentId": null,
+        "isExpanded": false
+    },
+    {
+        "id": "topic-11",
+        "title": "UNIT 3: THEORIES OF PRODUCTION AND COST",
+        "level": 0,
+        "children": [
+            {
+                "id": "topic-12",
+                "title": "3.1 Theory of Production",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-11",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-13",
+                "title": "3.2 Theory of Cost",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-11",
+                "isExpanded": false
+            }
+        ],
+        "parentId": null,
+        "isExpanded": false
+    },
+    {
+        "id": "topic-14",
+        "title": "UNIT 4: MARKET STRUCTURES",
+        "level": 0,
+        "children": [
+            {
+                "id": "topic-15",
+                "title": "4.1 Perfectly Competitive Markets",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-14",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-16",
+                "title": "4.2 Pure Monopoly Market",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-14",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-17",
+                "title": "4.3 Monopolistically Competitive Market",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-14",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-18",
+                "title": "4.4 Oligopoly Market",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-14",
+                "isExpanded": false
+            }
+        ],
+        "parentId": null,
+        "isExpanded": false
+    },
+    {
+        "id": "topic-19",
+        "title": "UNIT 5: BANKING AND FINANCE",
+        "level": 0,
+        "children": [
+            {
+                "id": "topic-20",
+                "title": "5.1 Introduction to Financial Intermediaries",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-19",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-21",
+                "title": "5.2 Introduction to Financial Markets",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-19",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-22",
+                "title": "5.3 Introduction to Financial Institutions",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-19",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-23",
+                "title": "5.4 Historical Development of Banks in Ethiopia",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-19",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-24",
+                "title": "5.5 Micro-finance Institutions",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-19",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-25",
+                "title": "5.6 Electronic Banking (e-banking)",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-19",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-26",
+                "title": "5.7 Indigenous Financial Institutions",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-19",
+                "isExpanded": false
+            }
+        ],
+        "parentId": null,
+        "isExpanded": false
+    },
+    {
+        "id": "topic-27",
+        "title": "UNIT 6: ECONOMIC GROWTH",
+        "level": 0,
+        "children": [
+            {
+                "id": "topic-28",
+                "title": "6.1 Review of Macroeconomic Variables",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-27",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-29",
+                "title": "6.2 Definition and Measurement of Economic Growth",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-27",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-30",
+                "title": "6.3 Sources of Economic Growth",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-27",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-31",
+                "title": "6.4 The Weaknesses of Using GDP/GDP Per Capita",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-27",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-32",
+                "title": "6.5 The Business Cycle and Its Phases",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-27",
+                "isExpanded": false
+            }
+        ],
+        "parentId": null,
+        "isExpanded": false
+    },
+    {
+        "id": "topic-33",
+        "title": "UNIT 7: AN OVERVIEW OF THE ETHIOPIAN ECONOMY",
+        "level": 0,
+        "children": [
+            {
+                "id": "topic-34",
+                "title": "7.1 Components of Gross Domestic Product (GDP)",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-33",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-35",
+                "title": "7.2 Real GDP Vs Nominal GDP",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-33",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-36",
+                "title": "7.3 The Agricultural Sector in the Ethiopian Economy",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-33",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-37",
+                "title": "7.4 The Industrial Sector in the Ethiopian Economy",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-33",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-38",
+                "title": "7.5 The Service Sector in the Ethiopian Economy",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-33",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-39",
+                "title": "7.6 Agriculture versus Industrial Development",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-33",
+                "isExpanded": false
+            }
+        ],
+        "parentId": null,
+        "isExpanded": false
+    },
+    {
+        "id": "topic-40",
+        "title": "UNIT 8: BUSINESS STARTUPS AND INNOVATION",
+        "level": 0,
+        "children": [
+            {
+                "id": "topic-41",
+                "title": "8.1 Innovation",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-40",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-42",
+                "title": "8.2 Business Startups",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-40",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-43",
+                "title": "8.3 Types of Businesses Organizations",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-40",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-44",
+                "title": "8.4 Business Feasibility Analysis",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-40",
+                "isExpanded": false
+            }
+        ],
+        "parentId": null,
+        "isExpanded": false
+    }
+]

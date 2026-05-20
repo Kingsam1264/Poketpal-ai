@@ -1,0 +1,230 @@
+[
+  {
+    "id": "topic-1",
+    "title": "Unit 1: MARKETING",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-2",
+        "title": "1.1 What is Marketing?",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-1",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-3",
+        "title": "1.2 What is Market?",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-1",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-4",
+        "title": "1.3 Major Marketing Functions",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-1",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-5",
+        "title": "1.4 Marketing Mix- Overview",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-1",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-6",
+    "title": "Unit 2: COMMUNICATION",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-7",
+        "title": "2.1 Definition of Communication and Business Communication",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-6",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-8",
+        "title": "2.2 Methods of Communication",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-6",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-9",
+        "title": "2.3 Effective Formats of Business Messages",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-6",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-10",
+        "title": "2.4 Business Report Writing and Business Reports",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-6",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-11",
+        "title": "2.5 Other Common Reports and their Headings",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-6",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-12",
+        "title": "2.6 Writing Your Curriculum Vitae (CV)",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-6",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-13",
+        "title": "2.7 Preparing for an Interview",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-6",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-14",
+    "title": "Unit 3: TRADE",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-15",
+        "title": "3.1 Definition of Trade",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-14",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-16",
+        "title": "3.2 Foreign Trade",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-14",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-17",
+    "title": "Unit 4: BUSINESS RECORDS KEEPING AND FINANCIAL REPORTS",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-18",
+        "title": "4.1 What is Accounting?",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-17",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-19",
+        "title": "4.2 Importance of Accounting",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-17",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-20",
+        "title": "4.3 The Beginning Balance Sheet",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-17",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-21",
+        "title": "4.4 Recording the Opening Entry",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-17",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-22",
+        "title": "4.5 Posting the Opening Entry",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-17",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-23",
+        "title": "4.6 Business Transaction",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-17",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-24",
+        "title": "4.7 Income and Expense Accounts",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-17",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-25",
+        "title": "4.8 The Six-Column WorkSheet",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-17",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-26",
+        "title": "4.9 The Financial Statements",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-17",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-27",
+        "title": "4.10 The Petty Cash Fund",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-17",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-28",
+        "title": "Glossary",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-17",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  }
+]

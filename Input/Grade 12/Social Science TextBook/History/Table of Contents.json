@@ -1,0 +1,443 @@
+[
+  {
+    "id": "topic-1",
+    "title": "UNIT ONE: Development of Capitalism and Nationalism from 1815 to 1914",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-2",
+        "title": "1.1. Development of Capitalism",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-1",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-3",
+        "title": "1.2. The Industrial Revolution",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-1",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-4",
+        "title": "1.3. Nationalism",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-1",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-5",
+        "title": "1.4. Unification of Italy",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-1",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-6",
+        "title": "1.5. Unification of Germany",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-1",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-7",
+        "title": "1.6. The American Civil War",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-1",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-8",
+        "title": "1.7. The Eastern Question",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-1",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-9",
+    "title": "UNIT TWO: Africa and the Colonial Experience (1880s - 1960s)",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-10",
+        "title": "2.1. The Era of \"Legitimate Trade\" and Colonial Empires",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-9",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-11",
+        "title": "2.2. African Resistance against Colonial Expansion",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-9",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-12",
+        "title": "2.3. Colonial Administration and the Colonial States",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-9",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-13",
+    "title": "UNIT THREE: Social, Economic and Political Developments in Ethiopia, Mid-19th C. to 1941",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-14",
+        "title": "3.1. Long Distance Trade and Peoples' Interaction in Ethiopia in the 19th Century",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-13",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-15",
+        "title": "3.2. Power Rivalry and Consolidating Central Government, 1855-1913",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-13",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-16",
+        "title": "3.3. Territorial Expansion and the Incorporation of Kingdoms",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-13",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-17",
+        "title": "3.4. External Relations, Challenges and Threats",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-13",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-18",
+        "title": "3.5. The Victory of Adwa",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-13",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-19",
+        "title": "3.6. Religious Reforms",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-13",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-20",
+        "title": "3.7. Power Struggle among Ruling Elites, 1906-1935",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-13",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-21",
+    "title": "UNIT FOUR: Society and Politics in the Age of World Wars, 1914-1945",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-22",
+        "title": "4.1. World War I and Its Settlement",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-21",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-23",
+        "title": "4.2. The Russian Revolution of 1917",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-21",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-24",
+        "title": "4.3. Interwar Period: Capitalist Economy, Fascism and Nazism",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-21",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-25",
+        "title": "4.4. World War II",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-21",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-26",
+    "title": "UNIT FIVE: Global and Regional Developments Since 1945",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-27",
+        "title": "5.1. The Aftermath and Consequences of WW II",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-26",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-28",
+        "title": "5.2. The United Nations Organization (the UN)",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-26",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-29",
+        "title": "5.3. The Post-War Global Socio-Economic Recovery and Developments",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-26",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-30",
+        "title": "5.4. The Cold War Realities",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-26",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-31",
+        "title": "5.5. Situations in Asia during the Cold War",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-26",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-32",
+        "title": "5.6. The Middle East",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-26",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-33",
+        "title": "5.7. The Dissolution of the Communist Bloc and the Aftermath",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-26",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-34",
+    "title": "UNIT SIX: Ethiopia: Internal Developments and External Influences from 1941 to 1991",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-35",
+        "title": "6.1. The Restoration of the Imperial Rule and External Influences",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-34",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-36",
+        "title": "6.2. Socio-economic Conditions and Social Organizations",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-34",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-37",
+        "title": "6.3. Consolidation of Autocracy and Oppositions to the Monarchy",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-34",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-38",
+        "title": "6.4. The 1974 Revolution: The Downfall of the Emperor and the Rise of the Derg",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-34",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-39",
+        "title": "6.5. Socio-economic and Political Reforms of the Military Regime",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-34",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-40",
+        "title": "6.6. The Decline and Downfall of the Derg Regime: Internal and External Threats",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-34",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-41",
+    "title": "UNIT SEVEN: Africa since the 1960s",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-42",
+        "title": "7.1. The Road to Independence and the Rise of Independent States in Africa",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-41",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-43",
+        "title": "7.2. Politics in Independent African States",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-41",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-44",
+        "title": "7.3. Economy and Society in Independent Africa",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-41",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-45",
+        "title": "7.4. The Cold War and Africa",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-41",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-46",
+        "title": "7.5. Pan-Africanism, from Organization of African Unity to African Union",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-41",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-47",
+    "title": "UNIT EIGHT: Post-1991 Developments in Ethiopia",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-48",
+        "title": "8.1. The Transitional Government of Ethiopia",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-47",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-49",
+        "title": "8.2. Ethiopia after the 1995 Constitution",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-47",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-50",
+        "title": "8.3. Socio-Economic Issues",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-47",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-51",
+        "title": "8.4. The Role of Ethiopia in Peace Keeping (Liberia, Rwanda, Sudan and Somalia)",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-47",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  },
+  {
+    "id": "topic-52",
+    "title": "UNIT NINE: Indigenous Knowledge Systems and Heritages of Ethiopia",
+    "level": 0,
+    "children": [
+      {
+        "id": "topic-53",
+        "title": "9.1. Indigenous Knowledge: Definition and Unique Characteristic Features",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-52",
+        "isExpanded": false
+      },
+      {
+        "id": "topic-54",
+        "title": "9.2. Indigenous knowledge and Development",
+        "level": 1,
+        "children": [],
+        "parentId": "topic-52",
+        "isExpanded": false
+      }
+    ],
+    "parentId": null,
+    "isExpanded": false
+  }
+]

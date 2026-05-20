@@ -1,0 +1,1 @@
+export {CurriculumScreen} from './CurriculumScreen';

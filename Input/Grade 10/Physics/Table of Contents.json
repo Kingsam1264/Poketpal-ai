@@ -1,0 +1,432 @@
+[
+    {
+        "id": "topic-1",
+        "title": "CHAPTER 1: VECTOR QUANTITIES",
+        "level": 0,
+        "children": [
+            {
+                "id": "topic-2",
+                "title": "1.1 Scalars and Vectors",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-1",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-3",
+                "title": "1.2 Vector representations",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-1",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-4",
+                "title": "1.3 Vector addition and subtraction",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-1",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-5",
+                "title": "1.4 Graphical method of vector addition",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-1",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-6",
+                "title": "1.5 Vector resolution",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-1",
+                "isExpanded": false
+            }
+        ],
+        "parentId": null,
+        "isExpanded": false
+    },
+    {
+        "id": "topic-7",
+        "title": "CHAPTER 2: UNIFORMLY ACCELERATED MOTION",
+        "level": 0,
+        "children": [
+            {
+                "id": "topic-8",
+                "title": "2.1 Position and Displacement",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-7",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-9",
+                "title": "2.2 Average velocity and instantaneous velocity",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-7",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-10",
+                "title": "2.3 Acceleration",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-7",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-11",
+                "title": "2.4 Equations of motion with constant acceleration",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-7",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-12",
+                "title": "2.5 Graphical representation of uniformly accelerated motion",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-7",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-13",
+                "title": "2.6 Relative velocity in one dimension",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-7",
+                "isExpanded": false
+            }
+        ],
+        "parentId": null,
+        "isExpanded": false
+    },
+    {
+        "id": "topic-14",
+        "title": "CHAPTER 3: ELASTICITY AND STATIC EQUILIBRIUM OF RIGID BODY",
+        "level": 0,
+        "children": [
+            {
+                "id": "topic-15",
+                "title": "3.1 Elasticity and plasticity",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-14",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-16",
+                "title": "3.2 Density and specific gravity",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-14",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-17",
+                "title": "3.3 Stress and Strain",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-14",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-18",
+                "title": "3.4 The Young Modulus",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-14",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-19",
+                "title": "3.5 Static equilibrium",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-14",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-20",
+                "title": "3.5.1 First condition of equilibrium",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-14",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-21",
+                "title": "3.5.2 Second condition of equilibrium",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-14",
+                "isExpanded": false
+            }
+        ],
+        "parentId": null,
+        "isExpanded": false
+    },
+    {
+        "id": "topic-22",
+        "title": "CHAPTER 4: STATIC AND CURRENT ELECTRICITY",
+        "level": 0,
+        "children": [
+            {
+                "id": "topic-23",
+                "title": "4.1 Charges in Nature",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-22",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-24",
+                "title": "4.2 Methods of Charging a Body",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-22",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-25",
+                "title": "4.3 The electroscope",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-22",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-26",
+                "title": "4.4 Electrical Discharge",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-22",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-27",
+                "title": "4.5 Coulomb's law of electrostatics",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-22",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-28",
+                "title": "4.6 The electric field",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-22",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-29",
+                "title": "4.7 Electric circuits",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-22",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-30",
+                "title": "4.8 Current, Voltage, and Ohm's Law",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-22",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-31",
+                "title": "4.9 Combination of resistors in a circuit",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-22",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-32",
+                "title": "4.10 Voltmeter and ammeter connection in a circuit",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-22",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-33",
+                "title": "4.11 Electrical safety in general and local context",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-22",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-34",
+                "title": "4.12 Electric projects",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-22",
+                "isExpanded": false
+            }
+        ],
+        "parentId": null,
+        "isExpanded": false
+    },
+    {
+        "id": "topic-35",
+        "title": "CHAPTER 5: MAGNETISM",
+        "level": 0,
+        "children": [
+            {
+                "id": "topic-36",
+                "title": "5.1 Magnet",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-35",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-37",
+                "title": "5.2 Magnetic Field",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-35",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-38",
+                "title": "5.3 The Earth's magnetic field and the compass",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-35",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-39",
+                "title": "5.4 Magnetic field of a current-carrying conductor",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-35",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-40",
+                "title": "5.5 Magnetic force on a moving charge placed in a uniform magnetic field",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-35",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-41",
+                "title": "5.6 Magnetic force on a current-carrying wire",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-35",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-42",
+                "title": "5.7 Magnetic force between two parallel current-carrying wires",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-35",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-43",
+                "title": "5.8 Applications of magnetism",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-35",
+                "isExpanded": false
+            }
+        ],
+        "parentId": null,
+        "isExpanded": false
+    },
+    {
+        "id": "topic-44",
+        "title": "CHAPTER 6: ELECTROMAGNETIC WAVES AND GEOMETRICAL OPTICS",
+        "level": 0,
+        "children": [
+            {
+                "id": "topic-45",
+                "title": "6.1 Electromagnetic (EM) waves",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-44",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-46",
+                "title": "6.2 EM Spectrum",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-44",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-47",
+                "title": "6.3 Light as a wave",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-44",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-48",
+                "title": "6.4 Laws of reflection & refraction",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-44",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-49",
+                "title": "6.5 Mirrors and lenses",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-44",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-50",
+                "title": "6.6 Human eye and optical instruments",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-44",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-51",
+                "title": "6.7 Primary colors of light and human vision",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-44",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-52",
+                "title": "6.8 Color addition of light",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-44",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-53",
+                "title": "6.9 Color subtraction of light using filters",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-44",
+                "isExpanded": false
+            }
+        ],
+        "parentId": null,
+        "isExpanded": false
+    }
+]

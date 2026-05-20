@@ -1,0 +1,338 @@
+[
+    {
+        "id": "topic-1",
+        "title": "UNIT 1: LANDFORMS OF AFRICA",
+        "level": 0,
+        "children": [
+            {
+                "id": "topic-2",
+                "title": "1.1 Overview of the World's Major Landforms",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-1",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-3",
+                "title": "1.2 Location and Related Features of Africa",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-1",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-4",
+                "title": "1.3 Major Landforms of Africa",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-1",
+                "isExpanded": false
+            }
+        ],
+        "parentId": null,
+        "isExpanded": false
+    },
+    {
+        "id": "topic-5",
+        "title": "UNIT 2: CLIMATE OF AFRICA",
+        "level": 0,
+        "children": [
+            {
+                "id": "topic-6",
+                "title": "2.1 Overview of World Climatic Regions and Types",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-5",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-7",
+                "title": "2.2 Climate Types and Zones of Africa",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-5",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-8",
+                "title": "2.3 Benefits of Climate for Life of People of Africa",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-5",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-9",
+                "title": "2.4 Climate Change and its Challenges to Africa's Development Vision",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-5",
+                "isExpanded": false
+            }
+        ],
+        "parentId": null,
+        "isExpanded": false
+    },
+    {
+        "id": "topic-10",
+        "title": "UNIT 3: NATURAL RESOURCE BASE OF AFRICA",
+        "level": 0,
+        "children": [
+            {
+                "id": "topic-11",
+                "title": "3.1 Overview of Major Natural Resources of the World",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-10",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-12",
+                "title": "3.2 Major Drainage and Water Resources in Africa",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-10",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-13",
+                "title": "3.3 Main Types of Soils and Mineral Resources in Africa",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-10",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-14",
+                "title": "3.4 Major Vegetation and Wildlife of Africa",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-10",
+                "isExpanded": false
+            }
+        ],
+        "parentId": null,
+        "isExpanded": false
+    },
+    {
+        "id": "topic-15",
+        "title": "UNIT 4: POPULATION OF AFRICA",
+        "level": 0,
+        "children": [
+            {
+                "id": "topic-16",
+                "title": "4.1 Overview of World Population Growth and Size",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-15",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-17",
+                "title": "4.2 Africa's Major Demographic Trends",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-15",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-18",
+                "title": "4.3 Population Structure",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-15",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-19",
+                "title": "4.4 Distribution and Density of Africa's Population",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-15",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-20",
+                "title": "4.5 Urban and Rural Settlement Patterns in Africa",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-15",
+                "isExpanded": false
+            }
+        ],
+        "parentId": null,
+        "isExpanded": false
+    },
+    {
+        "id": "topic-21",
+        "title": "UNIT 5: MAJOR ECONOMIC AND CULTURAL ACTIVITIES OF AFRICA",
+        "level": 0,
+        "children": [
+            {
+                "id": "topic-22",
+                "title": "5.1 Overview of Employment Structure in the World",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-21",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-23",
+                "title": "5.2 Major Economic Activities in Africa",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-21",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-24",
+                "title": "5.3 Possible Solutions to the Problem of Unemployment",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-21",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-25",
+                "title": "5.4 Africa's Agenda 2063 and Its Implications",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-21",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-26",
+                "title": "5.5 Africa's Agenda 2063 Vis-à-Vis Sustainable Development Goals (SDGs)",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-21",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-27",
+                "title": "5.6 Linguistic and Religious Diversity in Africa",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-21",
+                "isExpanded": false
+            }
+        ],
+        "parentId": null,
+        "isExpanded": false
+    },
+    {
+        "id": "topic-28",
+        "title": "UNIT 6: HUMAN – NATURAL ENVIRONMENT INTERACTIONS",
+        "level": 0,
+        "children": [
+            {
+                "id": "topic-29",
+                "title": "6.1 Overview of Global Population Change",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-28",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-30",
+                "title": "6.2 Human-environment Relationship",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-28",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-31",
+                "title": "6.3 Indigenous Knowledge in Conservation of Natural Resources in Africa",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-28",
+                "isExpanded": false
+            }
+        ],
+        "parentId": null,
+        "isExpanded": false
+    },
+    {
+        "id": "topic-32",
+        "title": "UNIT 7: GEOGRAPHIC ISSUES AND PUBLIC CONCERNS IN AFRICA",
+        "level": 0,
+        "children": [
+            {
+                "id": "topic-33",
+                "title": "7.1 Unplanned Urbanization",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-32",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-34",
+                "title": "7.2 Migration – Factors and Impacts on Africa",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-32",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-35",
+                "title": "7.3 Coastal Pollution in Africa",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-32",
+                "isExpanded": false
+            }
+        ],
+        "parentId": null,
+        "isExpanded": false
+    },
+    {
+        "id": "topic-36",
+        "title": "UNIT 8: GEOSPATIAL INFORMATION AND DATA PROCESSING",
+        "level": 0,
+        "children": [
+            {
+                "id": "topic-37",
+                "title": "8.1 Basic Concepts of Geospatial Information",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-36",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-38",
+                "title": "8.2 Sources and Tools of Geographic Data",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-36",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-39",
+                "title": "8.3 Geographic Data Representations",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-36",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-40",
+                "title": "8.4 Advances in Mapmaking and the Birth of Geographic Information System",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-36",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-41",
+                "title": "8.5 Making and Interpretation of Graphs, Charts and Diagrams",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-36",
+                "isExpanded": false
+            }
+        ],
+        "parentId": null,
+        "isExpanded": false
+    }
+]

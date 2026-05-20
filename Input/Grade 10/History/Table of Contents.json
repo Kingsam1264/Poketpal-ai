@@ -1,0 +1,739 @@
+[
+    {
+        "id": "topic-1",
+        "title": "UNIT 1: DEVELOPMENT OF CAPITALISM AND NATIONALISM 1815-1914",
+        "level": 0,
+        "children": [
+            {
+                "id": "topic-2",
+                "title": "1.1 Features of Capitalism",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-1",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-3",
+                "title": "1.2 Features of Nationalism and Formation of Nation States",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-1",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-4",
+                "title": "1.2.1 Unification of Italy",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-1",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-5",
+                "title": "1.2.2 Unification of Germany",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-1",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-6",
+                "title": "1.2.3 The American Civil War",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-1",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-7",
+                "title": "1.2.4 Nationalism and the \"Eastern Question\"",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-1",
+                "isExpanded": false
+            }
+        ],
+        "parentId": null,
+        "isExpanded": false
+    },
+    {
+        "id": "topic-8",
+        "title": "UNIT 2: AFRICA & THE COLONIAL EXPERIENCE (1880s - 1960s)",
+        "level": 0,
+        "children": [
+            {
+                "id": "topic-9",
+                "title": "2.1 General Background to Colonialism",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-8",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-10",
+                "title": "2.2 The Motives of European Colonialism",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-8",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-11",
+                "title": "2.3 Scramble for Africa and the Berlin Conference",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-8",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-12",
+                "title": "2.3.1 Berlin Conference: 1884-1885",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-8",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-13",
+                "title": "2.4 Colonial Policies and Administration",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-8",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-14",
+                "title": "2.4.1 Company Rule",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-8",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-15",
+                "title": "2.4.2 Direct Rule and Assimilation",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-8",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-16",
+                "title": "2.4.3 Indirect Rule",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-8",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-17",
+                "title": "2.4.4 Settlers Rule",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-8",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-18",
+                "title": "2.5 Early African Resistance Movements Against Colonialism",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-8",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-19",
+                "title": "2.5.1 Resistance in West Africa",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-8",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-20",
+                "title": "2.5.2 Resistances in East Africa",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-8",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-21",
+                "title": "2.5.3 Resistances in South Africa",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-8",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-22",
+                "title": "2.5.4 Resistances in North Africa",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-8",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-23",
+                "title": "2.6 Impacts of Colonial Rule on Africa",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-8",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-24",
+                "title": "2.6.1 Political impacts",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-8",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-25",
+                "title": "2.6.2 Economic impacts",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-8",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-26",
+                "title": "2.6.3 Social impacts",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-8",
+                "isExpanded": false
+            }
+        ],
+        "parentId": null,
+        "isExpanded": false
+    },
+    {
+        "id": "topic-27",
+        "title": "UNIT 3: SOCIAL, ECONOMIC & POLITICAL DEVELOPMENTS IN ETHIOPIA mid 19th c to 1941",
+        "level": 0,
+        "children": [
+            {
+                "id": "topic-28",
+                "title": "3.1 Long Distance Trade in the 19th Century and the Cottage Industry",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-27",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-29",
+                "title": "3.1.1 The Trade Routes, People's Interaction, Major Market Centres, the Medium of Exchange, and Trade Items",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-27",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-30",
+                "title": "3.1.2 The Role of Cottage Industries",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-27",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-31",
+                "title": "3.2 The Making of Modern Ethiopian State 1855-1913",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-27",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-32",
+                "title": "3.3 External Aggressions and the Unity of Ethiopian People in Defense of National Sovereignty, 1871-1896",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-27",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-33",
+                "title": "3.4 Inception of Power Struggle among the Ruling Elites, 1906 - 1935",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-27",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-34",
+                "title": "3.5 Fascist Italian Aggression and Patriotic Resistance",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-27",
+                "isExpanded": false
+            }
+        ],
+        "parentId": null,
+        "isExpanded": false
+    },
+    {
+        "id": "topic-35",
+        "title": "UNIT 4: SOCIETY AND POLITICS IN THE AGE OF WORLD WARS 1914-1945",
+        "level": 0,
+        "children": [
+            {
+                "id": "topic-36",
+                "title": "4.1 The First World War: Causes and Consequence",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-35",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-37",
+                "title": "4.2 The October 1917 Russian Revolution: Causes and Results",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-35",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-38",
+                "title": "4.3 The League of Nations",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-35",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-39",
+                "title": "4.4 The Worldwide Economic Crisis",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-35",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-40",
+                "title": "4.5 The Rise of Fascism in Italy, Nazism in Germany and Militarism in Japan",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-35",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-41",
+                "title": "4.6 The Second World War: 1939-45",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-35",
+                "isExpanded": false
+            }
+        ],
+        "parentId": null,
+        "isExpanded": false
+    },
+    {
+        "id": "topic-42",
+        "title": "UNIT 5: GLOBAL AND REGIONAL DEVELOPMENT: SINCE 1945",
+        "level": 0,
+        "children": [
+            {
+                "id": "topic-43",
+                "title": "5.1 The United Nations Organization: Formation, Mission, Principles and Achievements",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-42",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-44",
+                "title": "5.2 The Rise of the Superpowers and the Beginning of the Cold War",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-42",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-45",
+                "title": "5.3 Situations in Asia During the Cold War: Japan, Korea, China, Vietnam",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-42",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-46",
+                "title": "5.4 Non-Aligned Movement/NAM/",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-42",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-47",
+                "title": "5.5 The Arab-Israeli Conflict",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-42",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-48",
+                "title": "5.6 The Collapse of the Soviet Union",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-42",
+                "isExpanded": false
+            }
+        ],
+        "parentId": null,
+        "isExpanded": false
+    },
+    {
+        "id": "topic-49",
+        "title": "UNIT 6: ETHIOPIA: INTERNAL DEVELOPMENTS AND EXTERNAL INFLUENCES FROM 1941 TO 1991",
+        "level": 0,
+        "children": [
+            {
+                "id": "topic-50",
+                "title": "6.1 Major Administrative Reforms and Socio-Economic Conditions in the Post-Liberation Period",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-49",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-51",
+                "title": "6.1.1 External Influences",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-49",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-52",
+                "title": "6.1.2 Administrative Reforms",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-49",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-53",
+                "title": "6.1.3 The 1955 Constitution",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-49",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-54",
+                "title": "6.1.4 Agriculture, Land Tenure and Tenancy",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-49",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-55",
+                "title": "6.1.5 Trade, Industry, Financial Sector, Education, Transport and Communication, and Health",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-49",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-56",
+                "title": "6.2 Early Opposition Movements against the Imperial Rule",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-49",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-57",
+                "title": "6.2.1 Peasant Revolts",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-49",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-58",
+                "title": "6.2.2 The Coup of 1960",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-49",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-59",
+                "title": "6.2.3 The Ethiopian Student Movement",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-49",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-60",
+                "title": "6.3 The Ethiopian Revolution and the Fall of the Monarchy",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-49",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-61",
+                "title": "6.3.1 Deposition of the Emperor and Emergence of the Derg",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-49",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-62",
+                "title": "6.3.2 Socio-Economic and Political Reforms of the Derg",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-49",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-63",
+                "title": "6.4 The Ethio-Somalia War and Foreign Influences, the Question of Eritrea, and the Fall of the Derg",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-49",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-64",
+                "title": "6.4.1 The Ethio-Somalia War of 1977",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-49",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-65",
+                "title": "6.4.2 The Question of Eritrea & the Armed Struggle up to Referendum",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-49",
+                "isExpanded": false
+            }
+        ],
+        "parentId": null,
+        "isExpanded": false
+    },
+    {
+        "id": "topic-66",
+        "title": "UNIT 7: AFRICA SINCE 1960",
+        "level": 0,
+        "children": [
+            {
+                "id": "topic-67",
+                "title": "7.1 Rise of Independent States in Africa",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-66",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-68",
+                "title": "7.1.1 National Liberation Movements in North Africa",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-66",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-69",
+                "title": "7.1.2 National Liberation Movements in West Africa",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-66",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-70",
+                "title": "7.1.3 National Liberation Movements in East and Central Africa",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-66",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-71",
+                "title": "7.1.4 National Liberation Movements in Southern Africa",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-66",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-72",
+                "title": "7.1.5 Apartheid in South Africa",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-66",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-73",
+                "title": "7.1.6 Pan-Africanism and the OAU",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-66",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-74",
+                "title": "7.1.7 Successes and Failures of the OAU",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-66",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-75",
+                "title": "7.2 Struggle for Economic Independence",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-66",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-76",
+                "title": "7.3 Major Issues in Contemporary Africa",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-66",
+                "isExpanded": false
+            }
+        ],
+        "parentId": null,
+        "isExpanded": false
+    },
+    {
+        "id": "topic-77",
+        "title": "UNIT 8: POST-1991 DEVELOPMENTS IN ETHIOPIA",
+        "level": 0,
+        "children": [
+            {
+                "id": "topic-78",
+                "title": "8.1 Transitional Government of Ethiopia (TGE)",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-77",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-79",
+                "title": "8.1.1 The 1991 Transitional Charter and the Formation of TGE",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-77",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-80",
+                "title": "8.1.2 The 1995 Constitution and the Formation of the FDRE",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-77",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-81",
+                "title": "8.2 Hydro-Political History of the Nile (Abay) Basin and Development Issues",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-77",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-82",
+                "title": "8.2.1 Hydro-Political History of the Nile (Abay) Basin",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-77",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-83",
+                "title": "8.2.2 Development Issues & Challenges of Democratization Process in Ethiopia",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-77",
+                "isExpanded": false
+            }
+        ],
+        "parentId": null,
+        "isExpanded": false
+    },
+    {
+        "id": "topic-84",
+        "title": "UNIT 9: INDIGENOUS KNOWLEDGE AND HERITAGES OF ETHIOPIA",
+        "level": 0,
+        "children": [
+            {
+                "id": "topic-85",
+                "title": "9.1 Indigenous Knowledge",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-84",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-86",
+                "title": "9.1.1 The Role of Indigenous Knowledge for overall Development; Characteristics of Indigenous Knowledge",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-84",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-87",
+                "title": "9.1.2 Characteristics of Indigenous Knowledge",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-84",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-88",
+                "title": "9.1.3 Some Specific and Unique Knowledge Systems in Ethiopia within a Particular Cultural Group and Regions",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-84",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-89",
+                "title": "9.2 Heritages of Ethiopia",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-84",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-90",
+                "title": "9.2.1 Meaning and Values of Heritages",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-84",
+                "isExpanded": false
+            },
+            {
+                "id": "topic-91",
+                "title": "9.2.2 Types of Heritages",
+                "level": 1,
+                "children": [],
+                "parentId": "topic-84",
+                "isExpanded": false
+            }
+        ],
+        "parentId": null,
+        "isExpanded": false
+    }
+]

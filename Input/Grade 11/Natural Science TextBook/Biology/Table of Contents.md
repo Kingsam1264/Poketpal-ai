@@ -1,0 +1,146 @@
+# TABLE OF CONTENTS
+
+**Unit One: Biology and Technology**
+- 1.1 Learning from nature
+- 1.2 Biology and technology
+  - 1.2.1 The benefits of biology to technology
+  - 1.2.2 Uses of technology in biology
+- 1.3 Impacts of biology and technology on society and the natural world
+  - 1.3.1 Impacts of biology on the society and the natural world
+  - 1.3.2 Impacts of technology on the society and the natural world
+- 1.4 Ethical issues in biology
+  - 1.4.1 Ethical treatment of plants and animals during biological studies
+- Unit one summary
+- Unit one review questions
+
+**Unit Two: Animals**
+- 2.1 Characteristics of animals
+- 2.2 Invertebrates and Vertebrates
+  - 2.2.1 Invertebrate Animals
+  - 2.2.2 Vertebrate Animals
+- 2.3 Reproduction in Animals
+  - 2.3.1 Asexual reproduction in animals
+  - 2.3.2 Sexual reproduction in animals
+  - 2.3.3 Reproduction in insects (complete and incomplete metamorphosis)
+  - 2.3.4 Reproduction in Frog
+  - 2.3.5 Reproduction in Crocodiles
+  - 2.3.6 Reproduction in Birds
+  - 2.3.7 Reproduction in rat
+- 2.4 The economic importance of animals (insects)
+  - 2.4.1 Beneficial aspects of insects
+  - 2.4.2 Harmful aspects of insects
+- 2.5 Animal Behavior
+  - 2.5.1 Types of Animal Behavior
+  - 2.5.2 Patterns of Behavior
+- 2.6 Homeostasis in animals
+  - 2.6.1 Thermoregulation
+  - 2.6.2 Osmoregulation
+  - 2.6.3 Blood Sugar Regulation
+  - 2.6.4 Control of homeostasis
+- 2.7 Renowned zoologists in Ethiopia
+- Unit two summary
+- Unit two review questions
+
+**Unit Three: Enzymes**
+- 3.1 What are enzymes?
+- 3.2 Properties and functions of enzymes
+  - 3.2.1 General properties of an enzyme
+  - 3.2.2 The function of enzymes
+- 3.3 Protein structures
+- 3.4 Enzyme substrate models
+  - 3.4.1 Enzyme-substrate binding models
+  - 3.4.2 Enzymatic transition state
+- 3.5 Enzyme regulation
+- 3.6 Types of enzymes
+  - 3.6.1 Enzyme structural classification
+  - 3.6.2 Basic classification of enzymes
+- 3.7 Factors affecting enzyme action
+  - 3.7.1 Description on factors affecting enzymatic actions
+- 3.8 Enzyme kinetics
+- 3.9 Application of enzymes in industries and their benefits
+  - 3.9.1 Uses of enzyme application
+- 3.10 Malting in Ethiopian tradition
+  - 3.10.1 Steps of modern malting
+  - 3.10.2 Why is malting for?
+  - 3.10.3 Traditional malting for local alcohol production
+- 3.11 Renowned Biochemists in Ethiopia
+- Unit three summary
+- Unit three review questions
+
+**Unit Four: Genetics**
+- 4.1 The genetic materials
+- 4.2 The structure and function of DNA and RNA
+  - 4.2.1 The Structure and function of DNA
+  - 4.2.2 The structure and function of RNA
+  - 4.2.3 DNA replication
+- 4.3 The process of cell division
+  - 4.3.1 Cell Division
+- 4.4 Protein synthesis
+- 4.5 Mendelian inheritance
+  - 4.5.1 Mendelian crosses
+  - 4.5.2 Monohybrid cross
+  - 4.5.3 Dihybrid Cross
+  - 4.5.4 Test Crosses
+- 4.6 Sex determination
+- 4.7 Non-Mendelian inheritance
+  - 4.7.1 Co-dominance, Incomplete dominance and Multiple alleles
+  - 4.7.2 Rh factor inheritance in humans and its medical importance
+  - 4.7.3 Sex-linked inheritance in humans
+  - 4.7.4 Environmental effects on phenotype
+- 4.8 Human pedigree analysis and its importance
+- 4.9 Genetic disorders
+- 4.10 Genetic testing and counseling
+- 4.11 Gene therapy
+- 4.12 Breeding
+  - 4.12.1 Indigenous knowledge of Ethiopian farmers
+- 4.13 Bioinformatics introduction
+- Unit four summary
+- Unit four review questions
+
+**Unit Five: The human body systems**
+- 5.1 Human Musculoskeletal Systems
+  - 5.1.1 Types of muscles
+  - 5.1.2 Mechanism of actions of skeletal muscles
+  - 5.1.3 The human axial and appendicular skeletons
+  - 5.1.4 Joints
+- 5.2 The reproductive system
+  - 5.2.1 Human reproductive system (Male and Female)
+  - 5.2.2 Gametogenesis
+  - 5.2.3 Positive and negative feedbacks to control the menstrual cycle
+  - 5.2.4 Fertilization and pregnancy
+  - 5.2.5 Mechanism of action of contraceptives
+  - 5.2.6 Causes of infertility in humans
+  - 5.2.7 The major sexually transmitted infections (STIs) in Ethiopia
+  - 5.2.8 Epidemiology of STIs in Ethiopia
+- 5.3 Harmful traditional practices
+  - 5.3.1 Harmful traditional practices
+- 5.4 Family planning
+  - 5.4.1 Risks related to the lack of family planning
+  - 5.4.2 Family planning actions
+  - 5.4.3 Family planning services
+- 5.5 Effects of alcohol use, chewing Khat, cannabis and other drug uses on STIs transmission and unwanted pregnancy
+  - 5.5.1 The effects of alcohol uses
+  - 5.5.2 Effects of chewing Khat
+  - 5.5.3 Effects of drug uses
+- Unit five summary
+- Unit five review questions
+
+**Unit Six: Population and natural resources**
+- 6.1.1 Population size, density and dispersal
+- 6.1.2 Exponential and logistic growth in populations
+- 6.1.3 Demographic structure
+- 6.1.4 Population regulation
+- 6.2 Natural resources
+  - 6.2.1 Renewable
+  - 6.2.2 Non-renewable
+- 6.3 Conservation of natural resources in Ethiopia
+- 6.4 Impact of traffic accident on wild and domestic animals
+- 6.5 Impact of human activities on the environment
+  - 6.5.2 Climate change
+  - 6.5.3 Global warming
+  - 6.5.4 Ozone layer depletion
+  - 6.5.5 Acid rain
+  - 6.5.6 Loss of Biodiversity
+  - 6.5.7 Toxic bioaccumulation
+  - 6.5.8 Resource depletion
+- 6.6 Indigenous conservation practices in Ethiopia

@@ -1,0 +1,169 @@
+## Appendix II: Phrasal Verbs
+
+List of some common phrasal verbs with their meanings
+
+- **ask somebody out** – invite on a date
+- **ask around** – ask many people the same question
+- **add up to something** – equal
+- **back something up** – reverse
+- **back somebody up** – support
+- **blow up** – explode
+- **blow something up** – add air
+- **break down** – stop functioning (vehicle, machine)
+- **break down** – get upset
+- **break something down** – divide into smaller parts
+- **break in** – force entry to a building
+- **break into something** – enter forcibly
+- **break in** – interrupt
+- **break up** – end a relationship
+- **break up** – start laughing (informal)
+- **break out** – escape
+- **bring somebody down** – make unhappy
+- **bring somebody up** – raise a child
+- **call around** – phone many different places/people
+- **call somebody back** – return a phone call
+- **call something off** – cancel
+- **call on somebody** – ask for an answer or opinion
+- **call somebody up** – phone
+- **calm down** – relax after being angry
+- **catch up** – get to the same point as somebody else
+- **check in** – arrive and register at a hotel or airport
+- **check out** – leave a hotel
+- **clean something up** – tidy, clean
+- **come across something** – find unexpectedly
+- **come apart** – separate
+- **come down with something** – become sick
+- **come forward** – volunteer for a task or to give evidence
+- **come from someplace** – originate in
+- **count on somebody/something** – rely on
+- **cross something out** – draw a line through
+- **cut back on something** – consume less
+- **cut something down** – make something fall to the ground
+- **cut in** – interrupt
+- **cut in** – pull in too closely in front of another vehicle
+- **cut in** – start operating (of an engine or electrical device)
+- **cut something off** – remove with something sharp
+- **do something over** – do again (AmE)
+- **do away with something** – discard
+- **do something up** – fasten, close
+- **dress up** – wear nice clothing
+- **drop in/by/over** – come without an appointment
+- **drop out** – quit a class, school etc
+- **eat out** – eat at a restaurant
+- **end up** – eventually reach/do/decide
+- **fall apart** – break into pieces
+- **fall down** – fall to the ground
+- **fall out** – separate from an interior
+- **fall out** – (of hair, teeth) become loose and unattached
+- **figure something out** – understand, find the answer
+- **fill something in** – to write information in blanks, as on a form (BrE)
+- **fill something out** – to write information in blanks, as on a form (AmE)
+- **fill something up** – fill to the top
+- **find out** – discover
+- **find something out** – discover
+- **get something across/over** – communicate, make understandable
+- **get along/on** – like each other
+- **get around** – have mobility
+- **get away** – go on a vacation
+- **get away with something** – do without being noticed or punished
+- **get back** – return
+- **get something back** – receive something you had before
+- **get back at somebody** – retaliate, take revenge
+- **get back into something** – become interested in something again
+- **get on something** – step onto a vehicle
+- **get over something** – recover from an illness, loss, difficulty
+- **get over something** – overcome a problem
+- **get together** – meet (usually for social reasons)
+- **get up** – get out of bed
+- **get up** – stand
+- **give somebody away** – reveal hidden information about somebody
+- **give something away** – ruin a secret
+- **give something away** – give something to somebody for free
+- **give something back** – return a borrowed item
+- **give in** – reluctantly stop fighting or arguing
+- **give something out** – give to many people (usually at no cost)
+- **give up** – stop trying
+- **go after somebody** – follow somebody
+- **go against somebody** – compete, oppose
+- **go ahead** – start, proceed
+- **go back** – return to a place
+- **go out** – leave home to go on a social event
+- **go over something** – review
+- **go over** – visit somebody nearby
+- **go without something** – suffer lack or deprivation
+- **grow back** – regrow
+- **grow into something** – grow big enough to fit
+- **grow out of something** – get too big for
+- **grow up** – become an adult
+- **hand something in** – submit
+- **hand something out** – to distribute to a group of people
+- **hand something over** – give (usually unwillingly)
+- **hang up** – end a phone call
+- **hold somebody/something back** – prevent from doing/going
+- **hold something back** – hide an emotion
+- **hold on** – wait a short time
+- **hold onto somebody/something** – hold firmly using your hands or arms
+- **hold somebody/something up** – rob
+- **keep on doing something** – continue doing
+- **keep something from somebody** – not tell
+- **keep somebody/something out** – stop from entering
+- **keep something up** – continue at the same rate
+- **let somebody down** – fail to support or help, disappoint
+- **let somebody in** – allow to enter
+- **log in (or on)** – sign in (to a website, database etc)
+- **log out (or off)** – sign out (of a website, database etc)
+- **look after somebody/something** – take care of
+- **look down on somebody** – think less of, consider inferior
+- **look for somebody/something** – try to find
+- **look forward to something** – be excited about the future
+- **look into something** – investigate
+- **look out** – be careful, vigilant, and take notice
+- **look up to somebody** – have a lot of respect for
+- **make something up** – invent, lie about something
+- **make up** – forgive each other
+- **make somebody up** – apply cosmetics to
+- **pass away** – die
+- **pass out** – faint
+- **pass something out** – give the same thing to many people
+- **pass something up** – decline (usually something good)
+- **pay somebody back** – return owed money
+- **pick something out** – choose
+- **point somebody/something out** – indicate with your finger
+- **put somebody down** – insult, make somebody feel stupid
+- **put something off** – postpone
+- **put something out** – extinguish
+- **put something together** – assemble
+- **put something on** – put clothing/accessories on your body
+- **run into somebody/something** – meet unexpectedly
+- **run over somebody/something** – drive a vehicle over a person or thing
+- **run over/through something** – rehearse, review
+- **run away** – leave unexpectedly, escape
+- **run out** – have none left
+- **send something back** – return (usually by mail)
+- **set something up** – arrange, organize
+- **set somebody up** – trick, trap
+- **shop around** – compare prices
+- **switch something off** – stop the energy flow, turn off
+- **switch something on** – start the energy flow, turn on
+- **take after somebody** – resemble a family member
+- **take something apart** – purposely break into pieces
+- **take something back** – return an item
+- **take off** – start to fly
+- **take something off** – remove something (usually clothing)
+- **take something out** – remove from a place or thing
+- **take somebody out** – pay for somebody to go somewhere with you
+- **tear something up** – rip into pieces
+- **think back** – remember (often +to, sometimes +on)
+- **think something over** – consider
+- **throw something away** – dispose of
+- **turn something down** – decrease the volume or strength (heat, light etc)
+- **turn something off** – stop the energy flow, switch off
+- **turn something on** – start the energy, switch on
+- **turn up** – appear suddenly
+- **try something out** – test
+- **use something up** – finish the supply
+- **wake up** – stop sleeping
+- **warm somebody/something up** – increase the temperature
+- **warm up** – prepare body for exercise
+- **wear off** – fade away
+- **work out** – exercise
