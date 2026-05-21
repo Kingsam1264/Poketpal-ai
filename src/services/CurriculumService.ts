@@ -58,7 +58,7 @@ export class CurriculumService {
       const gradePath = `${this.getBasePath()}/${gradeName}`;
       const exists = await RNFS.exists(gradePath);
       if (!exists) return [];
-      
+
       const items = await RNFS.readDir(gradePath);
       return items
         .filter(item => item.isDirectory())
@@ -81,7 +81,7 @@ export class CurriculumService {
       const subjectPath = `${this.getBasePath()}/${gradeName}/${subjectName}`;
       const exists = await RNFS.exists(subjectPath);
       if (!exists) return [];
-      
+
       const items = await RNFS.readDir(subjectPath);
       return items
         .filter(item => item.isFile() && item.name.endsWith('.md'))
@@ -105,7 +105,7 @@ export class CurriculumService {
       const filePath = `${this.getBasePath()}/${gradeName}/${subjectName}/${fileName}`;
       const exists = await RNFS.exists(filePath);
       if (!exists) return '';
-      
+
       return await RNFS.readFile(filePath, 'utf8');
     } catch (error) {
       console.error('CurriculumService: Error reading unit content:', error);
@@ -231,8 +231,10 @@ Guidelines:
       if (!exists) return false;
       
       const items = await RNFS.readDir(basePath);
-      return items.some(item => item.isDirectory() && item.name.startsWith('Grade'));
-    } catch (error) {
+      return items.some(
+        item => item.isDirectory() && item.name.startsWith('Grade'),
+      );
+    } catch {
       return false;
     }
   }
