@@ -153,13 +153,14 @@ export const CurriculumScreen: React.FC = observer(() => {
           key={grade.id}
           style={[
             styles.itemCard,
-            curriculumStore.selectedGrade?.id === grade.id && styles.itemCardSelected,
+            curriculumStore.selectedGrade?.id === grade.id &&
+              styles.itemCardSelected,
           ]}
-          onPress={() => handleGradeSelect(grade)}
-        >
+          onPress={() => handleGradeSelect(grade)}>
           <Text style={styles.itemText}>{grade.name}</Text>
           <Text style={styles.itemSubtext}>
-            {grade.subjects.length} subject{grade.subjects.length !== 1 ? 's' : ''}
+            {grade.subjects.length} subject
+            {grade.subjects.length !== 1 ? 's' : ''}
           </Text>
         </TouchableOpacity>
       ))}
@@ -173,13 +174,14 @@ export const CurriculumScreen: React.FC = observer(() => {
           key={subject.id}
           style={[
             styles.itemCard,
-            curriculumStore.selectedSubject?.id === subject.id && styles.itemCardSelected,
+            curriculumStore.selectedSubject?.id === subject.id &&
+              styles.itemCardSelected,
           ]}
-          onPress={() => handleSubjectSelect(subject)}
-        >
+          onPress={() => handleSubjectSelect(subject)}>
           <Text style={styles.itemText}>{subject.name}</Text>
           <Text style={styles.itemSubtext}>
-            {subject.units.length} unit{subject.units.length !== 1 ? 's' : ''}
+            {subject.units.length} unit
+            {subject.units.length !== 1 ? 's' : ''}
           </Text>
         </TouchableOpacity>
       ))}
@@ -196,10 +198,10 @@ export const CurriculumScreen: React.FC = observer(() => {
             key={unit.id}
             style={[
               styles.itemCard,
-              curriculumStore.selectedUnit?.id === unit.id && styles.itemCardSelected,
+              curriculumStore.selectedUnit?.id === unit.id &&
+                styles.itemCardSelected,
             ]}
-            onPress={() => handleUnitSelect(unit)}
-          >
+            onPress={() => handleUnitSelect(unit)}>
             <Text style={styles.itemText}>{unit.name}</Text>
           </TouchableOpacity>
         ))
@@ -239,7 +241,9 @@ export const CurriculumScreen: React.FC = observer(() => {
       {selectionStep === 'subject' && renderSubjects()}
       {selectionStep === 'unit' && renderUnits()}
 
-      {curriculumStore.selectedGrade && curriculumStore.selectedSubject && curriculumStore.selectedUnit && (
+      {curriculumStore.selectedGrade &&
+        curriculumStore.selectedSubject &&
+        curriculumStore.selectedUnit && (
         <View style={styles.footer}>
           <Text style={styles.selectionSummary}>
             Selected: {curriculumStore.selectionSummary}
