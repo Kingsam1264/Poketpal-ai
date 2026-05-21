@@ -30,6 +30,22 @@ import {exportChatSession} from '../../utils/exportUtils';
 // Check if app is in debug mode
 const isDebugMode = __DEV__;
 
+// Memoized icon components to avoid creating new components during render
+const EditIconComponent = React.memo(({stroke}: {stroke: string}) => (
+  <EditIcon stroke={stroke} />
+));
+EditIconComponent.displayName = 'EditIconComponent';
+
+const ShareIconComponent = React.memo(({stroke}: {stroke: string}) => (
+  <ShareIcon stroke={stroke} />
+));
+ShareIconComponent.displayName = 'ShareIconComponent';
+
+const TrashIconComponent = React.memo(({stroke}: {stroke: string}) => (
+  <TrashIcon stroke={stroke} />
+));
+TrashIconComponent.displayName = 'TrashIconComponent';
+
 // Session item props interface
 interface SessionItemProps {
   session: SessionMetaData;
@@ -121,7 +137,7 @@ const SessionItem = React.memo<SessionItemProps>(
                 onMenuDismiss();
               }}
               label={l10n.common.rename}
-              leadingIcon={() => <EditIcon stroke={theme.colors.primary} />}
+              leadingIcon={<EditIconComponent stroke={theme.colors.primary} />}
             />
             <Menu.Item
               onPress={() => {
@@ -129,7 +145,7 @@ const SessionItem = React.memo<SessionItemProps>(
                 onMenuDismiss();
               }}
               label={l10n.common.export}
-              leadingIcon={() => <ShareIcon stroke={theme.colors.primary} />}
+              leadingIcon={<ShareIconComponent stroke={theme.colors.primary} />}
             />
             <Menu.Item
               onPress={() => {
@@ -138,7 +154,7 @@ const SessionItem = React.memo<SessionItemProps>(
               }}
               label={l10n.common.delete}
               labelStyle={{color: theme.colors.error}}
-              leadingIcon={() => <TrashIcon stroke={theme.colors.error} />}
+              leadingIcon={<TrashIconComponent stroke={theme.colors.error} />}
             />
             <Divider style={styles.menuDivider} />
             <Menu.Item
