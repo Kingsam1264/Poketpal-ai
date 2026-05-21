@@ -244,22 +244,21 @@ export const CurriculumScreen: React.FC = observer(() => {
       {curriculumStore.selectedGrade &&
         curriculumStore.selectedSubject &&
         curriculumStore.selectedUnit && (
-        <View style={styles.footer}>
-          <Text style={styles.selectionSummary}>
-            Selected: {curriculumStore.selectionSummary}
-          </Text>
-          <TouchableOpacity
-            style={styles.chatButton}
-            onPress={() => {
-              // Activate curriculum mode before navigating to chat
-              curriculumStore.activate();
-              navigation.navigate(ROUTES.CHAT as never);
-            }}
-          >
-            <Text style={styles.chatButtonText}>Start Chat</Text>
-          </TouchableOpacity>
-        </View>
-      )}
+          <View style={styles.footer}>
+            <Text style={styles.selectionSummary}>
+              Selected: {curriculumStore.selectionSummary}
+            </Text>
+            <TouchableOpacity
+              style={styles.chatButton}
+              onPress={() => {
+                // Activate curriculum mode before navigating to chat
+                curriculumStore.activate();
+                navigation.navigate(ROUTES.CHAT as never);
+              }}>
+              <Text style={styles.chatButtonText}>Start Chat</Text>
+            </TouchableOpacity>
+          </View>
+        )}
     </View>
   );
 });
