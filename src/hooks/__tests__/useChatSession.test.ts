@@ -12,7 +12,13 @@ import {
 
 import {useChatSession} from '../useChatSession';
 
-import {chatSessionStore, modelStore, palStore, ttsStore} from '../../store';
+import {
+  chatSessionStore,
+  curriculumStore,
+  modelStore,
+  palStore,
+  ttsStore,
+} from '../../store';
 
 import {l10n} from '../../locales';
 import {assistant} from '../../utils/chat';
@@ -29,6 +35,8 @@ beforeEach(() => {
   palStore.pals = [] as any;
   chatSessionStore.sessions = sessionFixtures as any;
   chatSessionStore.activeSessionId = 'session-1';
+  curriculumStore.isActive = false;
+  curriculumStore.hasFullSelection = false;
 
   // Reset model state
   modelStore.models = modelsList as any;
