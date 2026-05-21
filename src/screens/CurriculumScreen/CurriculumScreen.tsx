@@ -30,7 +30,9 @@ type NavigationProp = StackNavigationProp<RootStackParamList, 'Curriculum'>;
 
 export const CurriculumScreen: React.FC = observer(() => {
   const navigation = useNavigation<NavigationProp>();
-  const [selectionStep, setSelectionStep] = useState<'grade' | 'subject' | 'unit'>('grade');
+  const [selectionStep, setSelectionStep] = useState<
+    'grade' | 'subject' | 'unit'
+  >('grade');
 
   useEffect(() => {
     curriculumStore.loadCurriculum();

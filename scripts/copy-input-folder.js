@@ -7,14 +7,23 @@ const fs = require('fs');
 const path = require('path');
 
 const inputSrc = path.join(__dirname, '..', 'Input');
-const inputDest = path.join(__dirname, '..', 'android', 'app', 'src', 'main', 'assets', 'Input');
+const inputDest = path.join(
+  __dirname,
+  '..',
+  'android',
+  'app',
+  'src',
+  'main',
+  'assets',
+  'Input',
+);
 
 function copyDir(src, dest) {
   if (!fs.existsSync(dest)) {
-    fs.mkdirSync(dest, { recursive: true });
+    fs.mkdirSync(dest, {recursive: true});
   }
 
-  const entries = fs.readdirSync(src, { withFileTypes: true });
+  const entries = fs.readdirSync(src, {withFileTypes: true});
 
   for (const entry of entries) {
     const srcPath = path.join(src, entry.name);

@@ -544,7 +544,10 @@ export const SidebarContent: React.FC<DrawerContentComponentProps> = observer(
               style={styles.menuDrawerItem}
             />
             <Drawer.Item
-              label={l10n.components.sidebarContent.menuItems.curriculum || 'Curriculum'}
+              label={
+                l10n.components.sidebarContent.menuItems.curriculum ||
+                'Curriculum'
+              }
               icon={() => (
                 <GlobeIcon
                   width={24}

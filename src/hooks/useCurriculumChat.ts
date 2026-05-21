@@ -3,7 +3,7 @@
  * This integrates the selected grade/subject/unit content into the chat system
  */
 
-import {useCallback, useEffect} from 'react';
+import {useCallback} from 'react';
 import {chatSessionStore, curriculumStore, modelStore, uiStore} from '../store';
 import {runInAction} from 'mobx';
 
@@ -36,7 +36,7 @@ export const useCurriculumChat = () => {
     try {
       // Create a new session
       const sessionId = await chatSessionStore.createNewSession();
-      
+
       // Get the session and update it with curriculum context
       const session = chatSessionStore.sessions.find(s => s.id === sessionId);
       if (session) {
@@ -44,7 +44,7 @@ export const useCurriculumChat = () => {
         // and the system prompt will be prepended with curriculum context
         // This is handled in useChatSession
       }
-      
+
       return sessionId;
     } catch (error) {
       console.error('Failed to start curriculum chat:', error);
