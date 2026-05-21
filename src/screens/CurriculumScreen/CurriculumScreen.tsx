@@ -235,7 +235,7 @@ export const CurriculumScreen: React.FC = observer(() => {
     <View style={styles.container}>
       {renderHeader()}
       {renderBreadcrumb()}
-      
+
       {selectionStep === 'grade' && renderGrades()}
       {selectionStep === 'subject' && renderSubjects()}
       {selectionStep === 'unit' && renderUnits()}

@@ -107,7 +107,9 @@ export class CurriculumStore {
       runInAction(() => {
         this.isLoading = false;
         this.error =
-          error instanceof Error ? error.message : 'Failed to load unit content';
+          error instanceof Error
+            ? error.message
+            : 'Failed to load unit content';
       });
     }
   }
