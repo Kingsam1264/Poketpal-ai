@@ -91,37 +91,55 @@ export const CurriculumScreen: React.FC = observer(() => {
 
   const renderBreadcrumb = () => (
     <View style={styles.breadcrumb}>
-      <TouchableOpacity onPress={() => { setSelectionStep('grade'); curriculumStore.selectGrade(curriculumStore.selectedGrade!); curriculumStore.selectedSubject = null; curriculumStore.selectedUnit = null; }}>
-        <Text style={[styles.breadcrumbText, selectionStep === 'grade' && styles.breadcrumbActive]}>
+      <TouchableOpacity
+        onPress={() => {
+          setSelectionStep('grade');
+          curriculumStore.selectGrade(curriculumStore.selectedGrade!);
+          curriculumStore.selectedSubject = null;
+          curriculumStore.selectedUnit = null;
+        }}>
+        <Text
+          style={[
+            styles.breadcrumbText,
+            selectionStep === 'grade' && styles.breadcrumbActive,
+          ]}>
           Grade
         </Text>
       </TouchableOpacity>
       <Text style={styles.breadcrumbSeparator}>›</Text>
-      <TouchableOpacity 
-        onPress={() => { 
+      <TouchableOpacity
+        onPress={() => {
           if (curriculumStore.selectedGrade) {
-            setSelectionStep('subject'); 
-            curriculumStore.selectedSubject = null; 
-            curriculumStore.selectedUnit = null; 
+            setSelectionStep('subject');
+            curriculumStore.selectedSubject = null;
+            curriculumStore.selectedUnit = null;
           }
         }}
-        disabled={!curriculumStore.selectedGrade}
-      >
-        <Text style={[styles.breadcrumbText, selectionStep === 'subject' && styles.breadcrumbActive, !curriculumStore.selectedGrade && styles.breadcrumbDisabled]}>
+        disabled={!curriculumStore.selectedGrade}>
+        <Text
+          style={[
+            styles.breadcrumbText,
+            selectionStep === 'subject' && styles.breadcrumbActive,
+            !curriculumStore.selectedGrade && styles.breadcrumbDisabled,
+          ]}>
           Subject
         </Text>
       </TouchableOpacity>
       <Text style={styles.breadcrumbSeparator}>›</Text>
-      <TouchableOpacity 
-        onPress={() => { 
+      <TouchableOpacity
+        onPress={() => {
           if (curriculumStore.selectedSubject) {
-            setSelectionStep('unit'); 
-            curriculumStore.selectedUnit = null; 
+            setSelectionStep('unit');
+            curriculumStore.selectedUnit = null;
           }
         }}
-        disabled={!curriculumStore.selectedSubject}
-      >
-        <Text style={[styles.breadcrumbText, selectionStep === 'unit' && styles.breadcrumbActive, !curriculumStore.selectedSubject && styles.breadcrumbDisabled]}>
+        disabled={!curriculumStore.selectedSubject}>
+        <Text
+          style={[
+            styles.breadcrumbText,
+            selectionStep === 'unit' && styles.breadcrumbActive,
+            !curriculumStore.selectedSubject && styles.breadcrumbDisabled,
+          ]}>
           Unit
         </Text>
       </TouchableOpacity>
