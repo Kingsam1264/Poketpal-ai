@@ -177,6 +177,10 @@ jobs:
           GOOGLE_WEB_CLIENT_ID=dummy-web-client-id.apps.googleusercontent.com
           EOL
 
+      - name: Make gradlew executable
+        working-directory: android
+        run: chmod +x ./gradlew
+
       - name: Create dummy release keystore for CI
         working-directory: android/app
         run: |

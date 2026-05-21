@@ -102,6 +102,10 @@ jobs:
             -keypass dummy-ci-password \
             -dname "CN=CI Build, OU=CI, O=PocketPal, L=CI, S=CI, C=US"
 
+      - name: Make gradlew executable
+        working-directory: android
+        run: chmod +x ./gradlew
+
       - name: Build Android E2E APK
         env:
           APP_RELEASE_STORE_PASSWORD: dummy-ci-password
