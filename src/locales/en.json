@@ -857,6 +857,7 @@
         "benchmark": "Benchmark",
         "settings": "Settings",
         "appInfo": "App Info",
+        "curriculum": "Curriculum",
         "testCompletion": "Test Completion"
       },
       "deleteChatTitle": "Delete Chat",

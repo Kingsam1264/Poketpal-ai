@@ -137,7 +137,9 @@ const SessionItem = React.memo<SessionItemProps>(
                 onMenuDismiss();
               }}
               label={l10n.common.rename}
-              leadingIcon={<EditIconComponent stroke={theme.colors.primary} />}
+              leadingIcon={() => (
+                <EditIconComponent stroke={theme.colors.primary} />
+              )}
             />
             <Menu.Item
               onPress={() => {
@@ -145,7 +147,9 @@ const SessionItem = React.memo<SessionItemProps>(
                 onMenuDismiss();
               }}
               label={l10n.common.export}
-              leadingIcon={<ShareIconComponent stroke={theme.colors.primary} />}
+              leadingIcon={() => (
+                <ShareIconComponent stroke={theme.colors.primary} />
+              )}
             />
             <Menu.Item
               onPress={() => {
@@ -154,7 +158,9 @@ const SessionItem = React.memo<SessionItemProps>(
               }}
               label={l10n.common.delete}
               labelStyle={{color: theme.colors.error}}
-              leadingIcon={<TrashIconComponent stroke={theme.colors.error} />}
+              leadingIcon={() => (
+                <TrashIconComponent stroke={theme.colors.error} />
+              )}
             />
             <Divider style={styles.menuDivider} />
             <Menu.Item
@@ -560,10 +566,7 @@ export const SidebarContent: React.FC<DrawerContentComponentProps> = observer(
               style={styles.menuDrawerItem}
             />
             <Drawer.Item
-              label={
-                l10n.components.sidebarContent.menuItems.curriculum ||
-                'Curriculum'
-              }
+              label={l10n.components.sidebarContent.menuItems.curriculum}
               icon={() => (
                 <GlobeIcon
                   width={24}

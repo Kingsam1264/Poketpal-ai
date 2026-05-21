@@ -199,7 +199,7 @@ export class CurriculumStore {
    * Get current selection summary
    */
   get selectionSummary(): string {
-    const parts = [];
+    const parts: string[] = [];
     if (this.selectedGrade) parts.push(this.selectedGrade.name);
     if (this.selectedSubject) parts.push(this.selectedSubject.name);
     if (this.selectedUnit) parts.push(this.selectedUnit.name);

@@ -4,8 +4,12 @@
  */
 
 import {useCallback} from 'react';
-import {chatSessionStore, curriculumStore, modelStore, uiStore} from '../store';
 import {runInAction} from 'mobx';
+
+import {chatSessionStore, curriculumStore, modelStore, uiStore} from '../store';
+import {createMultimodalWarning} from '../utils/errors';
+
+const NEW_SESSION_TITLE = 'New Session';
 
 export const useCurriculumChat = () => {
   /**
@@ -23,26 +27,23 @@ export const useCurriculumChat = () => {
       return null;
     }
 
-    // Check if model is loaded
-    if (!modelStore.isModelLoaded) {
+    if (!modelStore.activeModel) {
       runInAction(() => {
         uiStore.setChatWarning(
-          'Please load a model first before starting a curriculum chat.',
+          createMultimodalWarning(
+            'Please load a model first before starting a curriculum chat.',
+          ),
         );
       });
       return null;
     }
 
     try {
-      // Create a new session
-      const sessionId = await chatSessionStore.createNewSession();
+      await chatSessionStore.createNewSession(NEW_SESSION_TITLE);
 
-      // Get the session and update it with curriculum context
-      const session = chatSessionStore.sessions.find(s => s.id === sessionId);
-      if (session) {
-        // The curriculum context will be added as the first user message
-        // and the system prompt will be prepended with curriculum context
-        // This is handled in useChatSession
+      const sessionId = chatSessionStore.activeSessionId;
+      if (!sessionId) {
+        return null;
       }
 
       return sessionId;
