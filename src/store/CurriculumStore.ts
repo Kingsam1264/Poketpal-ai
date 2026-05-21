@@ -41,7 +41,7 @@ export class CurriculumStore {
 
       if (!hasData) {
         runInAction(() => {
-            this.isLoading = false;
+          this.isLoading = false;
           this.error =
             'No curriculum data found. Please add content to the Input folder.';
         });
@@ -106,7 +106,8 @@ export class CurriculumStore {
     } catch (error) {
       runInAction(() => {
         this.isLoading = false;
-        this.error = error instanceof Error ? error.message : 'Failed to load unit content';
+        this.error =
+          error instanceof Error ? error.message : 'Failed to load unit content';
       });
     }
   }
@@ -122,7 +123,7 @@ export class CurriculumStore {
       this.selectedGrade,
       this.selectedSubject,
       this.selectedUnit,
-      this.currentUnitContent
+      this.currentUnitContent,
     );
   }
 
