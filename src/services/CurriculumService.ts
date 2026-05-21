@@ -53,9 +53,7 @@ export class CurriculumService {
   /**
    * List subjects within a grade
    */
-  private async listSubjects(
-    gradeName: string,
-  ): Promise<string[]> {
+  private async listSubjects(gradeName: string): Promise<string[]> {
     try {
       const gradePath = `${this.getBasePath()}/${gradeName}`;
       const exists = await RNFS.exists(gradePath);
@@ -189,7 +187,11 @@ export class CurriculumService {
   /**
    * Load specific unit content
    */
-  public async loadUnitContent(gradeName: string, subjectName: string, unit: Unit): Promise<string> {
+  public async loadUnitContent(
+    gradeName: string,
+    subjectName: string,
+    unit: Unit,
+  ): Promise<string> {
     if (unit.content) {
       return unit.content;
     }
@@ -199,7 +201,12 @@ export class CurriculumService {
   /**
    * Build context prompt from selected curriculum
    */
-  public buildContextPrompt(grade: Grade, subject: Subject, unit: Unit, content: string): string {
+  public buildContextPrompt(
+    grade: Grade,
+    subject: Subject,
+    unit: Unit,
+    content: string,
+  ): string {
     return `You are a helpful tutor helping a student with their ${grade.name} ${subject.name} curriculum.
 Current topic: ${unit.name}
 
