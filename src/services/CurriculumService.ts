@@ -53,7 +53,9 @@ export class CurriculumService {
   /**
    * List subjects within a grade
    */
-  private async listSubjects(gradeName: string): Promise<string[]> {
+  private async listSubjects(
+    gradeName: string,
+  ): Promise<string[]> {
     try {
       const gradePath = `${this.getBasePath()}/${gradeName}`;
       const exists = await RNFS.exists(gradePath);
@@ -73,7 +75,10 @@ export class CurriculumService {
   /**
    * List unit files within a subject
    */
-  private async listUnits(gradeName: string, subjectName: string): Promise<string[]> {
+  private async listUnits(
+    gradeName: string,
+    subjectName: string,
+  ): Promise<string[]> {
     try {
       const subjectPath = `${this.getBasePath()}/${gradeName}/${subjectName}`;
       const exists = await RNFS.exists(subjectPath);
@@ -93,7 +98,11 @@ export class CurriculumService {
   /**
    * Read unit content from a file
    */
-  private async readUnitContent(gradeName: string, subjectName: string, fileName: string): Promise<string> {
+  private async readUnitContent(
+    gradeName: string,
+    subjectName: string,
+    fileName: string,
+  ): Promise<string> {
     try {
       const filePath = `${this.getBasePath()}/${gradeName}/${subjectName}/${fileName}`;
       const exists = await RNFS.exists(filePath);
@@ -169,7 +178,9 @@ export class CurriculumService {
     }
 
     // Sort grades by number
-    grades.sort((a, b) => this.parseGradeNumber(a.name) - this.parseGradeNumber(b.name));
+    grades.sort(
+      (a, b) => this.parseGradeNumber(a.name) - this.parseGradeNumber(b.name),
+    );
 
     this.gradesCache = grades;
     return grades;
