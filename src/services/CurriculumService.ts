@@ -229,7 +229,7 @@ Guidelines:
       const basePath = this.getBasePath();
       const exists = await RNFS.exists(basePath);
       if (!exists) return false;
-      
+
       const items = await RNFS.readDir(basePath);
       return items.some(
         item => item.isDirectory() && item.name.startsWith('Grade'),

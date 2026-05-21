@@ -26,7 +26,7 @@ export class CurriculumStore {
    */
   async loadCurriculum(): Promise<void> {
     if (this.isLoading) return;
-    
+
     runInAction(() => {
       this.isLoading = true;
       this.error = null;
@@ -41,8 +41,9 @@ export class CurriculumStore {
 
       if (!hasData) {
         runInAction(() => {
-          this.isLoading = false;
-          this.error = 'No curriculum data found. Please add content to the Input folder.';
+            this.isLoading = false;
+          this.error =
+            'No curriculum data found. Please add content to the Input folder.';
         });
         return;
       }
@@ -55,7 +56,8 @@ export class CurriculumStore {
     } catch (error) {
       runInAction(() => {
         this.isLoading = false;
-        this.error = error instanceof Error ? error.message : 'Failed to load curriculum';
+        this.error =
+          error instanceof Error ? error.message : 'Failed to load curriculum';
       });
     }
   }
@@ -94,9 +96,9 @@ export class CurriculumStore {
       const content = await curriculumService.loadUnitContent(
         this.selectedGrade.name,
         this.selectedSubject.name,
-        unit
+        unit,
       );
-      
+
       runInAction(() => {
         this.currentUnitContent = content;
         this.isLoading = false;
