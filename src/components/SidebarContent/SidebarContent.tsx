@@ -1,4 +1,4 @@
-import React, {useContext, useEffect, useState} from 'react';
+import React, {useCallback, useContext, useEffect, useState} from 'react';
 import {TouchableOpacity, View, Alert, SectionList} from 'react-native';
 import {observer} from 'mobx-react';
 import {Divider, Drawer, Text} from 'react-native-paper';
@@ -102,6 +102,19 @@ const SessionItem = React.memo<SessionItemProps>(
       }
     };
 
+    const editLeadingIcon = useCallback(
+      () => <EditIconComponent stroke={theme.colors.primary} />,
+      [theme.colors.primary],
+    );
+    const shareLeadingIcon = useCallback(
+      () => <ShareIconComponent stroke={theme.colors.primary} />,
+      [theme.colors.primary],
+    );
+    const trashLeadingIcon = useCallback(
+      () => <TrashIconComponent stroke={theme.colors.error} />,
+      [theme.colors.error],
+    );
+
     return (
       <View style={styles.sessionItemContainer}>
         {isSelectionMode && (
@@ -137,9 +150,7 @@ const SessionItem = React.memo<SessionItemProps>(
                 onMenuDismiss();
               }}
               label={l10n.common.rename}
-              leadingIcon={() => (
-                <EditIconComponent stroke={theme.colors.primary} />
-              )}
+              leadingIcon={editLeadingIcon}
             />
             <Menu.Item
               onPress={() => {
@@ -147,9 +158,7 @@ const SessionItem = React.memo<SessionItemProps>(
                 onMenuDismiss();
               }}
               label={l10n.common.export}
-              leadingIcon={() => (
-                <ShareIconComponent stroke={theme.colors.primary} />
-              )}
+              leadingIcon={shareLeadingIcon}
             />
             <Menu.Item
               onPress={() => {
@@ -158,9 +167,7 @@ const SessionItem = React.memo<SessionItemProps>(
               }}
               label={l10n.common.delete}
               labelStyle={{color: theme.colors.error}}
-              leadingIcon={() => (
-                <TrashIconComponent stroke={theme.colors.error} />
-              )}
+              leadingIcon={trashLeadingIcon}
             />
             <Divider style={styles.menuDivider} />
             <Menu.Item

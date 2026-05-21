@@ -5,8 +5,6 @@ import _ from 'lodash';
 import dayjs from 'dayjs';
 import {MD3Theme} from 'react-native-paper';
 import DeviceInfo from 'react-native-device-info';
-// @ts-ignore - Blob is not exported from react-native types but exists at runtime
-import {Blob} from 'react-native';
 import * as RNFS from '@dr.pogodin/react-native-fs';
 
 import {l10n} from '../locales';
