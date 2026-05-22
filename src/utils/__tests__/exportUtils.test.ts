@@ -51,7 +51,6 @@ jest.mock('date-fns', () => ({
 
 // Import the actual repository to spy on it
 import {chatSessionRepository} from '../../repositories/ChatSessionRepository';
-import {palStore} from '../../store';
 import {
   getAbsoluteThumbnailPath,
   getFullThumbnailUri,
@@ -71,8 +70,6 @@ jest.mock('../androidPermission', () => ({
 describe('exportUtils', () => {
   beforeEach(() => {
     jest.clearAllMocks();
-    // Reset palStore to its original empty state
-    palStore.pals = [];
 
     // Reset all RNFS mocks to their default behavior
     (RNFS.exists as jest.Mock).mockResolvedValue(true);
@@ -355,134 +352,16 @@ describe('exportUtils', () => {
   });
 
   describe('Pal Export Functions', () => {
-    const mockPal = {
-      id: 'pal-1',
-      name: 'Test Pal',
-      description: 'A test pal',
-      thumbnail_url: 'https://example.com/image.jpg',
-      systemPrompt: 'You are a helpful assistant',
-      originalSystemPrompt: 'You are a helpful assistant',
-      isSystemPromptChanged: false,
-      useAIPrompt: false,
-      defaultModel: 'test-model',
-      created_at: '2024-01-01T00:00:00Z',
-      updated_at: '2024-01-01T00:00:00Z',
-      type: 'local' as const,
-      parameters: {},
-      parameterSchema: [],
-      source: 'local' as const,
-    };
-
-    const mockPalWithLocalThumbnail = {
-      ...mockPal,
-      thumbnail_url: 'image.jpg',
-    };
-
-    beforeEach(() => {
-      // Set up the mock data by directly setting the pals array
-      palStore.pals = [mockPal as any];
-      (RNFS.readFile as jest.Mock).mockResolvedValue('base64content');
+    it('exportPal rejects because pal export was removed', async () => {
+      await expect(exportPal('pal-1')).rejects.toThrow(
+        'Pal export is no longer supported',
+      );
     });
 
-    afterEach(() => {
-      // Reset palStore to empty state after each test
-      palStore.pals = [];
-    });
-
-    describe('exportPal', () => {
-      it('should export pal with remote thumbnail URL', async () => {
-        await exportPal('pal-1');
-
-        expect(RNFS.writeFile).toHaveBeenCalled();
-        expect(Share.open).toHaveBeenCalled();
-
-        // Verify the written data contains the pal
-        const writeCall = (RNFS.writeFile as jest.Mock).mock.calls[0];
-        const exportedData = JSON.parse(writeCall[1]);
-        expect(exportedData.thumbnail_url).toBe(
-          'https://example.com/image.jpg',
-        );
-        expect(exportedData.thumbnail_data).toBeUndefined();
-      });
-
-      it('should export pal with local thumbnail converted to base64', async () => {
-        palStore.pals = [mockPalWithLocalThumbnail as any];
-
-        await exportPal('pal-1');
-
-        expect(RNFS.readFile).toHaveBeenCalledWith(
-          '/mock/document/path/pal-images/image.jpg',
-          'base64',
-        );
-        expect(RNFS.writeFile).toHaveBeenCalled();
-
-        // Verify the written data contains base64 thumbnail
-        const writeCall = (RNFS.writeFile as jest.Mock).mock.calls[0];
-        const exportedData = JSON.parse(writeCall[1]);
-        expect(exportedData.thumbnail_data).toBe(
-          'data:image/jpg;base64,base64content',
-        );
-        expect(exportedData.thumbnail_url).toBeUndefined();
-      });
-
-      it('should handle thumbnail read errors gracefully', async () => {
-        palStore.pals = [mockPalWithLocalThumbnail as any];
-        (RNFS.readFile as jest.Mock).mockRejectedValue(
-          new Error('File not found'),
-        );
-
-        await exportPal('pal-1');
-
-        expect(RNFS.writeFile).toHaveBeenCalled();
-
-        // Verify the written data has no thumbnail data
-        const writeCall = (RNFS.writeFile as jest.Mock).mock.calls[0];
-        const exportedData = JSON.parse(writeCall[1]);
-        expect(exportedData.thumbnail_data).toBeUndefined();
-        expect(exportedData.thumbnail_url).toBeUndefined();
-      });
-
-      it('should throw error if pal not found', async () => {
-        palStore.pals = [];
-
-        await expect(exportPal('nonexistent')).rejects.toThrow('Pal not found');
-      });
-    });
-
-    describe('exportAllPals', () => {
-      it('should export all pals successfully', async () => {
-        const mockPals = [
-          mockPal,
-          {...mockPal, id: 'pal-2', name: 'Test Pal 2'},
-        ];
-        palStore.pals = mockPals as any;
-
-        await exportAllPals();
-
-        expect(RNFS.writeFile).toHaveBeenCalled();
-        expect(Share.open).toHaveBeenCalled();
-
-        // Verify the written data contains all pals
-        const writeCall = (RNFS.writeFile as jest.Mock).mock.calls[0];
-        const exportedData = JSON.parse(writeCall[1]);
-        expect(Array.isArray(exportedData)).toBe(true);
-        expect(exportedData).toHaveLength(2);
-      });
-
-      it('should handle empty pals list', async () => {
-        palStore.pals = [];
-
-        await exportAllPals();
-
-        expect(RNFS.writeFile).toHaveBeenCalled();
-        expect(Share.open).toHaveBeenCalled();
-
-        // Verify the written data is an empty array
-        const writeCall = (RNFS.writeFile as jest.Mock).mock.calls[0];
-        const exportedData = JSON.parse(writeCall[1]);
-        expect(Array.isArray(exportedData)).toBe(true);
-        expect(exportedData).toHaveLength(0);
-      });
+    it('exportAllPals rejects because pal export was removed', async () => {
+      await expect(exportAllPals()).rejects.toThrow(
+        'Pal export is no longer supported',
+      );
     });
   });
 

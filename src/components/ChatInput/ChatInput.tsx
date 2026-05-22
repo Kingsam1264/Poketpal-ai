@@ -173,7 +173,7 @@ export const ChatInput = observer(
     }, [isPickerVisible, iconRotation]);
 
     const handleChangeText = (newText: string) => {
-      if (isVideoCapable && onPromptTextChange) {
+      if (isCameraActive && onPromptTextChange) {
         onPromptTextChange(newText);
       } else {
         setText(newText);

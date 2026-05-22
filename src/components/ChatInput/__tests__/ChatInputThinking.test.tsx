@@ -36,9 +36,6 @@ jest.mock('../../../store', () => ({
   modelStore: {
     activeModel: null,
   },
-  palStore: {
-    pals: [],
-  },
   uiStore: {
     colorScheme: 'light',
   },

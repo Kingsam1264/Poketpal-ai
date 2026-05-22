@@ -11,7 +11,6 @@ import {
 import {Card, Button} from 'react-native-paper';
 import {database} from '../../../../database';
 import {chatSessionRepository} from '../../../../repositories/ChatSessionRepository';
-import {palRepository} from '../../../../repositories/PalRepository';
 import {useNavigation} from '@react-navigation/native';
 
 // Define the collections we want to inspect
@@ -76,19 +75,6 @@ const DatabaseInspectorScreen = () => {
     }
   };
 
-  const resetPalMigration = async () => {
-    try {
-      await palRepository.resetMigration();
-      Alert.alert('Pal migration reset successful', 'Please restart the app.');
-    } catch (error) {
-      console.error('Failed to reset pal migration:', error);
-      Alert.alert(
-        'Failed to reset pal migration',
-        error instanceof Error ? error.message : 'Unknown error occurred',
-      );
-    }
-  };
-
   const renderCollectionList = () => {
     return (
       <Card style={styles.card}>
@@ -118,12 +104,6 @@ const DatabaseInspectorScreen = () => {
               mode="outlined"
               style={styles.resetButton}>
               Reset Chat Migration
-            </Button>
-            <Button
-              onPress={resetPalMigration}
-              mode="outlined"
-              style={styles.resetButton}>
-              Reset Pal Migration
             </Button>
           </View>
         </Card.Actions>
