@@ -16,12 +16,7 @@ import ReactNativeHapticFeedback from 'react-native-haptic-feedback';
 import {observer} from 'mobx-react';
 import {IconButton, Text} from 'react-native-paper';
 
-import {
-  ChevronUpIcon,
-  VideoRecorderIcon,
-  PlusIcon,
-  AtomIcon,
-} from '../../assets/icons';
+import {ChevronUpIcon, PlusIcon, AtomIcon} from '../../assets/icons';
 
 import {useTheme} from '../../hooks';
 
