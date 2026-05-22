@@ -105,8 +105,6 @@ export const ChatInput = observer(
     isPickerVisible,
     inputBackgroundColor,
     isCameraActive = false,
-    onStartCamera,
-    promptText,
     onPromptTextChange,
     showImageUpload = false,
     isVisionEnabled = false,
@@ -482,10 +480,7 @@ export const ChatInput = observer(
                 </TouchableOpacity>
                 {modelStore.activeModel?.name && hasActiveModel && (
                   <Text
-                    style={[
-                      styles.palNameCompact,
-                      {color: onSurfaceColor},
-                    ]}>
+                    style={[styles.palNameCompact, {color: onSurfaceColor}]}>
                     {modelStore.activeModel.name}
                   </Text>
                 )}

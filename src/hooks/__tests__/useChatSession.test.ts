@@ -5,7 +5,6 @@ import {textMessage} from '../../../jest/fixtures';
 import {sessionFixtures} from '../../../jest/fixtures/chatSessions';
 import {
   mockBasicModel,
-  mockDefaultCompletionParams,
   mockLlamaContextParams,
   modelsList,
 } from '../../../jest/fixtures/models';
