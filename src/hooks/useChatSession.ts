@@ -9,7 +9,6 @@ import {L10nContext} from '../utils';
 import {
   chatSessionStore,
   modelStore,
-  palStore,
   ttsStore,
   uiStore,
   curriculumStore,
@@ -242,17 +241,7 @@ export const useChatSession = (
       // Continue with chat even if keep awake fails
     }
 
-    const activeSession = chatSessionStore.sessions.find(
-      s => s.id === chatSessionStore.activeSessionId,
-    );
-
-    // Resolve system messages using utility function
-    const pal = activeSession?.activePalId
-      ? palStore.pals.find(p => p.id === activeSession.activePalId)
-      : null;
-
     const systemMessages = resolveSystemMessages({
-      pal,
       model: modelStore.activeModel,
     });
 

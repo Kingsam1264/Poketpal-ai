@@ -16,7 +16,6 @@ import {
   chatSessionStore,
   curriculumStore,
   modelStore,
-  palStore,
   ttsStore,
 } from '../../store';
 
@@ -32,7 +31,6 @@ beforeEach(() => {
   jest.clearAllMocks();
 
   // Reset mock stores to a known baseline between tests
-  palStore.pals = [] as any;
   chatSessionStore.sessions = sessionFixtures as any;
   chatSessionStore.activeSessionId = 'session-1';
   curriculumStore.isActive = false;
@@ -239,78 +237,6 @@ describe('useChatSession', () => {
     },
   );
 
-  it('should render parametrized system prompt when pal has parameters', async () => {
-    // Create a mock pal with parametrized system prompt
-    const mockPal = {
-      id: 'test-pal-id',
-      type: 'local' as const,
-      name: 'Test Pal',
-      systemPrompt: 'You are {{name}}, a {{role}} in {{setting}}.',
-      parameters: {
-        name: 'Gandalf',
-        role: 'wizard',
-        setting: 'Middle-earth',
-      },
-      parameterSchema: [
-        {key: 'name', type: 'text' as const, label: 'Name', required: true},
-        {key: 'role', type: 'text' as const, label: 'Role', required: true},
-        {
-          key: 'setting',
-          type: 'text' as const,
-          label: 'Setting',
-          required: true,
-        },
-      ],
-      isSystemPromptChanged: false,
-      useAIPrompt: false,
-      source: 'local' as const,
-    };
-
-    // Mock palStore to return our test pal
-    palStore.pals = [mockPal];
-
-    // Create a mock session with the pal
-    const mockSession = {
-      id: 'test-session-id',
-      activePalId: 'test-pal-id',
-      title: 'Test Session',
-      date: new Date().toISOString().split('T')[0], // Format: YYYY-MM-DD
-      messages: [],
-      completionSettings: mockDefaultCompletionParams,
-      settingsSource: 'pal' as const,
-    };
-
-    // Mock chatSessionStore to return our test session
-    chatSessionStore.sessions = [mockSession];
-    chatSessionStore.activeSessionId = 'test-session-id';
-
-    // Mock the completion function to capture the messages passed to it
-    let capturedMessages: any[] = [];
-    if (modelStore.context) {
-      modelStore.context.completion = jest
-        .fn()
-        .mockImplementation((params, _onData) => {
-          capturedMessages = params.messages || [];
-          return Promise.resolve({timings: {total: 100}, usage: {}});
-        });
-    }
-
-    const {result} = renderHook(() =>
-      useChatSession({current: null}, textMessage.author, mockAssistant),
-    );
-
-    await act(async () => {
-      await result.current.handleSendPress(textMessage);
-    });
-
-    // Check that a system message was included with the rendered template
-    expect(capturedMessages.some(msg => msg.role === 'system')).toBe(true);
-    const systemMessage = capturedMessages.find(msg => msg.role === 'system');
-    expect(systemMessage.content).toBe(
-      'You are Gandalf, a wizard in Middle-earth.',
-    );
-  });
-
   it('should save completionResult with reasoning_content after completion', async () => {
     const mockReasoningContent = 'Let me think step by step...';
     const mockContent = 'The answer is 42.';
@@ -355,63 +281,6 @@ describe('useChatSession', () => {
         }),
       }),
     );
-  });
-
-  it('should use system prompt as-is when pal has no parameters', async () => {
-    // Create a mock pal without parameters
-    const mockPal = {
-      id: 'test-pal-id-no-params',
-      type: 'local' as const,
-      name: 'Test Pal No Params',
-      systemPrompt: 'You are a helpful assistant.',
-      parameters: {},
-      parameterSchema: [],
-      isSystemPromptChanged: false,
-      useAIPrompt: false,
-      source: 'local' as const,
-    };
-
-    // Mock palStore to return our test pal
-    palStore.pals = [mockPal];
-
-    // Create a mock session with the pal
-    const mockSession = {
-      id: 'test-session-id-no-params',
-      activePalId: 'test-pal-id-no-params',
-      title: 'Test Session No Params',
-      date: new Date().toISOString().split('T')[0], // Format: YYYY-MM-DD
-      messages: [],
-      completionSettings: mockDefaultCompletionParams,
-      settingsSource: 'pal' as const,
-    };
-
-    // Mock chatSessionStore to return our test session
-    chatSessionStore.sessions = [mockSession];
-    chatSessionStore.activeSessionId = 'test-session-id-no-params';
-
-    // Mock the completion function to capture the messages passed to it
-    let capturedMessages: any[] = [];
-    if (modelStore.context) {
-      modelStore.context.completion = jest
-        .fn()
-        .mockImplementation((params, _onData) => {
-          capturedMessages = params.messages || [];
-          return Promise.resolve({timings: {total: 100}, usage: {}});
-        });
-    }
-
-    const {result} = renderHook(() =>
-      useChatSession({current: null}, textMessage.author, mockAssistant),
-    );
-
-    await act(async () => {
-      await result.current.handleSendPress(textMessage);
-    });
-
-    // Check that a system message was included with the original prompt
-    expect(capturedMessages.some(msg => msg.role === 'system')).toBe(true);
-    const systemMessage = capturedMessages.find(msg => msg.role === 'system');
-    expect(systemMessage.content).toBe('You are a helpful assistant.');
   });
 
   describe('TTS streaming wiring', () => {

@@ -2,12 +2,17 @@
  * Curriculum Service - Reads and parses educational content from the Input folder
  */
 
+import {Platform} from 'react-native';
 import RNFS from '@dr.pogodin/react-native-fs';
 import {Grade, Subject, Unit} from '../types/curriculum';
+
+const INPUT_DIR = 'Input';
+const SEED_FLAG_FILE = '.curriculum_seeded';
 
 export class CurriculumService {
   private static instance: CurriculumService;
   private gradesCache: Grade[] = [];
+  private resolvedBasePath: string | null = null;
 
   private constructor() {}
 
@@ -18,21 +23,114 @@ export class CurriculumService {
     return CurriculumService.instance;
   }
 
-  /**
-   * Get the base path for curriculum files
-   */
-  private getBasePath(): string {
-    // Use app's document directory + Input folder
+  private getDocumentInputPath(): string {
     const docDir = RNFS?.DocumentDirectoryPath || '';
-    return docDir ? `${docDir}/Input` : 'Input';
+    return docDir ? `${docDir}/${INPUT_DIR}` : INPUT_DIR;
+  }
+
+  private getBundleInputPath(): string | null {
+    const bundle = RNFS?.MainBundlePath;
+    if (!bundle) {
+      return null;
+    }
+    return `${bundle}/${INPUT_DIR}`;
   }
 
   /**
-   * List all grade directories
+   * Resolve where curriculum files live and seed documents from the app bundle on first run.
    */
+  private async resolveBasePath(): Promise<string> {
+    if (this.resolvedBasePath) {
+      return this.resolvedBasePath;
+    }
+
+    const docInput = this.getDocumentInputPath();
+
+    if (await this.hasGradesInPath(docInput)) {
+      this.resolvedBasePath = docInput;
+      return docInput;
+    }
+
+    await this.seedCurriculumFromBundle(docInput);
+
+    if (await this.hasGradesInPath(docInput)) {
+      this.resolvedBasePath = docInput;
+      return docInput;
+    }
+
+    const bundleInput = this.getBundleInputPath();
+    if (bundleInput && (await this.hasGradesInPath(bundleInput))) {
+      this.resolvedBasePath = bundleInput;
+      return bundleInput;
+    }
+
+    this.resolvedBasePath = docInput;
+    return docInput;
+  }
+
+  private async hasGradesInPath(basePath: string): Promise<boolean> {
+    try {
+      const exists = await RNFS.exists(basePath);
+      if (!exists) {
+        return false;
+      }
+      const items = await RNFS.readDir(basePath);
+      return items.some(
+        item => item.isDirectory() && item.name.startsWith('Grade'),
+      );
+    } catch {
+      return false;
+    }
+  }
+
+  private async seedCurriculumFromBundle(docInput: string): Promise<void> {
+    const seedMarker = `${docInput}/${SEED_FLAG_FILE}`;
+    if (await RNFS.exists(seedMarker)) {
+      return;
+    }
+
+    try {
+      if (Platform.OS === 'android') {
+        await this.copyAndroidAssetsToDocuments(INPUT_DIR, docInput);
+      } else {
+        const bundleInput = this.getBundleInputPath();
+        if (bundleInput && (await RNFS.exists(bundleInput))) {
+          await RNFS.mkdir(docInput).catch(() => {});
+          if (RNFS.copyFolder) {
+            await RNFS.copyFolder(bundleInput, docInput);
+          }
+        }
+      }
+      await RNFS.mkdir(docInput).catch(() => {});
+      await RNFS.writeFile(seedMarker, '1', 'utf8');
+    } catch (error) {
+      console.warn('CurriculumService: failed to seed Input folder:', error);
+    }
+  }
+
+  private async copyAndroidAssetsToDocuments(
+    assetDir: string,
+    destDir: string,
+  ): Promise<void> {
+    const entries = await RNFS.readDirAssets(assetDir);
+    await RNFS.mkdir(destDir).catch(() => {});
+
+    for (const entry of entries) {
+      const assetPath = `${assetDir}/${entry.name}`;
+      const destPath = `${destDir}/${entry.name}`;
+
+      if (entry.isDirectory()) {
+        await this.copyAndroidAssetsToDocuments(assetPath, destPath);
+      } else {
+        const content = await RNFS.readFileAssets(assetPath, 'utf8');
+        await RNFS.writeFile(destPath, content, 'utf8');
+      }
+    }
+  }
+
   private async listGrades(): Promise<string[]> {
     try {
-      const basePath = this.getBasePath();
+      const basePath = await this.resolveBasePath();
       const exists = await RNFS.exists(basePath);
       if (!exists) {
         console.log('CurriculumService: Input folder not found at', basePath);
@@ -50,12 +148,9 @@ export class CurriculumService {
     }
   }
 
-  /**
-   * List subjects within a grade
-   */
   private async listSubjects(gradeName: string): Promise<string[]> {
     try {
-      const gradePath = `${this.getBasePath()}/${gradeName}`;
+      const gradePath = `${await this.resolveBasePath()}/${gradeName}`;
       const exists = await RNFS.exists(gradePath);
       if (!exists) return [];
 
@@ -70,15 +165,12 @@ export class CurriculumService {
     }
   }
 
-  /**
-   * List unit files within a subject
-   */
   private async listUnits(
     gradeName: string,
     subjectName: string,
   ): Promise<string[]> {
     try {
-      const subjectPath = `${this.getBasePath()}/${gradeName}/${subjectName}`;
+      const subjectPath = `${await this.resolveBasePath()}/${gradeName}/${subjectName}`;
       const exists = await RNFS.exists(subjectPath);
       if (!exists) return [];
 
@@ -93,16 +185,13 @@ export class CurriculumService {
     }
   }
 
-  /**
-   * Read unit content from a file
-   */
   private async readUnitContent(
     gradeName: string,
     subjectName: string,
     fileName: string,
   ): Promise<string> {
     try {
-      const filePath = `${this.getBasePath()}/${gradeName}/${subjectName}/${fileName}`;
+      const filePath = `${await this.resolveBasePath()}/${gradeName}/${subjectName}/${fileName}`;
       const exists = await RNFS.exists(filePath);
       if (!exists) return '';
 
@@ -113,17 +202,11 @@ export class CurriculumService {
     }
   }
 
-  /**
-   * Parse grade name to extract grade number
-   */
   private parseGradeNumber(gradeName: string): number {
     const match = gradeName.match(/Grade\s*(\d+)/i);
     return match ? parseInt(match[1], 10) : 0;
   }
 
-  /**
-   * Parse unit name from filename
-   */
   private parseUnitName(fileName: string): string {
     return fileName
       .replace('.md', '')
@@ -131,11 +214,7 @@ export class CurriculumService {
       .trim();
   }
 
-  /**
-   * Load all curriculum data
-   */
   public async loadCurriculum(): Promise<Grade[]> {
-    // Return cache if available
     if (this.gradesCache.length > 0) {
       return this.gradesCache;
     }
@@ -157,7 +236,7 @@ export class CurriculumService {
             id: `${gradeName}-${subjectName}-${i}`,
             name: this.parseUnitName(fileName),
             fileName: fileName,
-            content: '', // Content loaded on demand
+            content: '',
           });
         }
 
@@ -175,7 +254,6 @@ export class CurriculumService {
       });
     }
 
-    // Sort grades by number
     grades.sort(
       (a, b) => this.parseGradeNumber(a.name) - this.parseGradeNumber(b.name),
     );
@@ -184,9 +262,6 @@ export class CurriculumService {
     return grades;
   }
 
-  /**
-   * Load specific unit content
-   */
   public async loadUnitContent(
     gradeName: string,
     subjectName: string,
@@ -198,9 +273,6 @@ export class CurriculumService {
     return await this.readUnitContent(gradeName, subjectName, unit.fileName);
   }
 
-  /**
-   * Build context prompt from selected curriculum
-   */
   public buildContextPrompt(
     grade: Grade,
     subject: Subject,
@@ -221,29 +293,18 @@ Guidelines:
 - Format your responses in a student-friendly way`;
   }
 
-  /**
-   * Check if curriculum data exists
-   */
   public async hasCurriculumData(): Promise<boolean> {
     try {
-      const basePath = this.getBasePath();
-      const exists = await RNFS.exists(basePath);
-      if (!exists) return false;
-
-      const items = await RNFS.readDir(basePath);
-      return items.some(
-        item => item.isDirectory() && item.name.startsWith('Grade'),
-      );
+      const basePath = await this.resolveBasePath();
+      return this.hasGradesInPath(basePath);
     } catch {
       return false;
     }
   }
 
-  /**
-   * Clear cache to force reload
-   */
   public clearCache(): void {
     this.gradesCache = [];
+    this.resolvedBasePath = null;
   }
 }
 

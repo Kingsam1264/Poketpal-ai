@@ -6,10 +6,8 @@ import * as RNFS from '@dr.pogodin/react-native-fs';
 
 import {chatSessionRepository} from '../repositories/ChatSessionRepository';
 
-import {uiStore, palStore} from '../store';
+import {uiStore} from '../store';
 import {ensureLegacyStoragePermission} from './androidPermission';
-import {getAbsoluteThumbnailPath, isLocalThumbnailPath} from './imageUtils';
-import type {Pal} from '../types/pal';
 /**
  * Export a single chat session to a JSON file
  * @param sessionId The ID of the session to export
@@ -119,115 +117,14 @@ export const exportAllChatSessions = async (): Promise<void> => {
   }
 };
 
-/**
- * Export a single pal to a JSON file
- * @param palId The ID of the pal to export
- */
-export const exportPal = async (palId: string): Promise<void> => {
-  try {
-    const pal = palStore.getPals().find(p => p.id === palId);
-    if (!pal) {
-      throw new Error('Pal not found');
-    }
-
-    const exportData = await transformExportPal(pal);
-
-    const timestamp = format(new Date(), 'yyyy-MM-dd_HH-mm-ss');
-    const sanitizedName = pal.name.replace(/[^a-z0-9]/gi, '_').toLowerCase();
-    const filename = `pal_${sanitizedName}_v${exportData.version}_${timestamp}.json`;
-
-    const jsonData = JSON.stringify(exportData, null, 2);
-
-    await shareJsonData(jsonData, filename);
-  } catch (error) {
-    console.error('Error exporting pal:', error);
-    throw error;
-  }
+/** @deprecated Pals feature removed */
+export const exportPal = async (_palId: string): Promise<void> => {
+  throw new Error('Pal export is no longer supported');
 };
 
-/**
- * Export all pals to a JSON file
- */
+/** @deprecated Pals feature removed */
 export const exportAllPals = async (): Promise<void> => {
-  try {
-    const pals = palStore.getPals();
-    const exportData = pals.map(transformExportPal);
-
-    const timestamp = format(new Date(), 'yyyy-MM-dd_HH-mm-ss');
-    const filename = `all_pals_${timestamp}.json`;
-
-    const jsonData = JSON.stringify(exportData, null, 2);
-
-    await shareJsonData(jsonData, filename);
-  } catch (error) {
-    console.error('Error exporting all pals:', error);
-    throw error;
-  }
-};
-
-const transformExportPal = async (pal: Pal) => {
-  // Create export data with version information
-  // Data Transfer Object (DTO) for exported pal data (format v2.0)
-
-  // Handle thumbnail image - convert local images to base64 for portability
-  let thumbnailData: string | undefined;
-  let thumbnailUrl: string | undefined = pal.thumbnail_url;
-
-  if (pal.thumbnail_url && isLocalThumbnailPath(pal.thumbnail_url)) {
-    try {
-      // Convert local image to base64 for export
-      const absolutePath = getAbsoluteThumbnailPath(pal.thumbnail_url);
-      const base64Content = await RNFS.readFile(absolutePath, 'base64');
-
-      // Get file extension from original file (fallback to jpg)
-      const fileExtension =
-        absolutePath.toLowerCase().split('.').pop() || 'jpg';
-
-      thumbnailData = `data:image/${fileExtension};base64,${base64Content}`;
-      thumbnailUrl = undefined; // Don't export local file paths
-    } catch (error) {
-      console.warn('Failed to read thumbnail for export:', error);
-      thumbnailUrl = undefined; // Remove invalid local path
-    }
-  }
-
-  const exportData = {
-    // Export format version for future compatibility
-    version: '2.0',
-
-    // Core pal data (modern format)
-    id: pal.id,
-    name: pal.name,
-    description: pal.description,
-    thumbnail_url: thumbnailUrl, // Remote URLs only
-    thumbnail_data: thumbnailData, // Base64 embedded images
-    systemPrompt: pal.systemPrompt,
-    originalSystemPrompt: pal.originalSystemPrompt,
-    isSystemPromptChanged: pal.isSystemPromptChanged,
-    useAIPrompt: pal.useAIPrompt,
-    defaultModel: pal.defaultModel,
-    promptGenerationModel: pal.promptGenerationModel,
-    generatingPrompt: pal.generatingPrompt,
-    color: pal.color,
-    capabilities: pal.capabilities,
-    parameters: pal.parameters,
-    parameterSchema: pal.parameterSchema,
-    source: pal.source,
-    palshub_id: pal.palshub_id,
-    creator_info: pal.creator_info,
-    categories: pal.categories,
-    tags: pal.tags,
-    rating: pal.rating,
-    review_count: pal.review_count,
-    protection_level: pal.protection_level,
-    price_cents: pal.price_cents,
-    is_owned: pal.is_owned,
-    generation_settings: pal.completionSettings,
-    created_at: pal.created_at,
-    updated_at: pal.updated_at,
-  };
-
-  return exportData;
+  throw new Error('Pal export is no longer supported');
 };
 
 /**

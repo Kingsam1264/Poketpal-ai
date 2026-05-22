@@ -52,7 +52,6 @@ import {
   mockDefaultCompletionSettings,
 } from '../__mocks__/stores/chatSessionStore';
 import {benchmarkStore as mockBenchmarkStore} from '../__mocks__/stores/benchmarkStore';
-import {mockPalStore} from '../__mocks__/stores/palStore';
 import {deepLinkStore as mockDeepLinkStore} from '../__mocks__/stores/deepLinkStore';
 import {mockServerStore} from '../__mocks__/stores/serverStore';
 import {mockTTSStore} from '../__mocks__/stores/ttsStore';
@@ -110,7 +109,6 @@ jest.mock('../src/store', () => {
     chatSessionStore: mockChatSessionStore,
     hfStore: mockHFStore,
     benchmarkStore: mockBenchmarkStore,
-    palStore: mockPalStore,
     deepLinkStore: mockDeepLinkStore,
     serverStore: mockServerStore,
     ttsStore: mockTTSStore,

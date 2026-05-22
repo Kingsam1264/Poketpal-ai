@@ -39,14 +39,12 @@ import {createStyles} from './styles';
 import {chatSessionStore, modelStore} from '../../store';
 
 import {MessageType, User} from '../../utils/types';
-import {Pal} from '../../types/pal';
 import {
   calculateChatMessages,
   unwrap,
   UserContext,
   L10nContext,
 } from '../../utils';
-import {hasVideoCapability} from '../../utils/pal-capabilities';
 
 import {
   Message,
@@ -60,7 +58,6 @@ import {
   ChatPalModelPickerSheet,
   ChatHeader,
   ChatEmptyPlaceholder,
-  VideoPalEmptyPlaceholder,
   ContentReportSheet,
 } from '..';
 import {
@@ -134,10 +131,6 @@ export interface ChatProps extends ChatTopLevelProps {
    * to the very end of the list (minus `onEndReachedThreshold`).
    * See {@link ChatProps.flatListProps} to set it up. */
   onEndReached?: () => Promise<void>;
-  /** The currently active pal */
-  activePal?: Pal;
-  /** Called when pal sheet should be opened */
-  onPalSettingsSelect?: (pal: Pal) => void;
   /** Show user names for received messages. Useful for a group chat. Will be
    * shown only on text messages. */
   showUserNames?: boolean;
@@ -178,8 +171,6 @@ export const ChatView = observer(
     onEndReached,
     onMessageLongPress: externalOnMessageLongPress,
     onMessagePress,
-    activePal,
-    onPalSettingsSelect,
     onPreviewDataFetched,
     onSendPress,
     onStopPress,
@@ -221,7 +212,6 @@ export const ChatView = observer(
     const [_selectedModel, setSelectedModel] = React.useState<string | null>(
       null,
     );
-    const [_selectedPal, setSelectedPal] = React.useState<string | undefined>();
 
     // Image viewer state
     const [isImageViewVisible, setIsImageViewVisible] = React.useState(false);
@@ -276,29 +266,6 @@ export const ChatView = observer(
       setInputText(draft);
       // eslint-disable-next-line react-hooks/exhaustive-deps -- MobX observer makes activeSessionId reactive
     }, [chatSessionStore.activeSessionId]);
-
-    // ============ ACTIVE PAL MODEL INITIALIZATION ============
-    // Initialize model context when active pal changes.
-    // Gate: while the e2e benchmark runner owns the native context lifecycle,
-    // this auto-load must NOT fire — otherwise it shadows the matrix's per-cell
-    // devices/n_gpu_layers via initContext's "already loaded → skip" path.
-    React.useEffect(() => {
-      if (modelStore.benchmarkActive) {
-        return;
-      }
-      if (activePal) {
-        if (!modelStore.activeModel && activePal.defaultModel) {
-          const palDefaultModel = modelStore.availableModels.find(
-            m => m.id === activePal.defaultModel?.id,
-          );
-
-          if (palDefaultModel) {
-            // Initialize the model context
-            modelStore.selectModel(palDefaultModel);
-          }
-        }
-      }
-    }, [activePal]);
 
     // ============ KEYBOARD ANIMATION SETUP ============
     // Get real-time keyboard height from the keyboard controller
@@ -757,24 +724,15 @@ export const ChatView = observer(
       ],
     );
 
-    // Render empty state (video pal or regular chat placeholder)
-    const renderListEmptyComponent = React.useCallback(() => {
-      // Show VideoPalEmptyPlaceholder for video pal, otherwise show regular ChatEmptyPlaceholder
-      if (activePal && hasVideoCapability(activePal)) {
-        return (
-          <VideoPalEmptyPlaceholder
-            bottomComponentHeight={bottomComponentHeight}
-          />
-        );
-      }
-
-      return (
+    const renderListEmptyComponent = React.useCallback(
+      () => (
         <ChatEmptyPlaceholder
           bottomComponentHeight={bottomComponentHeight}
           onSelectModel={() => setIsPickerVisible(true)}
         />
-      );
-    }, [bottomComponentHeight, setIsPickerVisible, activePal]);
+      ),
+      [bottomComponentHeight],
+    );
 
     // Render footer (loading indicator or spacer)
     const renderListFooterComponent = React.useCallback(
@@ -922,15 +880,8 @@ export const ChatView = observer(
       setIsPickerVisible(false);
     }, []);
 
-    const handlePalSelect = React.useCallback((pal: string | undefined) => {
-      setSelectedPal(pal);
-      setIsPickerVisible(false);
-    }, []);
-
     // ============ COMPUTED VALUES ============
-    const inputBackgroundColor = activePal?.color?.[1]
-      ? activePal.color?.[1]
-      : theme.colors.surface;
+    const inputBackgroundColor = theme.colors.surface;
 
     // ============ COMPONENT RENDER ============
     return (
@@ -965,7 +916,7 @@ export const ChatView = observer(
                   chatInputHeight,
                   inputBackgroundColor,
                   onCancelEdit: handleCancelEdit,
-                  onPalBtnPress: () => setIsPickerVisible(!isPickerVisible),
+                  onPickerBtnPress: () => setIsPickerVisible(!isPickerVisible),
                   isStopVisible,
                   isPickerVisible,
                   sendButtonVisibilityMode,
@@ -975,26 +926,18 @@ export const ChatView = observer(
                   onDefaultImagesChange: setInputImages,
                   textInputProps: {
                     ...textInputProps,
-                    // Only override value and onChangeText if not using promptText
-                    ...(!(activePal && hasVideoCapability(activePal)) && {
-                      value: inputText,
-                      onChangeText: setInputText,
-                    }),
+                    value: inputText,
+                    onChangeText: setInputText,
                   },
                 }}
               />
             </Reanimated.View>
 
-            {/* Pal/Model picker sheet */}
-            {/* Conditionally render the sheet to avoid keyboard issues.
-            It makes the disappearing sudden, but it's better than the keyboard issue.*/}
             {isPickerVisible && (
               <ChatPalModelPickerSheet
                 isVisible={isPickerVisible}
                 onClose={() => setIsPickerVisible(false)}
                 onModelSelect={handleModelSelect}
-                onPalSelect={handlePalSelect}
-                onPalSettingsSelect={onPalSettingsSelect}
                 chatInputHeight={chatInputHeight.height}
               />
             )}

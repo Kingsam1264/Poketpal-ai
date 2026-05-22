@@ -8,21 +8,16 @@ import {
   ErrorSnackbar,
   ModelErrorReportSheet,
 } from '../../components';
-import {PalSheet} from '../../components/PalsSheets';
 
 import {useChatSession} from '../../hooks';
 import {usePendingMessage} from '../../hooks/useDeepLinking';
-import {Pal} from '../../types/pal';
 
-import {modelStore, chatSessionStore, palStore, uiStore} from '../../store';
-import {hasVideoCapability} from '../../utils/pal-capabilities';
+import {modelStore, chatSessionStore, uiStore} from '../../store';
 
 import {L10nContext} from '../../utils';
 import {MessageType} from '../../utils/types';
 import {ErrorState} from '../../utils/errors';
 import {user, assistant} from '../../utils/chat';
-
-import {VideoPalScreen} from './VideoPalScreen';
 
 const renderBubble = ({
   child,
@@ -51,35 +46,14 @@ export const ChatScreen: React.FC = observer(() => {
   } | null>(null);
   const l10n = React.useContext(L10nContext);
 
-  const activePalId = chatSessionStore.activePalId;
-  const activePal = activePalId
-    ? palStore.pals.find(p => p.id === activePalId)
-    : undefined;
-  const isVideoPal = activePal && hasVideoCapability(activePal);
-
-  // State for pal sheet
-  const [isPalSheetVisible, setIsPalSheetVisible] = useState(false);
-
-  // State for model error report sheet
   const [isErrorReportVisible, setIsErrorReportVisible] = useState(false);
   const [errorToReport, setErrorToReport] = useState<ErrorState | null>(null);
 
   const {handleSendPress, handleStopPress, isMultimodalEnabled} =
     useChatSession(currentMessageInfo, user, assistant);
 
-  // Handle deep linking for message prefill
   const {pendingMessage, clearPendingMessage} = usePendingMessage();
 
-  // Callback handler for opening pal sheet
-  const handleOpenPalSheet = React.useCallback((_pal: Pal) => {
-    setIsPalSheetVisible(true);
-  }, []);
-
-  const handleClosePalSheet = React.useCallback(() => {
-    setIsPalSheetVisible(false);
-  }, []);
-
-  // Handlers for model error report
   const handleReportModelError = React.useCallback(() => {
     if (modelStore.modelLoadError) {
       setErrorToReport(modelStore.modelLoadError);
@@ -93,7 +67,6 @@ export const ChatScreen: React.FC = observer(() => {
     setErrorToReport(null);
   }, []);
 
-  // Check if multimodal is enabled
   const [multimodalEnabled, setMultimodalEnabled] = React.useState(false);
 
   React.useEffect(() => {
@@ -127,10 +100,8 @@ export const ChatScreen: React.FC = observer(() => {
     activeSession?.settingsSource,
     activeSession?.completionSettings,
     chatSessionStore.newChatCompletionSettings,
-    activePalId,
   ]);
 
-  // Show loading bubble only during the thinking phase (inferencing but not streaming)
   const isThinking = modelStore.inferencing && !modelStore.isStreaming;
 
   const handleThinkingToggle = async (enabled: boolean) => {
@@ -139,7 +110,6 @@ export const ChatScreen: React.FC = observer(() => {
     );
 
     if (currentSession) {
-      // Use resolved settings so pal overrides (temperature, etc.) are preserved
       const resolvedSettings =
         await chatSessionStore.getCurrentCompletionSettings();
       const updatedSettings = {
@@ -148,7 +118,6 @@ export const ChatScreen: React.FC = observer(() => {
       };
       await chatSessionStore.updateSessionCompletionSettings(updatedSettings);
     } else {
-      // Update global settings for new chats
       const updatedSettings = {
         ...chatSessionStore.newChatCompletionSettings,
         enable_thinking: enabled,
@@ -157,21 +126,13 @@ export const ChatScreen: React.FC = observer(() => {
     }
   };
 
-  // If the active pal is a video pal, show the video pal screen
-  if (isVideoPal) {
-    return <VideoPalScreen activePal={activePal} />;
-  }
-
-  // Otherwise, show the regular chat view
   return (
     <>
       <ChatView
         renderBubble={renderBubble}
         messages={chatSessionStore.currentSessionMessages}
-        activePal={activePal}
         onSendPress={handleSendPress}
         onStopPress={handleStopPress}
-        onPalSettingsSelect={handleOpenPalSheet}
         user={user}
         isStopVisible={modelStore.inferencing}
         isThinking={isThinking}
@@ -212,13 +173,6 @@ export const ChatScreen: React.FC = observer(() => {
         onClose={handleCloseErrorReport}
         error={errorToReport}
       />
-      {activePal && (
-        <PalSheet
-          isVisible={isPalSheetVisible}
-          onClose={handleClosePalSheet}
-          pal={activePal}
-        />
-      )}
     </>
   );
 });

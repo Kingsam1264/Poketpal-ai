@@ -13,8 +13,6 @@ import {chatSessionRepository} from '../repositories/ChatSessionRepository';
 import {MessageType} from './types';
 import {CompletionParams} from './completionTypes';
 import {migrateCompletionSettings} from './completionSettingsVersions';
-import {palStore} from '../store';
-import type {Pal, ParameterDefinition} from '../types/pal';
 
 /**
  * Interface for imported chat session data
@@ -261,7 +259,7 @@ export interface ImportedPal {
   color?: [string, string];
   capabilities?: any;
   parameters: Record<string, any>;
-  parameterSchema: ParameterDefinition[];
+  parameterSchema: Record<string, unknown>[];
   source: 'local' | 'palshub';
   palshub_id?: string;
   creator_info?: any;
@@ -280,32 +278,9 @@ export interface ImportedPal {
 /**
  * Import pals from a JSON file (single or multiple)
  */
+/** @deprecated Pals feature removed */
 export const importPals = async (): Promise<number> => {
-  try {
-    // Pick a JSON file
-    const fileUri = await pickJsonFile();
-    if (!fileUri) {
-      return 0;
-    }
-
-    const data = await readJsonFile(fileUri);
-    const validatedData = validateImportedPalData(data);
-
-    if (Array.isArray(validatedData)) {
-      let importedCount = 0;
-      for (const pal of validatedData) {
-        await importSinglePal(pal);
-        importedCount++;
-      }
-      return importedCount;
-    } else {
-      await importSinglePal(validatedData);
-      return 1;
-    }
-  } catch (error) {
-    console.error('Error importing pals:', error);
-    throw error;
-  }
+  return 0;
 };
 
 /**
@@ -455,13 +430,6 @@ const transformImportPal = async (
 /**
  * Import a single pal
  */
-const importSinglePal = async (pal: ImportedPal): Promise<void> => {
-  try {
-    const palData = await transformImportPal(pal);
-
-    await palStore.createPal(palData);
-  } catch (error) {
-    console.error('Error importing single pal:', error);
-    throw error;
-  }
+const importSinglePal = async (_pal: ImportedPal): Promise<void> => {
+  // Pals feature removed
 };

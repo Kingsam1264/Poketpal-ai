@@ -31,8 +31,6 @@ export * from './Menu';
 export * from './Message';
 export * from './ModelsHeaderRight';
 export * from './ModelsResetDialog';
-export * from './PalGenerationSettingsSheet';
-
 export * from './ModelSettingsSheet';
 export * from './ModelTypeTag';
 export * from './ProjectionModelSelector';
@@ -50,11 +48,9 @@ export * from './TextInput';
 export * from './TextMessage';
 export * from './TTSSetupSheet';
 export * from './UsageStats';
-export * from './VideoPalEmptyPlaceholder';
 export * from './VoiceChip';
 export * from './VisionDownloadSheet';
 
-export * from './PalHeaderRight';
 export * from './InputSlider';
 export * from './MemoryRequirement';
 export * from './RemoteModelSheet';
