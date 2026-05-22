@@ -39,6 +39,8 @@ describe('chatSessionStore', () => {
     jest.clearAllMocks();
     chatSessionStore.sessions = [];
     chatSessionStore.activeSessionId = null;
+    chatSessionStore.newChatPalId = undefined;
+    chatSessionStore.newChatSettingsSource = 'custom';
     chatSessionStore.isSelectionMode = false;
     chatSessionStore.selectedSessionIds.clear();
   });
@@ -427,7 +429,7 @@ describe('chatSessionStore', () => {
         [mockMessage],
         defaultCompletionSettings,
         undefined,
-        'pal',
+        'custom',
       );
       expect(chatSessionRepository.getSessionById).toHaveBeenCalledWith(
         mockNewSession.id,
@@ -491,7 +493,7 @@ describe('chatSessionStore', () => {
         [mockMessage],
         originalSession.completionSettings,
         undefined,
-        'pal',
+        'custom',
       );
       expect(chatSessionStore.sessions.length).toBe(2);
       expect(chatSessionStore.sessions[1].completionSettings.temperature).toBe(
@@ -629,7 +631,7 @@ describe('chatSessionStore', () => {
         [mockMessage],
         originalSession.completionSettings,
         undefined,
-        'pal',
+        'custom',
       );
       expect(chatSessionStore.sessions.length).toBe(2);
       expect(chatSessionStore.sessions[1].title).toBe(
@@ -857,7 +859,7 @@ describe('chatSessionStore', () => {
         [],
         customSettings,
         undefined,
-        'pal',
+        'custom',
       );
       expect(chatSessionStore.sessions[0].completionSettings).toEqual(
         customSettings,
@@ -1269,7 +1271,7 @@ describe('chatSessionStore', () => {
       expect(chatSessionStore.activePalId).toBe('pal2');
     });
 
-    it('sets active pal ID for active session', async () => {
+    it('setActivePal is a no-op after pals feature removal', async () => {
       const session = {
         id: 'session1',
         title: 'Session 1',
@@ -1283,13 +1285,8 @@ describe('chatSessionStore', () => {
 
       await chatSessionStore.setActivePal('pal1');
 
-      expect(chatSessionStore.sessions[0].activePalId).toBe('pal1');
-    });
-
-    it('sets newChatPalId when no active session', async () => {
-      await chatSessionStore.setActivePal('pal2');
-
-      expect(chatSessionStore.newChatPalId).toBe('pal2');
+      expect(chatSessionStore.sessions[0].activePalId).toBeUndefined();
+      expect(chatSessionStore.newChatPalId).toBeUndefined();
     });
 
     it('preserves active pal ID when resetting active session', () => {

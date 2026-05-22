@@ -1,5 +1,5 @@
 import React from 'react';
-import {fireEvent, render, act} from '../../../../jest/test-utils';
+import {fireEvent, render, act, waitFor} from '../../../../jest/test-utils';
 import {Alert} from 'react-native';
 import {ChatGenerationSettingsSheet} from '../ChatGenerationSettingsSheet';
 import {chatSessionStore, defaultCompletionSettings} from '../../../store';
@@ -63,6 +63,7 @@ jest.mock('../../../store', () => ({
     sessions: [
       {
         id: 'test-session',
+        settingsSource: 'custom',
         completionSettings: {
           temperature: 1.0,
           top_k: 40,
@@ -76,6 +77,11 @@ jest.mock('../../../store', () => ({
       top_k: 50,
       top_p: 0.95,
     },
+    getCurrentCompletionSettings: jest.fn().mockResolvedValue({
+      temperature: 1.0,
+      top_k: 40,
+      top_p: 0.9,
+    }),
     updateSessionCompletionSettings: jest.fn(),
     setNewChatCompletionSettings: jest.fn(),
   },
@@ -92,16 +98,34 @@ describe('ChatGenerationSettingsSheet', () => {
     onClose: jest.fn(),
   };
 
+  const renderSheet = async (
+    props: typeof defaultProps = defaultProps,
+  ) => {
+    const utils = render(<ChatGenerationSettingsSheet {...props} />);
+    if (props.isVisible !== false) {
+      await waitFor(() => {
+        expect(
+          chatSessionStore.getCurrentCompletionSettings,
+        ).toHaveBeenCalled();
+      });
+    }
+    return utils;
+  };
+
   beforeEach(() => {
     jest.clearAllMocks();
-    // Reset validateCompletionSettings to return success by default
+    (chatSessionStore.getCurrentCompletionSettings as jest.Mock).mockResolvedValue(
+      {
+        temperature: 1.0,
+        top_k: 40,
+        top_p: 0.9,
+      },
+    );
     (validateCompletionSettings as jest.Mock).mockReturnValue({errors: {}});
   });
 
-  it('renders correctly when visible', () => {
-    const {getByTestId} = render(
-      <ChatGenerationSettingsSheet {...defaultProps} />,
-    );
+  it('renders correctly when visible', async () => {
+    const {getByTestId} = await renderSheet();
 
     expect(getByTestId('sheet')).toBeTruthy();
     expect(getByTestId('completion-settings')).toBeTruthy();
@@ -115,35 +139,25 @@ describe('ChatGenerationSettingsSheet', () => {
     expect(queryByTestId('sheet')).toBeNull();
   });
 
-  it('loads active session settings when available', () => {
-    const {getByTestId} = render(
-      <ChatGenerationSettingsSheet {...defaultProps} />,
-    );
+  it('loads active session settings when available', async () => {
+    const {getByTestId} = await renderSheet();
 
     expect(getByTestId('completion-settings')).toBeTruthy();
-    // Settings from active session should be loaded
   });
 
-  it('loads new chat settings when no active session', () => {
-    // Temporarily modify the mock to simulate no active session
+  it('loads new chat settings when no active session', async () => {
     const originalSessions = chatSessionStore.sessions;
     chatSessionStore.sessions = [];
 
-    const {getByTestId} = render(
-      <ChatGenerationSettingsSheet {...defaultProps} />,
-    );
+    const {getByTestId} = await renderSheet();
 
     expect(getByTestId('completion-settings')).toBeTruthy();
-    // New chat settings should be loaded
 
-    // Restore the original sessions
     chatSessionStore.sessions = originalSessions;
   });
 
   it('handles save settings correctly for active session', async () => {
-    const {getByText} = render(
-      <ChatGenerationSettingsSheet {...defaultProps} />,
-    );
+    const {getByText} = await renderSheet();
 
     await act(async () => {
       fireEvent.press(getByText('Save'));
@@ -158,9 +172,7 @@ describe('ChatGenerationSettingsSheet', () => {
     const originalSessions = chatSessionStore.sessions;
     chatSessionStore.sessions = [];
 
-    const {getByText} = render(
-      <ChatGenerationSettingsSheet {...defaultProps} />,
-    );
+    const {getByText} = await renderSheet();
 
     await act(async () => {
       fireEvent.press(getByText('Save Changes'));
@@ -174,9 +186,7 @@ describe('ChatGenerationSettingsSheet', () => {
   });
 
   it('handles reset settings correctly', async () => {
-    const {getByText} = render(
-      <ChatGenerationSettingsSheet {...defaultProps} />,
-    );
+    const {getByText} = await renderSheet();
 
     await act(async () => {
       fireEvent.press(getByText('Reset'));
@@ -204,9 +214,7 @@ describe('ChatGenerationSettingsSheet', () => {
       },
     });
 
-    const {getByTestId, getByText} = render(
-      <ChatGenerationSettingsSheet {...defaultProps} />,
-    );
+    const {getByTestId, getByText} = await renderSheet();
 
     // Trigger an invalid update
     await act(async () => {

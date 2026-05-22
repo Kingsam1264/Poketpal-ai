@@ -110,7 +110,7 @@ describe('ChatPalModelPickerSheet', () => {
     );
 
     expect(getByTestId('bottom-sheet')).toBeTruthy();
-    expect(getByTestId('bottom-sheet-flatlist')).toBeTruthy();
+    expect(getByTestId('bottom-sheet-scrollview')).toBeTruthy();
   });
 
   it('does not render when not visible', () => {

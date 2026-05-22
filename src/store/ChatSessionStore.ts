@@ -235,7 +235,7 @@ class ChatSessionStore {
   resetActiveSession() {
     runInAction(() => {
       this.newChatPalId = this.activePalId;
-      this.newChatSettingsSource = 'pal'; // Reset to default for new chat
+      this.newChatSettingsSource = 'custom';
       // Do not copy completion settings from session to global settings
       // Instead, preserve global settings as they are
       this.exitEditMode();
@@ -281,7 +281,7 @@ class ChatSessionStore {
       this.activeSessionId = sessionId;
       // Don't modify global settings when changing sessions
       this.newChatPalId = undefined;
-      this.newChatSettingsSource = 'pal'; // Reset for consistency
+      this.newChatSettingsSource = 'custom';
     });
   }
 
