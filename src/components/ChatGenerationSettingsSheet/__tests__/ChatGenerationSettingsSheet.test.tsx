@@ -98,9 +98,7 @@ describe('ChatGenerationSettingsSheet', () => {
     onClose: jest.fn(),
   };
 
-  const renderSheet = async (
-    props: typeof defaultProps = defaultProps,
-  ) => {
+  const renderSheet = async (props: typeof defaultProps = defaultProps) => {
     const utils = render(<ChatGenerationSettingsSheet {...props} />);
     if (props.isVisible !== false) {
       await waitFor(() => {
@@ -114,13 +112,13 @@ describe('ChatGenerationSettingsSheet', () => {
 
   beforeEach(() => {
     jest.clearAllMocks();
-    (chatSessionStore.getCurrentCompletionSettings as jest.Mock).mockResolvedValue(
-      {
-        temperature: 1.0,
-        top_k: 40,
-        top_p: 0.9,
-      },
-    );
+    (
+      chatSessionStore.getCurrentCompletionSettings as jest.Mock
+    ).mockResolvedValue({
+      temperature: 1.0,
+      top_k: 40,
+      top_p: 0.9,
+    });
     (validateCompletionSettings as jest.Mock).mockReturnValue({errors: {}});
   });
 
