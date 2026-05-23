@@ -49,7 +49,7 @@ export class CurriculumStore {
           this.isLoading = false;
           this.error = bundled
             ? 'Could not load curriculum. Tap Retry to copy bundled content again.'
-            : 'No curriculum data found. Rebuild the app with the Input folder included.';
+            : 'No curriculum data found. Rebuild and reinstall the app (native build required).';
         });
         return;
       }

@@ -97,14 +97,53 @@ export class CurriculumService {
   public async bundleHasCurriculumAssets(): Promise<boolean> {
     if (Platform.OS === 'android') {
       try {
-        return await RNFS.existsAssets(INPUT_DIR);
+        const entries = await RNFS.readDirAssets(INPUT_DIR);
+        return entries.some(
+          entry => entry.isDirectory() && entry.name.startsWith('Grade'),
+        );
       } catch {
         return false;
       }
     }
 
     const bundleInput = this.getBundleInputPath();
-    return bundleInput ? await RNFS.exists(bundleInput) : false;
+    return bundleInput ? await this.hasGradesInPath(bundleInput) : false;
+  }
+
+  private async removeDirectoryRecursive(path: string): Promise<void> {
+    if (!(await RNFS.exists(path))) {
+      return;
+    }
+
+    const items = await RNFS.readDir(path);
+    for (const item of items) {
+      if (item.isDirectory()) {
+        await this.removeDirectoryRecursive(item.path);
+      } else {
+        await RNFS.unlink(item.path);
+      }
+    }
+    await RNFS.unlink(path);
+  }
+
+  private async copyAndroidAssetsToDocuments(
+    assetDir: string,
+    destDir: string,
+  ): Promise<void> {
+    const entries = await RNFS.readDirAssets(assetDir);
+    await RNFS.mkdir(destDir).catch(() => {});
+
+    for (const entry of entries) {
+      const assetPath = `${assetDir}/${entry.name}`;
+      const destPath = `${destDir}/${entry.name}`;
+
+      if (entry.isDirectory()) {
+        await this.copyAndroidAssetsToDocuments(assetPath, destPath);
+      } else {
+        const content = await RNFS.readFileAssets(assetPath, 'utf8');
+        await RNFS.writeFile(destPath, content, 'utf8');
+      }
+    }
   }
 
   private async seedCurriculumFromBundle(docInput: string): Promise<void> {
@@ -127,7 +166,17 @@ export class CurriculumService {
       await RNFS.mkdir(docInput).catch(() => {});
 
       if (Platform.OS === 'android') {
-        await RNFS.copyFileAssets(INPUT_DIR, docInput);
+        try {
+          await RNFS.copyFileAssets(INPUT_DIR, docInput);
+        } catch (copyError) {
+          console.warn(
+            'CurriculumService: copyFileAssets failed, using fallback:',
+            copyError,
+          );
+        }
+        if (!(await this.hasGradesInPath(docInput))) {
+          await this.copyAndroidAssetsToDocuments(INPUT_DIR, docInput);
+        }
       } else {
         const bundleInput = this.getBundleInputPath();
         if (bundleInput && (await RNFS.exists(bundleInput))) {
@@ -328,6 +377,7 @@ Guidelines:
   public async prepareForReload(): Promise<void> {
     const docInput = this.getDocumentInputPath();
     await this.clearSeedMarker(docInput);
+    await this.removeDirectoryRecursive(docInput);
     this.clearCache();
   }
 }
