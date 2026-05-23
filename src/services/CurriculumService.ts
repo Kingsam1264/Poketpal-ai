@@ -3,7 +3,7 @@
  */
 
 import {Platform} from 'react-native';
-import RNFS from '@dr.pogodin/react-native-fs';
+import * as RNFS from '@dr.pogodin/react-native-fs';
 import {Grade, Subject, Unit} from '../types/curriculum';
 
 const INPUT_DIR = 'Input';
@@ -83,48 +83,65 @@ export class CurriculumService {
     }
   }
 
-  private async seedCurriculumFromBundle(docInput: string): Promise<void> {
-    const seedMarker = `${docInput}/${SEED_FLAG_FILE}`;
+  private getSeedMarkerPath(docInput: string): string {
+    return `${docInput}/${SEED_FLAG_FILE}`;
+  }
+
+  private async clearSeedMarker(docInput: string): Promise<void> {
+    const seedMarker = this.getSeedMarkerPath(docInput);
     if (await RNFS.exists(seedMarker)) {
+      await RNFS.unlink(seedMarker);
+    }
+  }
+
+  public async bundleHasCurriculumAssets(): Promise<boolean> {
+    if (Platform.OS === 'android') {
+      try {
+        return await RNFS.existsAssets(INPUT_DIR);
+      } catch {
+        return false;
+      }
+    }
+
+    const bundleInput = this.getBundleInputPath();
+    return bundleInput ? await RNFS.exists(bundleInput) : false;
+  }
+
+  private async seedCurriculumFromBundle(docInput: string): Promise<void> {
+    const seedMarker = this.getSeedMarkerPath(docInput);
+    if (await RNFS.exists(seedMarker)) {
+      if (await this.hasGradesInPath(docInput)) {
+        return;
+      }
+      await this.clearSeedMarker(docInput);
+    }
+
+    if (!(await this.bundleHasCurriculumAssets())) {
+      console.warn(
+        'CurriculumService: curriculum not bundled in app — rebuild after adding Input/',
+      );
       return;
     }
 
     try {
+      await RNFS.mkdir(docInput).catch(() => {});
+
       if (Platform.OS === 'android') {
-        await this.copyAndroidAssetsToDocuments(INPUT_DIR, docInput);
+        await RNFS.copyFileAssets(INPUT_DIR, docInput);
       } else {
         const bundleInput = this.getBundleInputPath();
         if (bundleInput && (await RNFS.exists(bundleInput))) {
-          await RNFS.mkdir(docInput).catch(() => {});
           if (RNFS.copyFolder) {
             await RNFS.copyFolder(bundleInput, docInput);
           }
         }
       }
-      await RNFS.mkdir(docInput).catch(() => {});
-      await RNFS.writeFile(seedMarker, '1', 'utf8');
+
+      if (await this.hasGradesInPath(docInput)) {
+        await RNFS.writeFile(seedMarker, '1', 'utf8');
+      }
     } catch (error) {
       console.warn('CurriculumService: failed to seed Input folder:', error);
-    }
-  }
-
-  private async copyAndroidAssetsToDocuments(
-    assetDir: string,
-    destDir: string,
-  ): Promise<void> {
-    const entries = await RNFS.readDirAssets(assetDir);
-    await RNFS.mkdir(destDir).catch(() => {});
-
-    for (const entry of entries) {
-      const assetPath = `${assetDir}/${entry.name}`;
-      const destPath = `${destDir}/${entry.name}`;
-
-      if (entry.isDirectory()) {
-        await this.copyAndroidAssetsToDocuments(assetPath, destPath);
-      } else {
-        const content = await RNFS.readFileAssets(assetPath, 'utf8');
-        await RNFS.writeFile(destPath, content, 'utf8');
-      }
     }
   }
 
@@ -305,6 +322,13 @@ Guidelines:
   public clearCache(): void {
     this.gradesCache = [];
     this.resolvedBasePath = null;
+  }
+
+  /** Clears seed state so the next load re-copies from bundled assets. */
+  public async prepareForReload(): Promise<void> {
+    const docInput = this.getDocumentInputPath();
+    await this.clearSeedMarker(docInput);
+    this.clearCache();
   }
 }
 

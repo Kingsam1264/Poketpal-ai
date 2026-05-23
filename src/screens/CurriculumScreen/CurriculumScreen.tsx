@@ -224,7 +224,7 @@ export const CurriculumScreen: React.FC = observer(() => {
         <Text style={styles.errorText}>{curriculumStore.error}</Text>
         <TouchableOpacity
           style={styles.retryButton}
-          onPress={() => curriculumStore.loadCurriculum()}>
+          onPress={() => curriculumStore.loadCurriculum({forceReseed: true})}>
           <Text style={styles.retryButtonText}>Retry</Text>
         </TouchableOpacity>
       </View>

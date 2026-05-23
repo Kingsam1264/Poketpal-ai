@@ -24,8 +24,12 @@ export class CurriculumStore {
   /**
    * Load all curriculum data
    */
-  async loadCurriculum(): Promise<void> {
+  async loadCurriculum(options?: {forceReseed?: boolean}): Promise<void> {
     if (this.isLoading) return;
+
+    if (options?.forceReseed) {
+      await curriculumService.prepareForReload();
+    }
 
     runInAction(() => {
       this.isLoading = true;
@@ -40,10 +44,12 @@ export class CurriculumStore {
       });
 
       if (!hasData) {
+        const bundled = await curriculumService.bundleHasCurriculumAssets();
         runInAction(() => {
           this.isLoading = false;
-          this.error =
-            'No curriculum data found. Please add content to the Input folder.';
+          this.error = bundled
+            ? 'Could not load curriculum. Tap Retry to copy bundled content again.'
+            : 'No curriculum data found. Rebuild the app with the Input folder included.';
         });
         return;
       }

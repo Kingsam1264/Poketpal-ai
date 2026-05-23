@@ -85,6 +85,9 @@ ios/Config/Env.xcconfig
 # Android native libraries (should not be committed)
 **/libggml-htp*.so
 
+# Curriculum copied into APK assets at build time (source of truth is /Input)
+android/app/src/main/assets/Input/
+
 # E2E debug output
 e2e/debug-output/
 e2e/device-farm-artifacts/
