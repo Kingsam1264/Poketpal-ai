@@ -37,100 +37,88 @@ describe('CurriculumService', () => {
     jest.clearAllMocks();
   });
 
-  it(
-    'detects bundled curriculum when Grade folders exist in assets',
-    async () => {
-      (RNFS.readDirAssets as jest.Mock).mockResolvedValue([
-        {name: 'Grade 9', isDirectory: () => true},
-        {name: 'README.md', isDirectory: () => false},
-      ]);
+  it('detects bundled curriculum when Grade folders exist in assets', async () => {
+    (RNFS.readDirAssets as jest.Mock).mockResolvedValue([
+      {name: 'Grade 9', isDirectory: () => true},
+      {name: 'README.md', isDirectory: () => false},
+    ]);
 
-      await expect(
-        curriculumService.bundleHasCurriculumAssets(),
-      ).resolves.toBe(true);
-      expect(RNFS.readDirAssets).toHaveBeenCalledWith('Input');
-    },
-    10000,
-  );
+    await expect(curriculumService.bundleHasCurriculumAssets()).resolves.toBe(
+      true,
+    );
+    expect(RNFS.readDirAssets).toHaveBeenCalledWith('Input');
+  }, 10000);
 
-  it(
-    'seeds documents from assets using recursive copy fallback',
-    async () => {
-      const docInput = '/data/user/0/com.pocketpalai/files/Input';
+  it('seeds documents from assets using recursive copy fallback', async () => {
+    const docInput = '/data/user/0/com.pocketpalai/files/Input';
 
-      (RNFS.readDirAssets as jest.Mock).mockImplementation(
-        async (dir: string) => {
-          if (dir === 'Input') {
-            return [{name: 'Grade 9', isDirectory: () => true}];
-          }
-          if (dir === 'Input/Grade 9') {
-            return [{name: 'Biology', isDirectory: () => true}];
-          }
-          if (dir === 'Input/Grade 9/Biology') {
-            return [{name: 'Unit 1.md', isDirectory: () => false}];
-          }
-          return [];
-        },
-      );
-
-      (RNFS.copyFileAssets as jest.Mock).mockResolvedValue(undefined);
-
-      (RNFS.exists as jest.Mock).mockImplementation(async (path: string) => {
-        if (path === docInput) {
-          return true;
+    (RNFS.readDirAssets as jest.Mock).mockImplementation(
+      async (dir: string) => {
+        if (dir === 'Input') {
+          return [{name: 'Grade 9', isDirectory: () => true}];
         }
-        if (path === `${docInput}/.curriculum_seeded`) {
-          return false;
+        if (dir === 'Input/Grade 9') {
+          return [{name: 'Biology', isDirectory: () => true}];
         }
-        return path.includes('Grade 9');
-      });
-
-      (RNFS.readDir as jest.Mock).mockImplementation(async (path: string) => {
-        if (path === docInput) {
-          return [
-            {
-              name: 'Grade 9',
-              path: `${docInput}/Grade 9`,
-              isDirectory: () => true,
-            },
-          ];
+        if (dir === 'Input/Grade 9/Biology') {
+          return [{name: 'Unit 1.md', isDirectory: () => false}];
         }
         return [];
-      });
+      },
+    );
 
-      (RNFS.readFileAssets as jest.Mock).mockResolvedValue('# Unit content');
+    (RNFS.copyFileAssets as jest.Mock).mockResolvedValue(undefined);
 
-      await expect(curriculumService.hasCurriculumData()).resolves.toBe(true);
-      expect(RNFS.readFileAssets).toHaveBeenCalledWith(
-        'Input/Grade 9/Biology/Unit 1.md',
-        'utf8',
-      );
-    },
-    10000,
-  );
+    (RNFS.exists as jest.Mock).mockImplementation(async (path: string) => {
+      if (path === docInput) {
+        return true;
+      }
+      if (path === `${docInput}/.curriculum_seeded`) {
+        return false;
+      }
+      return path.includes('Grade 9');
+    });
 
-  it(
-    'prepareForReload removes seeded documents directory',
-    async () => {
-      const docInput = '/data/user/0/com.pocketpalai/files/Input';
-      (RNFS.exists as jest.Mock).mockResolvedValue(true);
-      (RNFS.readDir as jest.Mock).mockResolvedValue([
-        {
-          name: '.curriculum_seeded',
-          path: `${docInput}/.curriculum_seeded`,
-          isDirectory: () => false,
-        },
-        {
-          name: 'Grade 9',
-          path: `${docInput}/Grade 9`,
-          isDirectory: () => true,
-        },
-      ]);
+    (RNFS.readDir as jest.Mock).mockImplementation(async (path: string) => {
+      if (path === docInput) {
+        return [
+          {
+            name: 'Grade 9',
+            path: `${docInput}/Grade 9`,
+            isDirectory: () => true,
+          },
+        ];
+      }
+      return [];
+    });
 
-      await curriculumService.prepareForReload();
+    (RNFS.readFileAssets as jest.Mock).mockResolvedValue('# Unit content');
 
-      expect(RNFS.unlink).toHaveBeenCalled();
-    },
-    10000,
-  );
+    await expect(curriculumService.hasCurriculumData()).resolves.toBe(true);
+    expect(RNFS.readFileAssets).toHaveBeenCalledWith(
+      'Input/Grade 9/Biology/Unit 1.md',
+      'utf8',
+    );
+  }, 10000);
+
+  it('prepareForReload removes seeded documents directory', async () => {
+    const docInput = '/data/user/0/com.pocketpalai/files/Input';
+    (RNFS.exists as jest.Mock).mockResolvedValue(true);
+    (RNFS.readDir as jest.Mock).mockResolvedValue([
+      {
+        name: '.curriculum_seeded',
+        path: `${docInput}/.curriculum_seeded`,
+        isDirectory: () => false,
+      },
+      {
+        name: 'Grade 9',
+        path: `${docInput}/Grade 9`,
+        isDirectory: () => true,
+      },
+    ]);
+
+    await curriculumService.prepareForReload();
+
+    expect(RNFS.unlink).toHaveBeenCalled();
+  }, 10000);
 });
