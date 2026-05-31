@@ -35,6 +35,7 @@ PocketPal AI is a pocket-sized AI assistant powered by small language models (SL
   - [Acknowledgements](#acknowledgements)
 
 ## 📰 News & Announcements
+- **📚 Curriculum Feature (v1.14.1, May, 2026)**: New curriculum-based learning feature for educational content.
 - **🔒 HF Token Authentication (v1.9.0, Apr, 2025)**: Access gated models from Hugging Face with your authentication token.
 - **🌐 Localization Support (v1.8.16, Apr, 2025)**: PocketPal AI now supports multiple languages (At the moment Japanese and Chinese).
 - **📱 iPad Support (v1.8.12, Mar, 2025)**: Full support for iPad devices including landscape orientation.
