@@ -46,7 +46,7 @@ describe('CurriculumService', () => {
     ]);
 
     const result = await curriculumService.bundleHasCurriculumAssets();
-    
+
     expect(result).toBe(true);
     expect(RNFS.readDirAssets).toHaveBeenCalledWith('Input');
   });
@@ -57,15 +57,14 @@ describe('CurriculumService', () => {
     ]);
 
     const result = await curriculumService.bundleHasCurriculumAssets();
-    
+
     expect(result).toBe(false);
   });
 
   it('clears cache when clearCache is called', () => {
     curriculumService.clearCache();
-    
+
     // Should not throw
     expect(true).toBe(true);
   });
 });
-
