@@ -345,12 +345,20 @@ export class CurriculumService {
     unit: Unit,
     content: string,
   ): string {
+    // Limit content to prevent context overflow (keep first 2000 chars)
+    const maxContentLength = 2000;
+    const truncatedContent =
+      content.length > maxContentLength
+        ? content.substring(0, maxContentLength) +
+          '\n\n[Content truncated - ask for specific sections if needed]'
+        : content;
+
     return `You are a helpful tutor helping a student with their ${grade.name} ${subject.name} curriculum.
 Current topic: ${unit.name}
 
 Please answer questions based on the following study material:
 
-${content}
+${truncatedContent}
 
 Guidelines:
 - Be clear and educational in your responses
